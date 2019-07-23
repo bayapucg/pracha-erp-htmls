@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php include('head.php'); ?>
+	<?php include('include/head.php'); ?>
 	<link rel="stylesheet" type="text/css" href="vendors/styles/bootstrapValidator.css">
 	
 	
 </head>
 <body>
-	<?php include('header.php'); ?>
-	<?php include('sidebar.php'); ?>
+	<?php include('include/header.php'); ?>
+	<?php include('include/sidebar.php'); ?>
 	<div class="main-container">
 		<div class="pd-ltr-20 blog-detail mx-3 py-4">
 			 <form id="defaultForm" method="post" action="form-validation.php">
@@ -48,7 +48,7 @@
 		</div>
 		</div>
 	</div>
-	<?php include('script.php'); ?>
+	<?php include('include/script.php'); ?>
 	<script src="http://localhost/form-valditions/dist/js/bootstrapValidator.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
