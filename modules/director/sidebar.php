@@ -23,15 +23,15 @@
 						<ul class="submenu">
 							<li><a href="add-department.php">Add Department</a></li>
 							<li><a href="add-designation.php">Add Designation</a></li>
-							<li><a href="add-level.php">Add Level</a></li>
-						</ul>
+							</ul>
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Add Employee</span>
+							<span class="fa fa-home"></span><span class="mtext">RBH & HR Requests</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="addrole.php">Add Employee</a></li>
+							<li><a href="rbhrequests.php">RBH Requests</a></li>
+							<li><a href="hrrequests.php">HR Requests</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">

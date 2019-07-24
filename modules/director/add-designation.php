@@ -19,11 +19,39 @@
 						<div class="row">
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<label>Add Designation</label>
-									<input type="text" class="form-control" placeholder="Enter Designation">
+									<label>Select Department</label>
+									<select class="selectpicker form-control" data-style="btn-outline-primary">
+										<optgroup label="Select Department" data-max-options="2">
+											<option>IT</option>
+											<option>Sales</option>
+											<option>HR</option>
+										</optgroup>
+									</select>
 								</div>
 							</div>
-							  <div class="form-group col-md-12">
+							<div class="col-md-6 col-sm-12">
+								<div class="form-group">
+									<label>Assign Level</label>
+									<select class="selectpicker form-control" data-style="btn-outline-primary">
+										<optgroup label="Condiments" data-max-options="2">
+											<option>Level 1</option>
+											<option>Level 2</option>
+											<option>Level 3</option>
+											<option>Level 3.1</option>
+											<option>Level 4</option>
+											<option>Level 5</option>
+										</optgroup>
+									</select>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<div class="form-group">
+									<label>Add Roles and Responsibilities</label>
+									<input type="text" class="form-control" placeholder="Enter Roles & Responsibilities
+									">
+								</div>
+							</div>
+						<div class="form-group col-md-12">
                             <div class="col-lg-9 col-lg-offset-3">
                                 <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add</button>
                               

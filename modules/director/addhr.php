@@ -26,7 +26,7 @@
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
 									<label>Mobile Number</label>
-									<input type="text" class="form-control" placeholder="Enter Mobile Number" >
+									<input type="number" class="form-control" placeholder="Enter Mobile Number" >
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-12">
@@ -56,13 +56,13 @@
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
 									<label>Salary Break up</label>
-									<input type="text" class="form-control" placeholder="Enter Salary Break up" >
+									<input type="number" class="form-control" placeholder="Enter Salary Break up" >
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
 									<label>Compensation Package</label>
-									<input type="text" class="form-control" placeholder="Enter Compensation Package" >
+									<input type="number" class="form-control" placeholder="Enter Compensation Package" >
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-12">
