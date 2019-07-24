@@ -16,12 +16,12 @@
 					<div class="row">
 						<div class="col-md-6 col-sm-12">
 							<div class="title">
-								<h4>RBH Requests</h4>
+								<h4>DataTable</h4>
 							</div>
 							<nav aria-label="breadcrumb" role="navigation">
 								<ol class="breadcrumb">
 									<li class="breadcrumb-item"><a href="index.php">Home</a></li>
-									<li class="breadcrumb-item active" aria-current="page">RBH Requests</li>
+									<li class="breadcrumb-item active" aria-current="page">DataTable</li>
 								</ol>
 							</nav>
 						</div>
@@ -43,18 +43,19 @@
 				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h5 class="text-blue">RBH Requests</h5>
+							<h5 class="text-blue">Data Table Simple</h5>
+							<p class="font-14">you can find more options <a class="text-primary" href="https://datatables.net/" target="_blank">Click Here</a></p>
 						</div>
 					</div>
 					<div class="row">
 						<table class="data-table stripe hover nowrap">
 							<thead>
 								<tr>
-									<th class="table-plus datatable-nosort">Region</th>
-									<th>Name</th>
+									<th class="table-plus datatable-nosort">Name</th>
 									<th>Age</th>
-									<th>Date of Join</th>
-									<th>Profile</th>
+									<th>Office</th>
+									<th>Address</th>
+									<th>Start Date</th>
 									<th class="datatable-nosort">Action</th>
 								</tr>
 							</thead>
@@ -71,9 +72,9 @@
 												<i class="fa fa-ellipsis-h"></i>
 											</a>
 											<div class="dropdown-menu dropdown-menu-right">
-												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> Accept</a>
-												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i>Reject</a>
-												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i>Comment</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
 											</div>
 										</div>
 									</td>
