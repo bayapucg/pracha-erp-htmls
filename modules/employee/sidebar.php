@@ -35,49 +35,37 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="javascript:" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">My Payroll & Pay slips</span>
+						<a href="payroll.php" class="dropdown-toggle">
+							<span class="fa fa-home"></span><span class="mtext">My Pay slips</span>
 						</a>
-						<ul class="submenu">
-							<li><a href="creatework.php">Create Work</a></li>
-							<li><a href="worklist.php">Work List</a></li>
-						</ul>
+						
 					</li>
 					<li class="dropdown">
 						<a href="javascript:" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Reports</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="creatework.php">Create Work</a></li>
-							<li><a href="worklist.php">Work List</a></li>
+							<li><a href="createreport.php">Create Report</a></li>
+							<li><a href="reportlist.php">Reports List</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
 						<a href="javascript:" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Chat</span>
 						</a>
-						<ul class="submenu">
-							<li><a href="creatework.php">Create Work</a></li>
-							<li><a href="worklist.php">Work List</a></li>
-						</ul>
+						
 					</li>
 					<li class="dropdown">
 						<a href="javascript:" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Announcements</span>
 						</a>
-						<ul class="submenu">
-							<li><a href="creatework.php">Create Work</a></li>
-							<li><a href="worklist.php">Work List</a></li>
-						</ul>
+						
 					</li>
 					<li class="dropdown">
-						<a href="javascript:" class="dropdown-toggle">
+						<a href="feedback.php" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Feedback</span>
 						</a>
-						<ul class="submenu">
-							<li><a href="creatework.php">Create Work</a></li>
-							<li><a href="worklist.php">Work List</a></li>
-						</ul>
+						
 					</li>
 					
 					
