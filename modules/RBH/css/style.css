@@ -1,0 +1,16 @@
+.border-class {
+	-webkit-box-shadow: 10px 10px 10px 0px rgba(90,73,92,1);
+-moz-box-shadow: 10px 10px 10px 0px rgba(90,73,92,1);
+box-shadow: 10px 10px 10px 0px rgba(90,73,92,1);
+}	
+
+.border-brown {
+	background: #d6dbbc;
+}
+
+.border-blue {
+	background: #c3cbeb;
+}
+.border-pink{
+	Background: #d3c5d4;
+}
