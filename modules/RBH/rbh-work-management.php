@@ -12,63 +12,51 @@
 	<div class="main-container">
 		<div class="pd-ltr-20 blog-detail mx-3 py-4">
 			 <form id="defaultForm" method="post" action="form-validation.php">
-                        <div class="row">
-                        <div class="form-group col-md-6">
-							<div>
-								<div>
-									<label style="line-height:25px" class=""><b>Start Date of the project</b></label>
+                        <div class="clearfix mb-20">
+							<div class="pull-left">
+								<h4 class="text-blue">Work Assign to RBH</h4>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<div class="form-group">
+									<label>Start Date of the project</label>
+									<input class="form-control date-picker" placeholder="Select Date" type="text">
 								</div>
-								<input type="date" name="work" placeholder="Title"/>
+								<div class="form-group row">
+									<label class="col-sm-12 col-md-3 col-form-label">Work Title</label>
+									<div class="col-sm-12 col-md-12">
+										<input class="form-control" type="text" placeholder="Work Title">
+									</div>
+								</div>
+								<div class="form-group">
+									<label>Work Description</label>
+									<textarea class="form-control"></textarea>
+								</div>
 							</div>
-                            <label class="mt-4"><b>Work assigned to rbh</b></label>
-							<div>
-								<label class="">Work Title</label>
-								<input type="text" name="work" placeholder="Title"/>
+							<div class="col-md-6 col-sm-12">
+								<label class="weight-600 py-3">Work Status</label>
+								<div class="custom-control custom-radio mb-5">
+									<input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+									<label class="custom-control-label" for="customRadio4">Completed</label>
+								</div>
+								<div class="custom-control custom-radio mb-5">
+									<input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+									<label class="custom-control-label" for="customRadio5">In-Process</label>
+								</div>
+								<div class="custom-control custom-radio mb-5">
+									<input type="radio" id="customRadio6" name="customRadio" class="custom-control-input">
+									<label class="custom-control-label" for="customRadio6">Pending</label>
+								</div>
+								<div class="form-group py-4">
+									<label>End Date of the project</label>
+									<input class="form-control date-picker" placeholder="Select Date" type="text">
+								</div>
 							</div>
-                            
-                            <div class="py-4">
-								<label class=""><b>Work Description</b></label>
-                                <textarea value="" class="form-control" name="firstName" placeholder="" rows="1"></textarea>
-                            </div>
-                        </div>
-						<div class="form-group col-md-6">
-						<h6 class="py-2"><b>Work Status</b></h6>
-							<div>
-							  <input type="radio" checked="checked" name="radio">
-							  <label class="checkcontainer">Completed
-							  <span class="radiobtn"></span>
-							</label></div>
-							<div>
-							  <input type="radio" name="radio">
-							  <label class="checkcontainer">In-Process
-							  <span class="radiobtn"></span>
-							</label></div>
-							<div>
-							  <input type="radio" name="radio">
-							  <label class="checkcontainer">Pending
-							  <span class="radiobtn"></span>
-							</label>
-							</div>
-							<div>
-								<label style="line-height:25px" class=""><b>End Date of the project</b></label>
-							</div>
-							<div>
-								<input type="date" name="work" placeholder="Title"/>
-							</div>
-                        </div>
-						
-                        <div class="form-group col-md-12">
-                            <div class="col-lg-9 col-lg-offset-3">
+							<div class="form-group col-md-12">
                                 <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Assign</button>
-                              
-                            </div>
-                        </div>
-                        </div>
-                    </form>
-			
-			
-			
-		</div>
+							</div>
+						</div>
 		</div>
 		</div>
 	</div>
@@ -81,7 +69,6 @@ $(document).ready(function() {
         return Math.floor(Math.random() * (max - min + 1) + min);
     };
     $('#captchaOperation').html([randomNumber(1, 100), '+', randomNumber(1, 200), '='].join(' '));
-
     $('#defaultForm').bootstrapValidator({
 //        live: 'disabled',
         message: 'This value is not valid',
@@ -214,12 +201,10 @@ $(document).ready(function() {
             }
         }
     });
-
     // Validate the form manually
     $('#validateBtn').click(function() {
         $('#defaultForm').bootstrapValidator('validate');
     });
-
     $('#resetBtn').click(function() {
         $('#defaultForm').data('bootstrapValidator').resetForm(true);
     });

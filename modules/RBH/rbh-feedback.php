@@ -14,18 +14,13 @@
 			 <form id="defaultForm" method="post" action="form-validation.php">
                         <h4 class="py-2"><b>Feedback Form</b></h4>
 						<div class="row">					  
-						<div class="form-group col-md-12">
-                            <label class=""><b>Select Level</b></label>
-                            <div class="">
-                                <select class="browser-default custom-select">
-								  <option selected>Select levels</option>
-								  <option value="1">level1</option>
-								  <option value="2">level2</option>
-								  <option value="3"> level3</option>
-								</select>
-                            </div>
-							</div>
 							<div class="col-md-12">
+							<div class="form-group row">
+							<label class="col-sm-12 col-md-12 col-form-label">Names</label>
+							<div class="col-sm-12 col-md-12">
+								<input class="form-control" type="text" placeholder="names">
+							</div>
+						</div>
 									<h6 class="py-2"><b>Feedback</b></h6>
 									<div class="py-2">
 											<label class=" radio-inline py-1 m-1">
