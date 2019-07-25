@@ -16,12 +16,12 @@
 					<div class="row">
 						<div class="col-md-6 col-sm-12">
 							<div class="title">
-								<h4>RBH Requests</h4>
+								<h4>HR Requests</h4>
 							</div>
 							<nav aria-label="breadcrumb" role="navigation">
 								<ol class="breadcrumb">
 									<li class="breadcrumb-item"><a href="index.php">Home</a></li>
-									<li class="breadcrumb-item active" aria-current="page">RBH Requests</li>
+									<li class="breadcrumb-item active" aria-current="page">HR Requests</li>
 								</ol>
 							</nav>
 						</div>
@@ -43,7 +43,7 @@
 				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h5 class="text-blue">RBH Requests</h5>
+							<h5 class="text-blue">HR Requests</h5>
 						</div>
 					</div>
 					<div class="row">

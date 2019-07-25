@@ -11,7 +11,7 @@
 						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 						<div class="clearfix">
 						<div class="pull-left">
-							<h4 class="text-blue mb-30">Add Role</h4>
+							<h4 class="text-blue mb-30">Create Requirement</h4>
 						</div>
 						
 					</div>
@@ -19,31 +19,39 @@
 						<div class="row">
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<label>Add Department</label>
-									<input type="text" class="form-control" placeholder="Add Department">
+									<label>Select Department</label>
+									<select class="selectpicker form-control" data-style="btn-outline-primary">
+										<optgroup label="Select Department" data-max-options="2">
+											<option>Select Department</option>
+											<option>IT</option>
+											<option>Sales</option>
+											<option>HR</option>
+										</optgroup>
+									</select>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<label>Add Designation</label>
-									<input type="text" class="form-control" placeholder="Add Designation" >
+									<label>Select Designation</label>
+									<select class="selectpicker form-control" data-style="btn-outline-primary">
+										<optgroup label="Select Designation" data-max-options="2">
+											<option>Select Designation</option>
+											<option>Developer</option>
+											<option>UI Developer</option>
+											<option>Quality Assurance</option>
+										</optgroup>
+									</select>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<label>Add Level</label>
-									<input type="text" class="form-control" placeholder="Add Level" >
+									<label>Experience</label>
+									<input type="number" class="form-control" placeholder="Enter Experience">
 								</div>
 							</div>
-							<div class="col-md-6 col-sm-12">
-								<div class="form-group">
-									<label>Add Roles and Responsibilties</label>
-									<input type="text" class="form-control" placeholder="Add Roles and Responsibilties" >
-								</div>
-							</div>
-							  <div class="form-group col-md-12">
+						<div class="form-group col-md-12">
                             <div class="col-lg-9 col-lg-offset-3">
-                                <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Sign up</button>
+                                <button type="submit" class="btn btn-primary" name="create" value="create">Create Requirement</button>
                               
                             </div>
                         </div>

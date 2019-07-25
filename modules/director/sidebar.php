@@ -36,19 +36,10 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Add HR</span>
-						</a>
-						<ul class="submenu">
-							<li><a href="addhr.php">Add HR</a></li>
-							<li><a href="hrlist.php">List</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">RBH Leaves</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="addrole.php">Leave Requests</a></li>
+							<li><a href="rbhleave-requests.php">Leave Requests</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -56,7 +47,7 @@
 							<span class="fa fa-home"></span><span class="mtext">Work Management</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="addrole.php">Asign Work</a></li>
+							<li><a href="assign-work.php">Asign Work</a></li>
 							<li><a href="addrole.php">Work Status</a></li>
 						</ul>
 					</li>
@@ -65,7 +56,8 @@
 							<span class="fa fa-home"></span><span class="mtext">Recruiting Management</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="addrole.php">Asign Work</a></li>
+							<li><a href="create-requirement.php">Create Requirement</a></li>
+							<li><a href="requirement-status.php">Status of Requirement</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -73,13 +65,16 @@
 							<span class="fa fa-home"></span><span class="mtext">Sales</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="addrole.php">Sales Progress</a></li>
+							<li><a href="sales.php">Sales</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Payroll & Payslips</span>
 						</a>
+						<ul class="submenu">
+							<li><a href="payroll-view.php">Payroll</a></li>
+						</ul>
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
