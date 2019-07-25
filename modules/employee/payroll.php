@@ -47,7 +47,7 @@
 				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Basic Table</h4>
+							<h4 class="text-blue">Payslip Requests</h4>
 							
 						</div>
 					

@@ -8,7 +8,24 @@
 	<?php include('sidebar.php'); ?>
 			<div class="main-container">
 			<div class="pd-ltr-20 customscroll customscroll-10-p height-100-p xs-pd-20-10">
-						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+						
+					<div class="col-lg-12 col-md-12 col-sm-12 mb-30">
+						<div class="pd-20 bg-white border-radius-4 box-shadow">
+							<h5 class="weight-500 mb-20 text-primary">Work Management</h5>
+							<div class="tab">
+								<ul class="nav nav-tabs customtab" role="tablist">
+									<li class="nav-item">
+										<a class="nav-link active" data-toggle="tab" href="#home2" role="tab" aria-selected="true">Create Work</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" data-toggle="tab" href="#profile2" role="tab" aria-selected="false">Work List</a>
+									</li>
+									
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane fade show active" id="home2" role="tabpanel">
+										<div class="pd-20">
+											<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 						<div class="clearfix">
 						<div class="pull-left">
 							<h4 class="text-blue mb-30">Create Work</h4>
@@ -74,6 +91,89 @@
 						
 					</form>
 				</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="profile2" role="tabpanel">
+										<div class="pd-20">
+											<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+					<div class="clearfix mb-20">
+						<div class="pull-left">
+							<h4 class="text-blue">Basic Table</h4>
+						</div>
+						
+					</div>
+					<table class="table">
+						<thead>
+							<tr>
+								<th scope="col">S.No</th>
+								<th scope="col">Subject of the Work </th>
+								<th scope="col">Start Date</th>
+								<th scope="col">End Date</th>
+								<th scope="col">Department Name</th>
+								<th scope="col">Employee Name</th>
+								<th scope="col">Comments</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@mdo</td>
+								<td>@mdo</td>
+								<td>@mdo</td>
+								<td><span class="badge badge-primary">Primary</span></td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+								<td>@fat</td>
+								<td>@fat</td>
+								<td><span class="badge badge-secondary">Secondary</span></td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Larry</td>
+								<td>the Bird</td>
+								<td>@twitter</td>
+								<td>@twitter</td>
+								<td>@twitter</td>
+								<td><span class="badge badge-success">Success</span></td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="collapse collapse-box" id="basic-table" >
+						<div class="code-box">
+							<div class="clearfix">
+								<a href="javascript:;" class="btn btn-primary btn-sm code-copy pull-left"  data-clipboard-target="#basic-table-code"><i class="fa fa-clipboard"></i> Copy Code</a>
+								<a href="#basic-table" class="btn btn-primary btn-sm pull-right" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-eye-slash"></i> Hide Code</a>
+							</div>
+							<pre><code class="xml copy-pre" id="basic-table-code">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+    </tr>
+  </tbody>
+</table>
+							</code></pre>
+						</div>
+					</div>
+				</div>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
 	<?php include('footer.php'); ?>
 	</div>
 	</div>
