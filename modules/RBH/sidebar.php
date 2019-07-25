@@ -18,9 +18,13 @@
 						</a>	
 					</li>
 					<li class="dropdown">
-						<a href="rbh-leaves.php" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">RBH Leaves</span>
-						</a>	
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="fa fa-home"></span><span class="mtext">Leaves management</span>
+						</a>
+							<ul class="submenu">
+							<li><a href="apply-leaves.php">Leaves Lists</a></li>
+							<li><a href="team-leaves.php">Team Leaves</a></li>
+							</ul>						 
 					</li>
 					<li class="dropdown">
 						<a href="rbh-reports.php" class="dropdown-toggle">
