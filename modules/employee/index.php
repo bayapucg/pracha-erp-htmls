@@ -14,7 +14,7 @@
 						<div class="project-info clearfix">
 							<div class="project-info-left">
 								<div class="icon box-shadow bg-light-purple text-white">
-								<img src="../../vendors/images/img.jpg" alt="">							
+								<img src="vendors/images/img.jpg" alt="">							
 							</div>
 							</div>
 							<div class="project-info-right">
@@ -128,7 +128,7 @@
 			</div>
 		
 			<div class="row clearfix">
-				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-30" style="height:350px;overflow-y: scroll;">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-30">
 					<div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
 						<h4 class="mb-20">Announcements</h4>
 						<div class="notification-list mx-h-450 customscroll">
@@ -136,48 +136,30 @@
 
 								<li>
 									<a href="#">
-										<img src="../../vendors/images/img.jpg" alt="">
+										<img src="vendors/images/img.jpg" alt="">
 										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="../../vendors/images/img.jpg" alt="">
+										<img src="vendors/images/img.jpg" alt="">
 										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="../../vendors/images/img.jpg" alt="">
+										<img src="vendors/images/img.jpg" alt="">
 										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
-								<li>
-									<a href="#">
-										<img src="../../vendors/images/img.jpg" alt="">
-										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="../../vendors/images/img.jpg" alt="">
-										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="../../vendors/images/img.jpg" alt="">
-										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
-									</a>
-								</li>
+								<a href="#" class="card-link text-primary mt-2">View more</a>
 								
-								
+									<a href="#">
+										</a>
+								</li>
 							</ul>
 						</div>
 					</div>
