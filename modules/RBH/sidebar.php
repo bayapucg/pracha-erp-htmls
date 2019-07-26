@@ -7,16 +7,8 @@
 		<div class="menu-block customscroll">
 			<div class="sidebar-menu">
 				<ul id="accordion-menu">
-				<li class="dropdown">
-						<a href="rbh-add-roles.php" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Dashboards</span>
-						</a>	
-					</li>
-					<li class="dropdown">
-						<a href="rbh-add-roles.php" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Add Roles</span>
-						</a>	
-					</li>
+		
+					
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Leaves management</span>
@@ -55,16 +47,6 @@
 						<a href="rbh-announcements.php" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Announcements / Events</span>
 						</a>	
-					</li>
-					<li class="dropdown">
-						<a href="rbh-feedback.php" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Feedback</span>
-						</a>	
-					</li>
-					<li class="dropdown">
-						<a href="rbh-ticket.php" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Contact Inside Tech Team</span>
-						</a>
 					</li>
 					<li class="dropdown">
 						<a href="holiday-list.php" class="dropdown-toggle">
