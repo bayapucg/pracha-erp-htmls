@@ -11,26 +11,26 @@
 	<?php include('sidebar.php'); ?>
 		<div class="main-container">
 			<div class="pd-ltr-20 customscroll customscroll-10-p height-100-p xs-pd-20-10">
-				 <div class="min-height-200px">
+			<div class="min-height-200px">
                <div class="row clearfix">
                   <div class="col-lg-12 col-md-12 col-sm-12 mb-30">
                      <div class="pd-20 bg-white border-radius-4 box-shadow">
-                        <h5 class="weight-500 mb-20 text-primary">Department</h5>
+                        <h4 class="weight-500 mb-20 text-primary">Designation</h4>
                         <div class="tab">
                            <ul class="nav nav-tabs customtab" role="tablist">
                               <li class="nav-item">
-                                 <a class="nav-link active" data-toggle="tab" href="#add-department" role="tab" aria-selected="true">Add Designation</a>
+                                 <a class="nav-link active" data-toggle="tab" href="#add-designation" role="tab" aria-selected="true">Add Designation</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" data-toggle="tab" href="#departmentlist" role="tab" aria-selected="false">Department List</a>
+                                 <a class="nav-link" data-toggle="tab" href="#designation-list" role="tab" aria-selected="false">Designation List</a>
                               </li>
                            </ul>
                            <div class="tab-content">
-                              <div class="tab-pane fade show active" id="add-department" role="tabpanel">
+                              <div class="tab-pane fade show active" id="add-designation" role="tabpanel">
                                  <div class="pd-20">
                                     <div class="clearfix mb-20">
                                        <div class="pull-left">
-                                          <h4 class="text-blue">Add Designation</h4>
+                                          <h5 class="text-blue">Add Designation</h5>
                                        </div>
                                     </div>
                                    <form>
@@ -71,13 +71,12 @@
 									</select>
 								</div>
 							</div>
-							<div class="col-md-6 col-sm-12 mb-20">
-								<div class="form-group">
-									<label>Add Roles and Responsibilities</label>
-									<input type="text" class="form-control" placeholder="Enter Roles & Responsibilities
-									">
-								</div>
-							</div>
+							  <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                           <label>Add Roles and Responsibilities</label>
+                           <input type="file" class="form-control-file form-control height-auto">
+                        </div>
+                     </div>
 						<div class="form-group col-md-12">
                             <div class="col-lg-9 col-lg-offset-3">
                                 <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add</button>
@@ -90,15 +89,15 @@
 					</form>
                                  </div>
                               </div>
-                              <div class="tab-pane fade" id="departmentlist" role="tabpanel">
+                              <div class="tab-pane fade" id="designation-list" role="tabpanel">
                                  <div class="pd-20">
-                                    <!-- basic table  Start -->
+                                    <!-- data table  Start -->
                                     <div class="clearfix mb-20">
                                        <div class="pull-left">
-                                          <h4 class="text-blue">Designation List</h4>
+                                          <h5 class="text-blue">Designation List</h5>
                                        </div>
                                     </div>
-                                    <table class="table">
+                                    <table class="table data-table-export">
                                        <thead>
                                           <tr>
                                              <th scope="col">#</th>
@@ -114,8 +113,8 @@
                                              <th scope="row">1</th>
                                              <td>IT</td>
                                              <td>Developer</td>
-                                             <td>4</td>
-                                             <td>File</td>
+                                             <td>3</td>
+                                             <td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>
                                              <td>
                                                 <div class="dropdown">
                                                    <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
@@ -123,8 +122,8 @@
                                                    </a>
                                                    <div class="dropdown-menu dropdown-menu-right">
                                                       <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i>Edit</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i>Delete</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
                                                    </div>
                                                 </div>
                                              </td>
@@ -132,9 +131,9 @@
                                           <tr>
                                              <th scope="row">2</th>
                                             <td>IT</td>
-                                             <td>Developer</td>
-                                             <td>4</td>
-                                             <td>File</td>
+                                             <td>Web Designer</td>
+                                             <td>3</td>
+                                             <td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>
                                              <td>
                                                 <div class="dropdown">
                                                    <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
@@ -142,18 +141,18 @@
                                                    </a>
                                                    <div class="dropdown-menu dropdown-menu-right">
                                                       <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i>Edit</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i>Delete</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
                                                    </div>
                                                 </div>
                                              </td>
                                           </tr>
                                           <tr>
                                              <th scope="row">3</th>
-                                             <td>IT</td>
-                                             <td>Developer</td>
+                                             <td>Sales</td>
+                                             <td>RBH</td>
                                              <td>4</td>
-                                             <td>File</td>
+                                             <td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>
                                              <td>
                                                 <div class="dropdown">
                                                    <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
@@ -161,15 +160,15 @@
                                                    </a>
                                                    <div class="dropdown-menu dropdown-menu-right">
                                                       <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i>Edit</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i>Delete</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
                                                    </div>
                                                 </div>
                                              </td>
                                           </tr>
                                        </tbody>
                                     </table>
-                                    <!-- basic table  End -->
+                                    <!-- data table  End -->
                                  </div>
                               </div>
                            </div>
@@ -187,7 +186,7 @@
 	<?php include('script.php'); ?>
 	<script src="src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
 	<script src="src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>
-<script src="../../src/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
+	<script src="../../src/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
 	<script src="../../src/plugins/datatables/media/js/dataTables.bootstrap4.js"></script>
 	<script src="../../src/plugins/datatables/media/js/dataTables.responsive.js"></script>
 	<script src="../../src/plugins/datatables/media/js/responsive.bootstrap4.js"></script>

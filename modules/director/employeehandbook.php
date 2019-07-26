@@ -14,6 +14,20 @@
             <div class="min-height-200px">
                <div class="row clearfix">
                   <div class="col-lg-12 col-md-12 col-sm-12 mb-30">
+				   <div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+               <div class="clearfix">
+                  <div class="pull-left">
+                     <h4 class="weight-500 text-blue mb-30">Employee Handbook</h4>
+                  </div>
+               </div>
+
+            </div>
+				  
+				  
+				  
+				  
+				  
+
                      <div class="pd-20 bg-white border-radius-4 box-shadow">
                         <h4 class="weight-500 mb-20 text-primary">RBH & HR Requests</h4>
                         <div class="tab">
