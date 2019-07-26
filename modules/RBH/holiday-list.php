@@ -14,9 +14,9 @@
 			<div class="min-height-200px">
 				<div class="page-header">
 					<div class="row">
-						<div class="col-md-6 col-sm-12">
+						<div class="col-md-12 col-sm-12">
 							<div class="title">
-								<h4>Holidays List </h4>
+								<h4> Holidays List </h4>
 							</div>
 							<nav aria-label="breadcrumb" role="navigation">
 								<ol class="breadcrumb">
@@ -25,19 +25,7 @@
 								</ol>
 							</nav>
 						</div>
-						<div class="col-md-6 col-sm-12 text-right">
-							<div class="dropdown">
-								<a class="btn btn-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-									January 2019
-								</a>
-								<div class="dropdown-menu dropdown-menu-right">
-									<a class="dropdown-item" href="#">Export List</a>
-									<a class="dropdown-item" href="#">Policies</a>
-									<a class="dropdown-item" href="#">View Assets</a>
-								</div>
-							</div>
-						</div>
-					</div>
+						
 				</div>
 				<!-- Simple Datatable start -->
 				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
@@ -51,8 +39,9 @@
 							<thead>
 								<tr>
 									<th class="table-plus datatable-nosort">S.No</th>
-									<th>List</th>
-									<th>Holiday Type</th>
+									<th>Holidays Type </th>
+									<th>Holiday Date</th>
+									<th>Holiday </th>
 									
 									
 								
@@ -61,23 +50,27 @@
 							<tbody>
 								<tr>
 									<td class="table-plus">1</td>
-									<th>Holiday</th>
 									<th>Aug 15</th>
+									<th>1-1-2019</th>
+									<th>Holiday</th>
 									
 								
 								</tr>
 								<tr>
 									<td class="table-plus">2</td>
 									
-									<th>Holiday </th>
-									<th>Holy </th>
+									<th>Holy  </th>
+									<th>1-1-2019</th>
+									<th>Holiday</th>
 									
 								</tr>
 								<tr>
 									<td class="table-plus">3</td>
-								
+								<th>diwali</th>
+									
+									<th>1-1-2019</th>
 									<th>Holiday</th>
-									<th>diwali</th>
+									
 									
 									
 								
@@ -85,8 +78,10 @@
 								</tr>
 								<tr>
 									<td class="table-plus">4</td>
+									<th>diwali</th>
+									
+									<th>1-1-2019</th>
 									<th>Holiday</th>
-									<th>sankranti</th>
 									
 								
 								</tr>
