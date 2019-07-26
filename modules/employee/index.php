@@ -14,7 +14,6 @@
 						<div class="project-info clearfix">
 							<div class="project-info-left">
 								<div class="icon box-shadow bg-light-purple text-white">
-								<img src="vendors/images/img.jpg" alt="">							
 								<img src="../../vendors/images/img.jpg" alt="">							
 							</div>
 							</div>
@@ -44,7 +43,6 @@
 								</div>
 							</div>
 							<div class="project-info-right">
-								<span class="no text-blue weight-500 font-24">Rs. 25,000</span>
 								<span class="no text-blue weight-500 font-24">40</span>
 								<p class="weight-400 font-18">My Payroll</p>
 							</div>
