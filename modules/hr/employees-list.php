@@ -36,10 +36,10 @@
 						</div>
 					</div>
 					<div class="row table-responsive">
-						<table class="data-table-export stripe hover multiple-select-row">
+						<table class="data-table ">
 							<thead>
 								<tr>
-									<th class="table-plus datatable-nosort">S.No</th>
+									<th >S.No</th>
 									<th>Employee ID</th>
 									<th>Working Mail ID</th>
 									<th>Name</th>
@@ -49,7 +49,7 @@
 									<th>Employment Type</th>
 									<th>Salary</th>
 									<th>Date</th>
-									<th class="datatable-nosort">Action</th>
+									<th >Action</th>
 								</tr>
 							</thead>
 							<tbody>

@@ -15,7 +15,7 @@
 						</div>
 						
 					</div>
-					<form>
+					
 						<div class="row">
             <div class="col-md-12">
                 <div class="box box-primary">
@@ -23,7 +23,9 @@
                     <div class="box-body">
                         <!-- Custom Tabs -->
                         <form id="example-basic" class="employee-add-wizard">
-                            <h3>Basic Details</h3>
+						 <fieldset class="scheduler-border">
+						<legend class="scheduler-border">Basic Information</legend>
+						
                             <section>
                                 <div class="row">
                                     <div class="col-md-6">
@@ -64,8 +66,10 @@
                                     </div>
                                 </div>
                             </section>
-                            <h3>Employement Details</h3>
-                            <section>
+							</fieldset>
+							 <fieldset class="scheduler-border">
+						<legend class="scheduler-border">Employement Details</legend>
+								<section>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -109,6 +113,7 @@
                                     </div>
                                 </div>
                             </section>
+							</fieldset>
 							<br>
 							<br>
 							<div>
@@ -117,6 +122,7 @@
                               
                             </div>
                         </div>
+						
                         </form>
                         <!-- nav-tabs-custom -->
                     </div>
@@ -125,7 +131,7 @@
         </div>
 
 						
-					</form>
+					
 				</div>
 	<?php include('footer.php'); ?>
 	</div>
