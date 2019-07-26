@@ -52,7 +52,7 @@
                             
                            
 							<br>
-							<br>
+							
 							<div>
                             <div>
                                 <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Announce</button>

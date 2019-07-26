@@ -70,6 +70,8 @@
 										</div>
                                              </div>
                                           </div>
+										  <br>
+										  <br>
                                      <div class="form-group col-md-12">
                                              <div class="col-lg-9 col-lg-offset-3">
                                                 <button type="submit" class="btn btn-primary" name="assign" value="Assign">Apply For Leave</button>
@@ -129,8 +131,7 @@
                         </div>
                      </div>
                   </div>
-               </div>
-            </div>
+               
             <?php include('footer.php'); ?>
          </div>
       </div>
