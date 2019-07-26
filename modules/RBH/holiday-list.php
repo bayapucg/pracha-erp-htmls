@@ -14,130 +14,81 @@
 			<div class="min-height-200px">
 				<div class="page-header">
 					<div class="row">
-						<div class="col-md-12 col-sm-12">
+						<div class="col-md-6 col-sm-12">
 							<div class="title">
-								<h4>Team Leaves</h4>
+								<h4>Holidays List </h4>
 							</div>
 							<nav aria-label="breadcrumb" role="navigation">
 								<ol class="breadcrumb">
 									<li class="breadcrumb-item"><a href="index.php">Home</a></li>
-									<li class="breadcrumb-item active" aria-current="page">Team Leaves</li>
+									<li class="breadcrumb-item active" aria-current="page">Holidays List</li>
 								</ol>
 							</nav>
 						</div>
-						
+						<div class="col-md-6 col-sm-12 text-right">
+							<div class="dropdown">
+								<a class="btn btn-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+									January 2019
+								</a>
+								<div class="dropdown-menu dropdown-menu-right">
+									<a class="dropdown-item" href="#">Export List</a>
+									<a class="dropdown-item" href="#">Policies</a>
+									<a class="dropdown-item" href="#">View Assets</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<!-- Simple Datatable start -->
 				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h5 class="text-info">Team Leaves</h5>
+							<h5 class="text-info">Holidays List	</h5>
 						</div>
 					</div>
 					<div class="row">
 						<table class="table data-table-export">
 							<thead>
 								<tr>
-									<th class="table-plus datatable-nosort">Employee Name</th>
-									<th>Employee ID</th>
-									<th>From Date</th>
-									<th>To Date</th>
-									<th>Reason </th>
-									<th>Type of Leave </th>
+									<th class="table-plus datatable-nosort">S.No</th>
+									<th>List</th>
+									<th>Holiday Type</th>
 									
-									<th class="datatable-nosort">Permission</th>
+									
+								
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td class="table-plus">Gloria F. Mead</td>
-									<td>25</td>
-									<td>29-03-2018</td>
-									<td>29-03-2018</td>
-									<td>fvr</td>
-									<td>casual</td>
+									<td class="table-plus">1</td>
+									<th>Holiday</th>
+									<th>Aug 15</th>
 									
 								
-									<td>
-										<div class="dropdown">
-											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-												<i class="fa fa-ellipsis-h"></i>
-											</a>
-											<div class="dropdown-menu dropdown-menu-right">
-												<a class="dropdown-item" href="#"><span class="text-success">Accept</span></a>
-												<a class="dropdown-item" href="#"><span class="text-danger">Reject</span></a>
-											</div>
-										
-										</div>
-									</td>
 								</tr>
 								<tr>
-									<td class="table-plus">Gloria F. Mead</td>
-									<td>25</td>
-									<td>29-03-2018</td>
-									<td>29-03-2018</td>
-									<td>fvr</td>
-									<td>casual</td>
+									<td class="table-plus">2</td>
 									
+									<th>Holiday </th>
+									<th>Holy </th>
 									
-									<td>
-										<div class="dropdown">
-											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-												<i class="fa fa-ellipsis-h"></i>
-											</a>
-											<div class="dropdown-menu dropdown-menu-right">
-												<a class="dropdown-item" href="#"><span class="text-success">Accept</span></a>
-												<a class="dropdown-item" href="#"><span class="text-danger">Reject</span></a>
-											</div>
-										
-										</div>
-									</td>
 								</tr>
 								<tr>
-									<td class="table-plus">Gloria F. Mead</td>
-									<td>25</td>
-									<td>29-03-2018</td>
-									<td>29-03-2018</td>
-									<td>fvr</td>
-									<td>sick</td>
+									<td class="table-plus">3</td>
+								
+									<th>Holiday</th>
+									<th>diwali</th>
+									
 									
 								
 									
-									<td>
-										<div class="dropdown">
-											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-												<i class="fa fa-ellipsis-h"></i>
-											</a>
-											<div class="dropdown-menu dropdown-menu-right">
-												<a class="dropdown-item" href="#"><span class="text-success">Accept</span></a>
-												<a class="dropdown-item" href="#"><span class="text-danger">Reject</span></a>
-											</div>
-										
-										</div>
-									</td>
 								</tr>
 								<tr>
-									<td class="table-plus">Gloria F. Mead</td>
-									<td>25</td>
-									<td>29-03-2018</td>
-									<td>29-03-2018</td>
-									<td>fvr</td>
-									<td>casual</td>
+									<td class="table-plus">4</td>
+									<th>Holiday</th>
+									<th>sankranti</th>
 									
 								
-									<td>
-										<div class="dropdown">
-											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-												<i class="fa fa-ellipsis-h"></i>
-											</a>
-											<div class="dropdown-menu dropdown-menu-right">
-												<a class="dropdown-item" href="#"><span class="text-success">Accept</span></a>
-												<a class="dropdown-item" href="#"><span class="text-danger">Reject</span></a>
-											</div>
-										
-										</div>
-									</td>
 								</tr>
 
 							</tbody>
