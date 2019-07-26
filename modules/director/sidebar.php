@@ -26,21 +26,14 @@
 							</ul>
 					</li>
 					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
+						<a href="rbh-hr-requests.php" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">RBH & HR Requests</span>
 						</a>
-						<ul class="submenu">
-							<li><a href="rbhrequests.php">RBH Requests</a></li>
-							<li><a href="hrrequests.php">HR Requests</a></li>
-						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
+						<a href="rbhleave-requests.php" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">RBH Leaves</span>
 						</a>
-						<ul class="submenu">
-							<li><a href="rbhleave-requests.php">Leave Requests</a></li>
-						</ul>
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
@@ -61,20 +54,14 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
+						<a href="sales.php" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Sales</span>
 						</a>
-						<ul class="submenu">
-							<li><a href="sales.php">Sales</a></li>
-						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
+						<a href="payroll-view.php" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Payroll & Payslips</span>
 						</a>
-						<ul class="submenu">
-							<li><a href="payroll-view.php">Payroll</a></li>
-						</ul>
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">

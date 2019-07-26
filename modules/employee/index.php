@@ -15,6 +15,7 @@
 							<div class="project-info-left">
 								<div class="icon box-shadow bg-light-purple text-white">
 								<img src="vendors/images/img.jpg" alt="">							
+								<img src="../../vendors/images/img.jpg" alt="">							
 							</div>
 							</div>
 							<div class="project-info-right">
@@ -44,13 +45,14 @@
 							</div>
 							<div class="project-info-right">
 								<span class="no text-blue weight-500 font-24">Rs. 25,000</span>
+								<span class="no text-blue weight-500 font-24">40</span>
 								<p class="weight-400 font-18">My Payroll</p>
 							</div>
 						</div>
 						<div class="project-info-progress">
 							<div class="row clearfix">
 								<div class="col-sm-6 text-muted weight-500">Achieved</div>
-								<div class="col-sm-6 text-right weight-500 font-14 text-muted">Rs. 18,000</div>
+								<div class="col-sm-6 text-right weight-500 font-14 text-muted">40</div>
 							</div>
 							<div class="progress" style="height: 10px;">
 								<div class="progress-bar bg-blue progress-bar-striped progress-bar-animated" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -59,7 +61,7 @@
 						<div class="project-info-progress">
 							<div class="row clearfix">
 								<div class="col-sm-6 text-muted weight-500">Eligible</div>
-								<div class="col-sm-6 text-right weight-500 font-14 text-muted">Rs. 25,000</div>
+								<div class="col-sm-6 text-right weight-500 font-14 text-muted">40</div>
 							</div>
 							<div class="progress" style="height: 10px;">
 								<div class="progress-bar bg-blue progress-bar-striped progress-bar-animated" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -128,7 +130,7 @@
 			</div>
 		
 			<div class="row clearfix">
-				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-30">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-30" style="height:350px;overflow-y: scroll;">
 					<div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
 						<h4 class="mb-20">Announcements</h4>
 						<div class="notification-list mx-h-450 customscroll">
@@ -136,29 +138,48 @@
 
 								<li>
 									<a href="#">
-										<img src="vendors/images/img.jpg" alt="">
+										<img src="../../vendors/images/img.jpg" alt="">
 										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="vendors/images/img.jpg" alt="">
+										<img src="../../vendors/images/img.jpg" alt="">
 										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="vendors/images/img.jpg" alt="">
+										<img src="../../vendors/images/img.jpg" alt="">
 										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
 									</a>
 								</li>
-								<a href="#" class="card-link text-primary mt-2">View more</a>
+								<li>
+									<a href="#">
+										<img src="../../vendors/images/img.jpg" alt="">
+										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="../../vendors/images/img.jpg" alt="">
+										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="../../vendors/images/img.jpg" alt="">
+										<h3 class="clearfix">John Doe <span>3 mins ago</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+									</a>
+								</li>
 								
-									
-								</li>
+								
 							</ul>
 						</div>
 					</div>
