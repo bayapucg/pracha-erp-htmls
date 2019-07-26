@@ -15,108 +15,111 @@
                <div class="row clearfix">
                   <div class="col-lg-12 col-md-12 col-sm-12 mb-30">
                      <div class="pd-20 bg-white border-radius-4 box-shadow">
-                        <h4 class="weight-500 mb-20 text-primary">Department</h4>
+                        <h4 class="weight-500 mb-20 text-primary">Recruiting</h4>
                         <div class="tab">
                            <ul class="nav nav-tabs customtab" role="tablist">
                               <li class="nav-item">
-                                 <a class="nav-link active" data-toggle="tab" href="#add-department" role="tab" aria-selected="true">Add Department</a>
+                                 <a class="nav-link active" data-toggle="tab" href="#create-requirement" role="tab" aria-selected="true">Create Requirement</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" data-toggle="tab" href="#departmentlist" role="tab" aria-selected="false">Department List</a>
+                                 <a class="nav-link" data-toggle="tab" href="#requirement-status" role="tab" aria-selected="false">Status of Requirement</a>
                               </li>
                            </ul>
                            <div class="tab-content">
-                              <div class="tab-pane fade show active" id="add-department" role="tabpanel">
+                              <div class="tab-pane fade show active" id="create-requirement" role="tabpanel">
                                  <div class="pd-20">
                                     <div class="clearfix mb-20">
                                        <div class="pull-left">
-                                          <h5 class="text-blue">Add Department</h5>
+                                          <h5 class="text-blue">Create Requirement</h5>
                                        </div>
                                     </div>
                                     <form>
                                        <div class="row">
                                           <div class="col-md-6 col-sm-12">
                                              <div class="form-group">
-                                                <label>Department</label>
-                                                <input type="text" class="form-control" placeholder="Enter Department">
+                                                <label>Select Department</label>
+                                                <select class="selectpicker form-control" data-style="btn-outline-primary">
+                                                   <optgroup label="Select Department" data-max-options="2">
+                                                      <option>Select Department</option>
+                                                      <option>IT</option>
+                                                      <option>Sales</option>
+                                                      <option>HR</option>
+                                                   </optgroup>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-12">
+                                             <div class="form-group">
+                                                <label>Select Designation</label>
+                                                <select class="selectpicker form-control" data-style="btn-outline-primary">
+                                                   <optgroup label="Select Designation" data-max-options="2">
+                                                      <option>Select Designation</option>
+                                                      <option>Developer</option>
+                                                      <option>UI Developer</option>
+                                                      <option>Quality Assurance</option>
+                                                   </optgroup>
+                                                </select>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-6 col-sm-12">
+                                             <div class="form-group">
+                                                <label>Experience</label>
+                                                <input type="number" class="form-control" placeholder="Enter Experience">
                                              </div>
                                           </div>
                                           <div class="form-group col-md-12">
                                              <div class="col-lg-9 col-lg-offset-3">
-                                                <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add</button>
+                                                <button type="submit" class="btn btn-primary" name="create" value="create">Create Requirement</button>
                                              </div>
                                           </div>
                                        </div>
                                     </form>
                                  </div>
                               </div>
-                              <div class="tab-pane fade" id="departmentlist" role="tabpanel">
+                              <div class="tab-pane fade" id="requirement-status" role="tabpanel">
                                  <div class="pd-20">
                                     <!-- data table  Start -->
                                     <div class="clearfix mb-20">
                                        <div class="pull-left">
-                                          <h5 class="text-blue">Department List</h5>
+                                          <h5 class="text-blue">Status of Requirement</h5>
                                        </div>
                                     </div>
-                                    <table class="table data-table-export">
-                                       <thead>
-                                          <tr>
-                                             <th scope="col">#</th>
-                                             <th scope="col">Department</th>
-                                             <th scope="col">Action</th>
-                                          </tr>
-                                       </thead>
-                                       <tbody>
-                                          <tr>
-                                             <th scope="row">1</th>
-                                             <td>IT</td>
-                                             <td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
-                                                   </div>
-                                                </div>
-                                             </td>
-                                          </tr>
-                                          <tr>
-                                             <th scope="row">2</th>
-                                             <td>Sales</td>
-                                             <td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
-                                                   </div>
-                                                </div>
-                                             </td>
-                                          </tr>
-                                          <tr>
-                                             <th scope="row">3</th>
-                                             <td>HR</td>
-                                             <td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
-                                                   </div>
-                                                </div>
-                                             </td>
-                                          </tr>
-                                       </tbody>
-                                    </table>
+                                    <div class="row">
+                                       <table class="table data-table-export">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Department</th>
+                                                <th scope="col">Designation</th>
+                                                <th scope="col">Experience</th>
+                                                <th scope="col">Staus</th>
+                                             </tr>
+                                          </thead>
+                                          <tbody>
+                                             <tr>
+                                                <th scope="row">1</th>
+                                                <td>IT</td>
+                                                <td>Quality Assurance</td>
+                                                <td>0-1 year</td>
+                                                <td>Pending</td>
+                                             </tr>
+                                             <tr>
+                                                <th scope="row">2</th>
+                                                <td>Sales</td>
+                                                <td>BDE</td>
+                                                <td>4</td>
+                                                <td>Accepted</td>
+                                             </tr>
+                                             <tr>
+                                                <th scope="row">3</th>
+                                                <td>IT</td>
+                                                <td>Developer</td>
+                                                <td>5</td>
+                                                <td>Pending</td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                    </div>
                                     <!-- data table  End -->
                                  </div>
                               </div>
@@ -130,6 +133,8 @@
          </div>
       </div>
       <?php include('script.php'); ?>
+      <script src="src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
+      <script src="src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>
       <script src="src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
       <script src="src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>
       <script src="../../src/plugins/datatables/media/js/jquery.dataTables.min.js"></script>

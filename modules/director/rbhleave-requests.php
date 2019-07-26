@@ -2,9 +2,9 @@
 <html>
 <head>
 	<?php include('head.php'); ?>
-	<link rel="stylesheet" type="text/css" href="src/plugins/datatables/media/css/jquery.dataTables.css">
-	<link rel="stylesheet" type="text/css" href="src/plugins/datatables/media/css/dataTables.bootstrap4.css">
-	<link rel="stylesheet" type="text/css" href="src/plugins/datatables/media/css/responsive.dataTables.css">
+	<link rel="stylesheet" type="text/css" href="../../src/plugins/datatables/media/css/jquery.dataTables.css">
+	<link rel="stylesheet" type="text/css" href="../../src/plugins/datatables/media/css/dataTables.bootstrap4.css">
+	<link rel="stylesheet" type="text/css" href="../src/plugins/datatables/media/css/responsive.dataTables.css">
 </head>
 <body>
 	<?php include('header.php'); ?>
@@ -18,7 +18,7 @@
 							<h4 class="text-blue">RBH Leave Requests</h4>
 						</div>
 					</div>
-					<table class="table">
+					<table class="table data-table-export">
 						<thead>
 							<tr>
 								<th scope="col">#</th>
@@ -120,18 +120,18 @@
 		</div>
 	</div>
 	<?php include('script.php'); ?>
-	<script src="src/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
-	<script src="src/plugins/datatables/media/js/dataTables.bootstrap4.js"></script>
-	<script src="src/plugins/datatables/media/js/dataTables.responsive.js"></script>
-	<script src="src/plugins/datatables/media/js/responsive.bootstrap4.js"></script>
+	<script src="../../src/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
+	<script src="../../src/plugins/datatables/media/js/dataTables.bootstrap4.js"></script>
+	<script src="../../src/plugins/datatables/media/js/dataTables.responsive.js"></script>
+	<script src="../../src/plugins/datatables/media/js/responsive.bootstrap4.js"></script>
 	<!-- buttons for Export datatable -->
-	<script src="src/plugins/datatables/media/js/button/dataTables.buttons.js"></script>
-	<script src="src/plugins/datatables/media/js/button/buttons.bootstrap4.js"></script>
-	<script src="src/plugins/datatables/media/js/button/buttons.print.js"></script>
-	<script src="src/plugins/datatables/media/js/button/buttons.html5.js"></script>
-	<script src="src/plugins/datatables/media/js/button/buttons.flash.js"></script>
-	<script src="src/plugins/datatables/media/js/button/pdfmake.min.js"></script>
-	<script src="src/plugins/datatables/media/js/button/vfs_fonts.js"></script>
+	<script src="../../src/plugins/datatables/media/js/button/dataTables.buttons.js"></script>
+	<script src="../../src/plugins/datatables/media/js/button/buttons.bootstrap4.js"></script>
+	<script src="../../src/plugins/datatables/media/js/button/buttons.print.js"></script>
+	<script src="../../src/plugins/datatables/media/js/button/buttons.html5.js"></script>
+	<script src="../../src/plugins/datatables/media/js/button/buttons.flash.js"></script>
+	<script src="../../src/plugins/datatables/media/js/button/pdfmake.min.js"></script>
+	<script src="../../src/plugins/datatables/media/js/button/vfs_fonts.js"></script>
 	<script>
 		$('document').ready(function(){
 			$('.data-table').DataTable({
@@ -144,7 +144,7 @@
 				}],
 				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
 				"language": {
-					"info": "_START_-_END_ of _TOTAL_ entries",
+					"info": "_START_-_END of TOTAL_ entries",
 					searchPlaceholder: "Search"
 				},
 			});
@@ -158,7 +158,7 @@
 				}],
 				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
 				"language": {
-					"info": "_START_-_END_ of _TOTAL_ entries",
+					"info": "_START_-_END of TOTAL_ entries",
 					searchPlaceholder: "Search"
 				},
 				dom: 'Bfrtip',

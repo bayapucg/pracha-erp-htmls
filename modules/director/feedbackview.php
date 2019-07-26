@@ -6,6 +6,13 @@
 	<link rel="stylesheet" type="text/css" href="../../src/plugins/datatables/media/css/dataTables.bootstrap4.css">
 	<link rel="stylesheet" type="text/css" href="../src/plugins/datatables/media/css/responsive.dataTables.css">
    </head>
+   								
+								
+<style>
+.checked {
+color: orange;
+}
+</style>
    <body>
       <?php include('header.php'); ?>
       <?php include('sidebar.php'); ?>
@@ -14,9 +21,20 @@
             <div class="row clearfix">
                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-30">
                   <div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
+				   <div class="row">
                      <h4 class="weight-500 mb-20 text-primary">
-                     Business Development Team - East Region
+                     East Region Team
                      <h4>
+					
+					 <div class="col-md-12 col-sm-12">
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star checked"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+
+							</div>
+							</div>
                      <div class="notification-list mx-h-450 customscroll">
                         <ul>
                            <li>
@@ -29,11 +47,13 @@
                            <li>
                               <a href="#">
                                  <img src="../../vendors/images/img.jpg" alt="">
-                                 <h3 class="clearfix">Sridhar</h3>
-                                 <p>Executive-Business Development</p>
+                                 <h3 class="clearfix">Rita Vasantha</h3>
+                                 <p>Manager-HR</p>
                               </a>
                            </li>
+						  
                         </ul>
+						 <a href="#" class="card-link text-primary mt-4 font-14">View Team Members</a>
                      </div>
                   </div>
                </div>
@@ -42,16 +62,27 @@
             <div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
                <div class="clearfix mb-20">
                   <div class="pull-left">
-                     <h4 class="weight-500 text-blue">Stats</h4>
+                     <h4 class="weight-500 text-blue">Overview</h4>
                   </div>
                </div>
+			   <div class="row">
+					<div class="col-md-6 col-sm-12">
+					<form>
+					<div class="form-group">
+					<label>Select Month</label>
+					<input class="form-control month-picker" placeholder="Select Month" type="text">
+					</div>
+
+					</form>
+					</div>
+					</div>
                <table class="table data-table-export">
                   <thead>
                      <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Objective</th>
-                        <th scope="col">Status</th>
-                        <th scope="col">Action</th>
+                        <th scope="col">Good Things</th>
+                        <th scope="col">Bad Things</th>
+                        <th scope="col">Rating</th>
                      </tr>
                   </thead>
                   <tbody>
