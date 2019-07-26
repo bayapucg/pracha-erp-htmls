@@ -16896,7 +16896,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   margin: 0;
   padding: 0;
   display: block;
-  position: fixed;
+  position: fixed !important;
   left: 0;
   top: 0;
   min-height: 100%;

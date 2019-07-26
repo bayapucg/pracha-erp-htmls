@@ -18,6 +18,7 @@
 						</a>
 						
 					</li>
+					
 					<li class="dropdown">
 						<a href="javascript:" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Leaves & Time-Off</span>
@@ -34,13 +35,10 @@
 						
 					</li>
 					<li class="dropdown">
-						<a href="javascript:" class="dropdown-toggle">
+						<a href="reportlist.php" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Reports</span>
 						</a>
-						<ul class="submenu">
-							<li><a href="createreport.php">Create Report</a></li>
-							<li><a href="reportlist.php">Reports List</a></li>
-						</ul>
+						
 					</li>
 					<li class="dropdown">
 						<a href="javascript:" class="dropdown-toggle">

@@ -19,7 +19,7 @@
 							</div>
 							<div class="project-info-right">
 							
-								<span class="no text-light-purple weight-500 font-24">Hi Arya,</span>
+								<span class="no text-light-purple weight-500 font-24">Hi Srikar,</span>
 								<p class="weight-400 font-16">Jr Web Designer</p>
 							</div>
 						</div>

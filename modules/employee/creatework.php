@@ -23,6 +23,9 @@
 									<li class="nav-item">
 										<a class="nav-link" data-toggle="tab" href="#profile2" role="tab" aria-selected="false">Work List</a>
 									</li>
+									<li class="nav-item">
+										<a class="nav-link" data-toggle="tab" href="#profile3" role="tab" aria-selected="false">My Works</a>
+									</li>
 									
 								</ul>
 								<div class="tab-content">
@@ -114,36 +117,36 @@
 								<th scope="col">End Date</th>
 								<th scope="col">Department Name</th>
 								<th scope="col">Employee Name</th>
-								<th scope="col">Comments</th>
+								<th scope="col">Status</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<th scope="row">1</th>
-								<td>Mark</td>
-								<td>Otto</td>
-								<td>@mdo</td>
-								<td>@mdo</td>
-								<td>@mdo</td>
-								<td><span class="badge badge-primary">Primary</span></td>
+								<td>SVS</td>
+								<td>20-07-2019</td>
+								<td>25-07-2019</td>
+								<td>Testing</td>
+								<td>Anupama</td>
+								<td>Assigned</td>
 							</tr>
 							<tr>
 								<th scope="row">2</th>
-								<td>Jacob</td>
-								<td>Thornton</td>
-								<td>@fat</td>
-								<td>@fat</td>
-								<td>@fat</td>
-								<td><span class="badge badge-secondary">Secondary</span></td>
+								<td>Hospil</td>
+								<td>21-07-2019</td>
+								<td>26-07-2019</td>
+								<td>Testing</td>
+								<td>Arya</td>
+								<td>Pending</td>
 							</tr>
 							<tr>
 								<th scope="row">3</th>
-								<td>Larry</td>
-								<td>the Bird</td>
-								<td>@twitter</td>
-								<td>@twitter</td>
-								<td>@twitter</td>
-								<td><span class="badge badge-success">Success</span></td>
+								<td>Clinic</td>
+								<td>22-07-2019</td>
+								<td>22-07-2019</td>
+								<td>27-07-2019</td>
+								<td>Keerthi</td>
+								<td>Completed</td>
 							</tr>
 						</tbody>
 					</table>
@@ -172,6 +175,112 @@
 				</div>
 										</div>
 									</div>
+									<div class="tab-pane fade" id="profile3" role="tabpanel">
+										<div class="pd-20">
+											<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+					<div class="clearfix mb-20">
+						<div class="pull-left">
+							<h4 class="text-blue">My Works</h4>
+						</div>
+						
+					</div>
+					<table class="table data-table-export">
+						<thead>
+							<tr>
+								<th scope="col">S.No</th>
+								<th scope="col">Subject of the Work </th>
+								<th scope="col">Start Date</th>
+								<th scope="col">End Date</th>
+								<th scope="col">Files</th>
+								<th scope="col">Action</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>SVS</td>
+								<td>20-07-2019</td>
+								<td>25-07-2019</td>
+								<td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>								
+								<td>
+                                                <div class="dropdown">
+                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                                                   <i class="fa fa-ellipsis-h"></i>
+                                                   </a>
+                                                   <div class="dropdown-menu dropdown-menu-right">
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+                                                   </div>
+                                                </div>
+                                </td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Hospil</td>
+								<td>21-07-2019</td>
+								<td>26-07-2019</td>
+								<td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>								
+								<td>
+                                                <div class="dropdown">
+                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                                                   <i class="fa fa-ellipsis-h"></i>
+                                                   </a>
+                                                   <div class="dropdown-menu dropdown-menu-right">
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+                                                   </div>
+                                                </div>
+                                </td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Clinic</td>
+								<td>22-07-2019</td>
+								<td>22-07-2019</td>
+								<td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>								
+								<td>
+                                                <div class="dropdown">
+                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                                                   <i class="fa fa-ellipsis-h"></i>
+                                                   </a>
+                                                   <div class="dropdown-menu dropdown-menu-right">
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+                                                   </div>
+                                                </div>
+                                </td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="collapse collapse-box" id="basic-table" >
+						<div class="code-box">
+							<div class="clearfix">
+								<a href="javascript:;" class="btn btn-primary btn-sm code-copy pull-left"  data-clipboard-target="#basic-table-code"><i class="fa fa-clipboard"></i> Copy Code</a>
+								<a href="#basic-table" class="btn btn-primary btn-sm pull-right" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-eye-slash"></i> Hide Code</a>
+							</div>
+							<pre><code class="xml copy-pre" id="basic-table-code">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+    </tr>
+  </tbody>
+</table>
+							</code></pre>
+						</div>
+					</div>
+				</div>
+										</div>
+									</div>
+									
 									
 								</div>
 							</div>
