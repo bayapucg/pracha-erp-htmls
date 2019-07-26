@@ -40,12 +40,10 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
+						<a href="recruitment.php" class="dropdown-toggle">
 							<span class="fa fa-briefcase"></span><span class="mtext">Recruiting Management</span>
 						</a>
-						<ul class="submenu">
-							<li><a href="">Leave</a></li>
-						</ul>
+						
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
@@ -88,12 +86,9 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
+						<a href="feedback.php" class="dropdown-toggle">
 							<span class="fa fa-briefcase"></span><span class="mtext">Feedback</span>
 						</a>
-						<ul class="submenu">
-							<li><a href="">Leave</a></li>
-						</ul>
 					</li>
 				</ul>
 			</div>

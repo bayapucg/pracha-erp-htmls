@@ -54,14 +54,14 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label>Contact Address</label>
-                                            <input type="text" class="form-control" name="" placeholder="Enter Address">
+                                             <label>Contact Adress</label>
+                                                <textarea class="form-control" rows="4" id="comment"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label>Permanent Address</label>
-                                            <input type="text" class="form-control" name="" placeholder="Enter Address">
+                                            <textarea class="form-control" rows="4" id="comment"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -102,7 +102,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label>Documents</label>
-                                            <input type="file" class="form-control" name="">
+                                            <input type="file" class="form-control-file form-control height-auto" name="abc">
                                         </div>
                                     </div>
                                     <div class="col-md-6">

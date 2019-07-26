@@ -11,7 +11,7 @@
 						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 						<div class="clearfix">
 						<div class="pull-left">
-							<h4 class="text-blue mb-30">Announcements</h4>
+							<h4 class="text-blue mb-30">Feedback</h4>
 						</div>
 						
 					</div>
@@ -26,28 +26,44 @@
                             
                             <section>
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                         <div class="form-group">
-                                            <label>Announcements Type</label>
-                                            <select class="form-control" name="">
-                                                <option value="" selected disabled>Select</option>
-                                                <option value="">Public Announcements</option>
-                                                <option value="">Private Announcements</option>
-                                            </select>
+                                            <label>One Good Thing About The Company</label>
+                                            <input type="text" class="form-control" name="" placeholder="Enter One Good Thing">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                        <div class="form-group">
-                                                <label>Comments</label>
-                                                <textarea class="form-control" rows="5" id="comment"></textarea>	
+                                                <label>One Bad Thing About The Company</label>
+                                            <input type="text" class="form-control" name="" placeholder="Enter One Bad Thing">	
                                        </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                         <div class="form-group">
-                                            <label>Upload Files</label>
-                                            <input type="file" class="form-control-file form-control height-auto" name="abc">
+                                            <label>One Suggestion For The Company</label>
+                                            <input type="text" class="form-control" name="" placeholder="Enter One Suggestion">
                                         </div>
                                     </div>
+									<div class="col-md-6 col-sm-12">
+										<h4>Rate The Company</h4>
+					                        <div class="review-block-rate">
+								<button type="button" class="btn btn-warning btn-xs" aria-label="Left Align">
+								  <span class="fa fa-star text-white" aria-hidden="true"></span>
+								</button>
+								<button type="button" class="btn btn-warning btn-xs" aria-label="Left Align">
+								  <span class="fa fa-star text-white" aria-hidden="true"></span>
+								</button>
+								<button type="button" class="btn btn-warning btn-xs" aria-label="Left Align">
+								  <span class="fa fa-star text-white" aria-hidden="true"></span>
+								</button>
+								<button type="button" class="btn btn-warning btn-xs" aria-label="Left Align">
+								  <span class="fa fa-star text-white" aria-hidden="true"></span>
+								</button>
+								<button type="button" class="btn btn-default btn-xs" aria-label="Left Align">
+								  <span class="fa fa-star text-white" aria-hidden="true"></span>
+								</button>
+											 </div>
+									</div>
                             </section>
                             
                            
@@ -55,7 +71,7 @@
 							
 							<div>
                             <div>
-                                <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Announce</button>
+                                <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Submit</button>
                               
                             </div>
                         </div>
