@@ -2,7 +2,11 @@
 <html>
 <head>
 	<?php include('head.php'); ?>
-	
+	<style>
+.checked {
+  color: orange;
+}
+</style>
 </head>
 <body>
 	<?php include('header.php'); ?>
@@ -32,12 +36,12 @@
 							</div>
 							<div class="col-md-6 col-sm-12">
 									<h4>Rate Pracha</h4>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
-
+								<a href="#"><span class="fa fa-star checked"></span></a>
+								<a href="#"><span class="fa fa-star checked"></span></a>
+								<a href="#"><span class="fa fa-star checked"></span></a>
+								<a href="#"><span class="fa fa-star"></span></a>
+								<a href="#"><span class="fa fa-star"></span></a>
+								
 							</div>
 							
 							  <div class="form-group col-md-12">

@@ -43,14 +43,14 @@
 								</div>
 							</div>
 							<div class="project-info-right">
-								<span class="no text-blue weight-500 font-24">40</span>
+								<span class="no text-blue weight-500 font-24">Rs. 25,000</span>
 								<p class="weight-400 font-18">My Payroll</p>
 							</div>
 						</div>
 						<div class="project-info-progress">
 							<div class="row clearfix">
 								<div class="col-sm-6 text-muted weight-500">Achieved</div>
-								<div class="col-sm-6 text-right weight-500 font-14 text-muted">40</div>
+								<div class="col-sm-6 text-right weight-500 font-14 text-muted">Rs. 18,000</div>
 							</div>
 							<div class="progress" style="height: 10px;">
 								<div class="progress-bar bg-blue progress-bar-striped progress-bar-animated" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -59,7 +59,7 @@
 						<div class="project-info-progress">
 							<div class="row clearfix">
 								<div class="col-sm-6 text-muted weight-500">Eligible</div>
-								<div class="col-sm-6 text-right weight-500 font-14 text-muted">40</div>
+								<div class="col-sm-6 text-right weight-500 font-14 text-muted">Rs. 25,000</div>
 							</div>
 							<div class="progress" style="height: 10px;">
 								<div class="progress-bar bg-blue progress-bar-striped progress-bar-animated" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -157,8 +157,7 @@
 								</li>
 								<a href="#" class="card-link text-primary mt-2">View more</a>
 								
-									<a href="#">
-										</a>
+									
 								</li>
 							</ul>
 						</div>
