@@ -147,6 +147,72 @@
                                           <a href="#basic-table" class="btn btn-primary btn-sm pull-right" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-eye-slash"></i> Hide Code</a>
                                        </div>
                                        <pre><code class="xml copy-pre" id="basic-table-code">
+						</div>
+
+						
+					</form>
+				</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="profile2" role="tabpanel">
+										<div class="pd-20">
+											<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+					<div class="clearfix mb-20">
+						<div class="pull-left">
+							<h4 class="text-blue">Work List</h4>
+						</div>
+						
+					</div>
+					<table class="table data-table-export">
+						<thead>
+							<tr>
+								<th scope="col">S.No</th>
+								<th scope="col">Subject of the Work </th>
+								<th scope="col">Start Date</th>
+								<th scope="col">End Date</th>
+								<th scope="col">Department Name</th>
+								<th scope="col">Employee Name</th>
+								<th scope="col">Comments</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@mdo</td>
+								<td>@mdo</td>
+								<td>@mdo</td>
+								<td><span class="badge badge-primary">Primary</span></td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+								<td>@fat</td>
+								<td>@fat</td>
+								<td><span class="badge badge-secondary">Secondary</span></td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Larry</td>
+								<td>the Bird</td>
+								<td>@twitter</td>
+								<td>@twitter</td>
+								<td>@twitter</td>
+								<td><span class="badge badge-success">Success</span></td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="collapse collapse-box" id="basic-table" >
+						<div class="code-box">
+							<div class="clearfix">
+								<a href="javascript:;" class="btn btn-primary btn-sm code-copy pull-left"  data-clipboard-target="#basic-table-code"><i class="fa fa-clipboard"></i> Copy Code</a>
+								<a href="#basic-table" class="btn btn-primary btn-sm pull-right" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-eye-slash"></i> Hide Code</a>
+							</div>
+							<pre><code class="xml copy-pre" id="basic-table-code">
+>>>>>>> 3662428371ef11b2bb0450d424c7877cb86ff437
 <table class="table">
   <thead>
     <tr>

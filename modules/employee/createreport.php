@@ -20,7 +20,7 @@
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
 									<label>Name Of the Work Report</label>
-									<input type="text" class="form-control" placeholder="Add Department">
+									<input type="text" class="form-control" placeholder="Name Of the Work Report">
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-12">

@@ -20,7 +20,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Leaves & Late permissions</span>
+							<span class="fa fa-home"></span><span class="mtext">Leaves & Time-Off</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="leave.php">Leave</a></li>

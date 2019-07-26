@@ -20,7 +20,7 @@
 							<div class="col-md-6 col-sm-12">
 							<form>
 								<div class="form-group">
-									<label>Datedpicker Month View</label>
+									<label>Select Month</label>
 									<input class="form-control month-picker" placeholder="Select Month" type="text">
 								</div>
 								
