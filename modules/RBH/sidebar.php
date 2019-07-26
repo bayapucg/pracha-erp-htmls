@@ -66,6 +66,11 @@
 							<span class="fa fa-home"></span><span class="mtext">Contact Inside Tech Team</span>
 						</a>
 					</li>
+					<li class="dropdown">
+						<a href="holiday-list.php" class="dropdown-toggle">
+							<span class="fa fa-home"></span><span class="mtext">Holiday List</span>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>
