@@ -9,7 +9,7 @@
 				<ul id="accordion-menu">
 					<h5><li class="text-center text-warning font-weight-bold">HR - Portal</li></h5>
 						<li class="dropdown">
-							<a href="javascript:;" class="dropdown-toggle">
+							<a href="" class="dropdown-toggle">
 								<span class="fa fa-dashboard"></span><span class="mtext">Dashboard</span>
 							</a>
 						</li>
