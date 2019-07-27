@@ -23,22 +23,22 @@
                         <div class="tab">
                            <ul class="nav nav-tabs customtab" role="tablist">
                               <li class="nav-item">
-                                 <a class="nav-link active" data-toggle="tab" href="#rbhrequests" role="tab" aria-selected="true">Preface</a>
+                                 <a class="nav-link active" data-toggle="tab" href="#rbhrequests" role="tab" aria-selected="true">Preface<br>&nbsp;</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" data-toggle="tab" href="#hrrequests" role="tab" aria-selected="false">General Employment Policies and Practices</a>
+                                 <a class="nav-link" data-toggle="tab" href="#hrrequests" role="tab" aria-selected="false">General Employment<br> Policies and Practices</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" data-toggle="tab" href="#hrrequests" role="tab" aria-selected="false">Anti-Discrimination & Harassment</a>
+                                 <a class="nav-link" data-toggle="tab" href="#hrrequests" role="tab" aria-selected="false">Anti-Discrimination <br>& Harassment</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" data-toggle="tab" href="#hrrequests" role="tab" aria-selected="false">Compensation</a>
+                                 <a class="nav-link" data-toggle="tab" href="#hrrequests" role="tab" aria-selected="false">Compensation<br>&nbsp;</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" data-toggle="tab" href="#hrrequests" role="tab" aria-selected="false">Benefits </a>
+                                 <a class="nav-link" data-toggle="tab" href="#hrrequests" role="tab" aria-selected="false">Benefits<br>&nbsp; </a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" data-toggle="tab" href="#hrrequests" role="tab" aria-selected="false">Holidays, Vacation and Other Leave</a>
+                                 <a class="nav-link" data-toggle="tab" href="#hrrequests" role="tab" aria-selected="false">Holidays, Vacation <br>and Other Leave</a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" data-toggle="tab" href="#hrrequests" role="tab" aria-selected="false">Miscellaneous</a>
@@ -47,7 +47,6 @@
                            <div class="tab-content">
                               <div class="tab-pane fade show active" id="rbhrequests" role="tabpanel">
                                  <div class="pd-20">
-                                    <!-- data table  Start -->
                                     <div class="clearfix mb-20">
                                        <div class="pull-left">
                                           <h5 class="text-blue">Preface</h5>
@@ -59,77 +58,83 @@
                                           <div class="card">
                                              <div class="card-header">
                                                 <button class="btn btn-block" data-toggle="collapse" data-target="#faq1">
-                                                Collapsible Group Item #1
+                                               Introduction
                                                 </button>
                                              </div>
                                              <div id="faq1" class="collapse show" data-parent="#accordion">
                                                 <div class="card-body">
-                                                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                    <h6 class="mb-20">The Company</h6>
+													<h6 class="mb-10">About Pracha</h6>
+													Pracha Technologies Pvt Ltd is a complete Software & Digital marketing solutions provider
+													irrespective of industry, solutions whose sole purpose is to simplify business processes for
+													our clients and help their business grow. The dedicated teams at Pracha cover product
+													development, technical support, consulting and sales. When you deal with us, you are
+													directly coming in touch with people with expertise in the industry.
                                                 </div>
                                              </div>
                                           </div>
                                           <div class="card">
                                              <div class="card-header">
                                                 <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq2">
-                                                Collapsible Group Item #2
+                                                Our DNA
                                                 </button>
                                              </div>
                                              <div id="faq2" class="collapse" data-parent="#accordion">
                                                 <div class="card-body">
-                                                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                                    <h6 class="mb-10">Mission</h6>
+													Provide simplified & innovative products & services to our clients enabling them to offer
+													superior service to their customers in the industry & to simplify their business operations.
+													<h6 class="my-2">Vision</h6>
+													Our vision is to become a world leader in the IT industry recognized for providing simplified
+													& innovative consumer centric products & services.
+													<h6 class="my-2">Our core values</h6>
+													<ul class="ul-style">
+														<li> Respect& Culture</li>
+														<li> People& Clients</li>
+														<li> Innovation & Simplification</li>
+														<li> Loyalty & Growth</li>
+														<li> Team work& Success</li>
+														<li> Value & worth</li>
+														<li> Work & Life</li>
+													</ul>
+													<h6 class="my-2">Why Pracha? Who we are and what we do?</h6>
+													<ul class="ul-style">
+														<li> Simplified operating software
+														<li> User friendly & responsive system
+														<li> All integrated solutions
+														<li> Free trail for testing
+														<li> Third party integrations
+														<li> Regular enhancements & Customizations
+														<li> Multi-lingual & Multi-currency solution
+													</ul>
+													<h6 class="my-2">Understand what makes Pracha</h6>
+													<ul class="ul-style">
+														<li> 20+ professionals at your service
+														<li> 2+ years of company’s presence
+														<li> 5+ years of individual’s expertise
+														<li> 20+ happy clients
+													</ul>
+													<h6 class="my-2">An excellent team that cares</h6>
+													<ul class="ul-style">
+														<li> Live support that actually cares
+														<li> Multiple/one on one training
+														<li> Quick on-boarding process
+													</ul>
+													<h6 class="my-2">The Management Team</h6>
+													The organization is headed by Mr. Pushkar V the Chief Executive Officer. He is the key
+													person who re-engineered PRACHATECH in a strategic manner period from a startup market
+													place identity to an IT Solutions company with strong product and services offerings. He is
+													ably assisted by a team of key individuals who head the various functions and service areas
+													of the organization. These individuals by way of their superlative work contribution and
+													demonstrated commitments to the organization are invited to be part of the Business
+													Management Group which drives the organization.
+													The organization acknowledges the drive and commitment of its entire human resources
+													who have helped build this organization to its current position of strength.
+
                                                 </div>
                                              </div>
                                           </div>
-                                          <div class="card">
-                                             <div class="card-header">
-                                                <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq3">
-                                                Collapsible Group Item #3
-                                                </button>
-                                             </div>
-                                             <div id="faq3" class="collapse" data-parent="#accordion">
-                                                <div class="card-body">
-                                                   <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
-                                                   <p class="mb-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="card">
-                                             <div class="card-header">
-                                                <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq4">
-                                                Collapsible Group Item #4
-                                                </button>
-                                             </div>
-                                             <div id="faq4" class="collapse" data-parent="#accordion">
-                                                <div class="card-body">
-                                                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="card">
-                                             <div class="card-header">
-                                                <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq5">
-                                                Collapsible Group Item #5
-                                                </button>
-                                             </div>
-                                             <div id="faq5" class="collapse" data-parent="#accordion">
-                                                <div class="card-body">
-                                                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="card">
-                                             <div class="card-header">
-                                                <button class="btn btn-block collapsed" data-toggle="collapse" data-target="#faq6">
-                                                Collapsible Group Item #6
-                                                </button>
-                                             </div>
-                                             <div id="faq6" class="collapse" data-parent="#accordion">
-                                                <div class="card-body">
-                                                   <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
-                                                   <p class="mb-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
-                                                </div>
-                                             </div>
-                                          </div>
+                                          
                                        </div>
                                     </div>
                                     <!--accordian end-->   
@@ -137,89 +142,17 @@
                               </div>
                               <div class="tab-pane fade" id="hrrequests" role="tabpanel">
                                  <div class="pd-20">
-                                    <!-- data table  Start -->
                                     <div class="clearfix mb-20">
                                        <div class="pull-left">
-                                          <h5 class="text-blue">HR Requests</h5>
+                                          <h5 class="text-blue">General Employment Policies and Practices</h5>
                                        </div>
                                     </div>
-                                    <table class="table data-table-export">
-                                       <thead>
-                                          <tr>
-                                             <th scope="col">#</th>
-                                             <th scope="col">Region</th>
-                                             <th scope="col">Name</th>
-                                             <th scope="col">Age</th>
-                                             <th scope="col">Date of Join</th>
-                                             <th scope="col">Profile</th>
-                                             <th scope="col">Action</th>
-                                          </tr>
-                                       </thead>
-                                       <tbody>
-                                          <tr>
-                                             <th scope="row">1</th>
-                                             <td>South</td>
-                                             <td>Rita</td>
-                                             <td>35</td>
-                                             <td>28-07-2019</td>
-                                             <td><a href="#" class="text-primary"><i class="icon-copy fa fa-user-circle-o font-20" aria-hidden="true"></i></a></td>
-                                             <td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-check-circle" aria-hidden="true"></i> Accept</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-times-circle" aria-hidden="true"></i> Reject</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-comment" aria-hidden="true"></i> Comment</a>
-                                                   </div>
-                                                </div>
-                                             </td>
-                                          </tr>
-                                          <tr>
-                                             <th scope="row">2</th>
-                                             <td>West</td>
-                                             <td>Reddamma</td>
-                                             <td>26</td>
-                                             <td>31-07-2019</td>
-                                             <td><a href="#" class="text-primary"><i class="icon-copy fa fa-user-circle-o font-20" aria-hidden="true"></i></a></td>
-                                             <td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-check-circle" aria-hidden="true"></i> Accept</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-times-circle" aria-hidden="true"></i> Reject</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-comment" aria-hidden="true"></i> Comment</a>
-                                                   </div>
-                                                </div>
-                                             </td>
-                                          </tr>
-                                          <tr>
-                                             <th scope="row">3</th>
-                                             <td>Central</td>
-                                             <td>Sushma</td>
-                                             <td>24</td>
-                                             <td>12-08-2019</td>
-                                             <td><a href="#" class="text-primary"><i class="icon-copy fa fa-user-circle-o font-20" aria-hidden="true"></i></a></td>
-                                             <td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-check-circle" aria-hidden="true"></i> Accept</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-times-circle" aria-hidden="true"></i> Reject</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-comment" aria-hidden="true"></i> Comment</a>
-                                                   </div>
-                                                </div>
-                                             </td>
-                                          </tr>
-                                       </tbody>
-                                    </table>
-                                    <!-- data table  End -->
+                                     
+									<!--accordian end-->   
+
+									 
                                  </div>
+								 </div>
                               </div>
                            </div>
                         </div>
