@@ -33,10 +33,12 @@
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="fa fa-briefcase"></span><span class="mtext">Leaves & Late permissions</span>
+							<span class="fa fa-briefcase"></span><span class="mtext">Leaves Management</span>
 						</a>
 						<ul class="submenu">
 							<li><a href="leaves.php">Leave</a></li>
+							<li><a href="employee-leaves-request.php">Employee Requests</a></li>
+							<li><a href="employee-leaves-list.php">Employee List</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
