@@ -57,32 +57,11 @@
 						</a>
 						<ul class="submenu">
 							<li><a href="genarate-pay-slip.php">Genarate Pay slips</a></li>
+							<li><a href="download-pay-slip.php">Download Pay slips</a></li>
+							<li><a href="download-employee-payslip.php">Download Employee Pay slips</a></li>
 						</ul>
 					</li>
-					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
-							<span class="fa fa-briefcase"></span><span class="mtext">Reports</span>
-						</a>
-						<ul class="submenu">
-							<li><a href="">Leave</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
-							<span class="fa fa-briefcase"></span><span class="mtext">Sales</span>
-						</a>
-						<ul class="submenu">
-							<li><a href="">Leave</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
-							<span class="fa fa-briefcase"></span><span class="mtext">Chat</span>
-						</a>
-						<ul class="submenu">
-							<li><a href="">Leave</a></li>
-						</ul>
-					</li>
+			
 					<li class="dropdown">
 						<a href="announcements.php" class="dropdown-toggle">
 							<span class="fa fa-briefcase"></span><span class="mtext">Announcements</span>
