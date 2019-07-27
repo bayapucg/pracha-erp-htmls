@@ -42,17 +42,21 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="recruitment.php" class="dropdown-toggle">
-							<span class="fa fa-briefcase"></span><span class="mtext">Recruiting Management</span>
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="fa fa-table"></span><span class="mtext">Recruiting Management</span>
 						</a>
-						
+						<ul class="submenu">
+							<li><a href="recruitment.php">Process</a></li>
+							<li><a href="recruitment-request.php">Recruiting Request</a></li>
+						</ul>
 					</li>
+					
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
 							<span class="fa fa-briefcase"></span><span class="mtext">My Payroll & Pay Slips</span>
 						</a>
 						<ul class="submenu">
-							<li><a href="">Leave</a></li>
+							<li><a href="genarate-pay-slip.php">Genarate Pay slips</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
