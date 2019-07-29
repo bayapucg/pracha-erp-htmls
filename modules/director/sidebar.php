@@ -27,9 +27,9 @@
                <span class="fa fa-home"></span><span class="mtext">RBH & HR Requests</span>
                </a>
             </li>
-            <li class="dropdown">
-               <a href="rbhleave-requests.php" class="dropdown-toggle">
-               <span class="fa fa-home"></span><span class="mtext">RBH Leaves</span>
+            <li class="">
+               <a href="rbhleave-requests.php" class="dropdown-toggle mark-none">
+               <span class="fa fa-home"></span>RBH Leaves
                </a>
             </li>
             <li class="dropdown">

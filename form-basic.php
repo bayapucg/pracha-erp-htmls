@@ -115,7 +115,7 @@
 							</div>
 						</div>
 						<div class="form-group row">
-							<label class="col-sm-12 col-md-2 col-form-label">Select</label>
+							<label class="col-sm-12 col-md-2 col-form-label">Type Of Leave</label>
 							<div class="col-sm-12 col-md-10">
 								<select class="custom-select col-12">
 									<option selected="">Choose...</option>

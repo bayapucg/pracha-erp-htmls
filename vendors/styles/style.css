@@ -16896,7 +16896,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
   margin: 0;
   padding: 0;
   display: block;
-  position: fixed !important;
+  position: fixed;
   left: 0;
   top: 0;
   min-height: 100%;
@@ -19517,7 +19517,7 @@ textarea.form-control {
   white-space: normal; }
 
 .faq-wrap .card-header .btn:before {
-  content: "Q.";
+  content: "";
   font-weight: 500;
   position: absolute;
   left: 10px; }
@@ -20365,4 +20365,17 @@ textarea.form-control {
 .bv-form .help-block {
     margin-bottom: 0;
     color: red;
+}
+.ul-style{
+	list-style-type:disc;
+	margin-left:20px;
+}
+.mark-none::after{
+	content: "" !important;
+    border: 0;
+    font-family: "FontAwesome";
+    vertical-align: unset;
+    width: auto;
+    height: auto;
+    border: 0 !important;
 }
