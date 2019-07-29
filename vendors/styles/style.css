@@ -20370,3 +20370,12 @@ textarea.form-control {
 	list-style-type:disc;
 	margin-left:20px;
 }
+.mark-none::after{
+	content: "" !important;
+    border: 0;
+    font-family: "FontAwesome";
+    vertical-align: unset;
+    width: auto;
+    height: auto;
+    border: 0 !important;
+}
