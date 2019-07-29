@@ -17,29 +17,46 @@
                         <!-- Custom Tabs -->
                         <form id="example-basic" class="employee-add-wizard">
 						 <fieldset class="scheduler-border">
-						<legend class="scheduler-border">view Payroll </legend>
+						<legend class="scheduler-border">Genarate Payroll </legend>
 						
                             <section>
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Month</label>
-                                           <select class="form-control">
-												<option>January</option>
-												<option>February</option>
-												<option>March</option>
-											</select>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-									 <label>&nbsp;</label>
-                                      <div class="form-group">
-													<a href="payroll-view.php" class="btn btn-primary btn-xs">Genarate Payroll</a>
-												</div>
-                                    </div>
-								
-                                    
-										
+									<table class="table table-bordered">
+										<tr>
+											<th colspan="7" class="text-center">PRACHA TECHNOLOGIES P LT D-SALARY</th>
+										</tr>
+										<tr>
+											<th>Sno</th>
+											<th>Employee name</th>
+											<th>Account number</th>
+											<th>Ifsc code</th>
+											<th>Bank Name</th>
+											<th>Phone number</th>
+											<th>Salary</th>
+										</tr>
+										<tr>
+											<td>1</td>
+											<td>xxxxxxx</td>
+											<td>xxxxxxx</td>
+											<td>xxxxxxx</td>
+											<td>xxxxxxx</td>
+											<td>xxxxxxx</td>
+											<td>xxxxxxx</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>xxxxxxx</td>
+											<td>xxxxxxx</td>
+											<td>xxxxxxx</td>
+											<td>xxxxxxx</td>
+											<td>xxxxxxx</td>
+											<td>xxxxxxx</td>
+										</tr>
+									</table>
+									<div>	
+										<button class="btn btn-success btn-sm">Accept</button>
+										<button class="btn btn-danger btn-sm">Reject</button>
+									</div>
                                 </div>
                             </section>
 							</fieldset>

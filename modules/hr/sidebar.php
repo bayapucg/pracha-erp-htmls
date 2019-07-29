@@ -51,16 +51,7 @@
 						</ul>
 					</li>
 					
-					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
-							<span class="fa fa-briefcase"></span><span class="mtext">Payroll & <br>Pay Slips</span>
-						</a>
-						<ul class="submenu">
-							<li><a href="genarate-pay-slip.php">Genarate Pay slips</a></li>
-							<li><a href="download-pay-slip.php">Download my Pay slips</a></li>
-							<li><a href="download-employee-payslip.php">Download Employee Pay slips</a></li>
-						</ul>
-					</li>
+					
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
 							<span class="fa fa-briefcase"></span><span class="mtext">Payroll & <br>Pay Slips</span>
