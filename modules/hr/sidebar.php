@@ -70,6 +70,18 @@
 							<span class="fa fa-briefcase"></span><span class="mtext">Feedback</span>
 						</a>
 					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle">
+							<span class="fa fa-briefcase"></span><span class="mtext">Employee Handbook</span>
+						</a>
+						<ul class="submenu">
+							<li><a href="upload-pdf-document.php">Upload pdf Document</a></li>
+							<li><a href="Preface.php">Preface</a></li>
+							<li><a href="download-employee-payslip.php">Download Employee Pay slips</a></li>
+							<li><a href="payroll.php">Payroll</a></li>
+						</ul>
+					</li>
+
 				</ul>
 			</div>
 		</div>
