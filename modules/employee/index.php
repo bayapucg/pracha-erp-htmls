@@ -18,7 +18,7 @@
 							</div>
 							</div>
 							<div class="project-info-right">
-								<span class="no text-light-purple weight-500 font-24">Hi Arya,</span>
+								<span class="no text-light-purple weight-500 font-18">Hi Pushkar,</span>
 								<p class="weight-400 font-16">Jr Web Designer</p>
 							</div>
 						</div>
@@ -42,7 +42,7 @@
                                     </div>
                                  </div>
                                  <div class="project-info-right">
-                                    <span class="no text-light-green weight-500 font-24">Pracha Regional Rating</span>
+                                    <span class="no text-light-green weight-500 font-18">Pracha Regional Rating</span>
                                  </div>
                               </div>
                               <div class="project-info-progress">
@@ -104,6 +104,7 @@
 								<p class="weight-400 font-18">Incentives Earned</p>
 							</div>
 						</div>
+						
 						<div class="project-info-progress">
 							<div class="row clearfix">
 								<div class="col-sm-6 text-muted weight-500">Review</div>
@@ -118,8 +119,18 @@
 				
 			</div>
 		
+			<div class="col-md-12 col-sm-12 mb-30">			
+							<div class="btn-list">
+								<button type="button" class="btn btn-primary btn-lg">Employee Hand Book</button>
+								<a href="leave.php"><button type="button" class="btn btn-danger btn-lg px-5">Apply for Leave</button></a>
+								<a href="reportlist.php"><button type="button" class="btn btn-success btn-lg px-5">Manage Reports</button></a>
+								<a href="creatework.php"><button type="button" class="btn btn-warning btn-lg px-5">Create Work</button>
+							</div></a>
+						</div>
+						
+				
 			<div class="row clearfix">
-				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-30" style="height:350px;overflow-y: scroll;">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-30">
 					<div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
 						<h4 class="mb-20">Announcements</h4>
 						<div class="notification-list mx-h-450 customscroll">

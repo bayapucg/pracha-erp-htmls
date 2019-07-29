@@ -71,7 +71,7 @@
 					<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Manage Reports</h4>
+							<h4 class="text-blue">Reports List</h4>
 						</div>
 						
 					</div>
@@ -175,7 +175,7 @@
 					<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
-							<h4 class="text-blue">Report List</h4>
+							<h4 class="text-blue">Manage Reports</h4>
 						</div>
 						
 					</div>
@@ -187,7 +187,6 @@
 								<th scope="col">Name of the Work Report </th>
 								<th scope="col">Uploaded By</th>
 								<th scope="col">Download Work Report</th>
-								<th scope="col">Actions</th>
 							
 							</tr>
 						</thead>
@@ -198,18 +197,7 @@
 								<td>SVS</td>
 								<td>Sushma</td>
 								<td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>                                            
-								<td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
-                                                   </div>
-                                                </div>
-                                </td>
+								
 							</tr>
 							<tr>
 								<th scope="row">2</th>
@@ -217,18 +205,7 @@
 								<td>Hospil</td>
 								<td>Sireesha</td>
 									<td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>                                            
-								<td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
-                                                   </div>
-                                                </div>
-                                </td>
+							
 								
 							</tr>
 							<tr>
@@ -237,18 +214,7 @@
 								<td>clinic</td>
 								<td>Anupama</td>
 									<td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>                                            
-								<td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
-                                                   </div>
-                                                </div>
-                                </td>
+							
 								
 							</tr>
 						</tbody>
