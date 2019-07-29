@@ -97,7 +97,8 @@
                                           <h5 class="text-blue">Designation List</h5>
                                        </div>
                                     </div>
-                                    <table class="table data-table-export">
+									<div class="row table-responsive">
+                                    <table class="data-table">
                                        <thead>
                                           <tr>
                                              <th scope="col">#</th>
@@ -168,6 +169,7 @@
                                           </tr>
                                        </tbody>
                                     </table>
+									</div>
                                     <!-- data table  End -->
                                  </div>
                               </div>

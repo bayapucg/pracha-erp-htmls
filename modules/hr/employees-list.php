@@ -39,7 +39,7 @@
 						<table class="data-table ">
 							<thead>
 								<tr>
-									<th >S.No</th>
+									<th>S.No</th>
 									<th>Employee ID</th>
 									<th>Working Mail ID</th>
 									<th>Name</th>
