@@ -169,7 +169,6 @@
                                              <th scope="col">Start Date</th>
                                              <th scope="col">End Date</th>
                                              <th scope="col">File</th>
-                                             <th scope="col">Action</th>
                                           </tr>
                                        </thead>
                                        <tbody>
@@ -179,18 +178,7 @@
                                              <td>20-07-2019</td>
                                              <td>25-07-2019</td>
 											 <td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>                                            
-                                           <td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
-                                                   </div>
-                                                </div>
-                                </td>
+                                         
                                           </tr>
                                           <tr>
                                              <th scope="row">2</th>
@@ -198,18 +186,6 @@
                                              <td>21-07-2019</td>
                                              <td>26-07-2019</td>
 											 <td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>                                            
-                                            <td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
-                                                   </div>
-                                                </div>
-                                </td>
                                           </tr>
                                           <tr>
                                              <th scope="row">3</th>
@@ -217,18 +193,8 @@
                                              <td>22-07-2019</td>
                                              <td>27-07-2019</td>
 											 <td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>                                            
-<td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
-                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
-                                                   </div>
-                                                </div>
-                                </td>                                          </tr>
+                                               
+                                                                      </tr>
                                        </tbody>
                                     </table>
                                     <!-- data table  End -->
