@@ -18,6 +18,12 @@
 						</a>
 						
 					</li>
+					<li class="dropdown">
+						<a href="reportlist.php" class="dropdown-toggle">
+							<span class="fa fa-home"></span><span class="mtext">Reports</span>
+						</a>
+						
+					</li>
 					
 					<li class="dropdown">
 						<a href="leave.php" class="dropdown-toggle">
@@ -31,12 +37,7 @@
 						</a>
 						
 					</li>
-					<li class="dropdown">
-						<a href="reportlist.php" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Reports</span>
-						</a>
-						
-					</li>
+					
 					<li class="dropdown">
 						<a href="javascript:" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Chat</span>
