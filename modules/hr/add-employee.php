@@ -46,9 +46,21 @@
                                             <input type="text" class="form-control" name="" placeholder="Enter Mobile Number">
                                         </div>
                                     </div>
+									<div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Alt Mobile Number</label>
+                                            <input type="text" class="form-control" name="" placeholder="Enter Mobile Number">
+                                        </div>
+                                    </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label>Email Id</label>
+                                            <input type="text" class="form-control" name="" placeholder="Enter Your Email">
+                                        </div>
+                                    </div> 
+									<div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Alt Email Id</label>
                                             <input type="text" class="form-control" name="" placeholder="Enter Your Email">
                                         </div>
                                     </div>
@@ -89,7 +101,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label>Salary Details</label>
+                                            <label>Basic Salary </label>
                                             <input type="text" class="form-control" name="" placeholder="Enter Salary Details">
                                         </div>
                                     </div>
@@ -99,12 +111,7 @@
                                             <input type="text" class="form-control" name="" placeholder="Enter Work Email Id">
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Documents</label>
-                                            <input type="file" class="form-control-file form-control height-auto" name="abc">
-                                        </div>
-                                    </div>
+                                  
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label>Working Days / Timings</label>
@@ -113,15 +120,82 @@
                                     </div>
                                 </div>
                             </section>
+							</fieldset> 
+							<fieldset class="scheduler-border">
+						<legend class="scheduler-border">Documents</legend>
+								<section>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Adhar Card</label>
+                                            <input type="text" class="form-control" name="" placeholder="Enter Adhar card No">
+                                        </div>
+                                    </div>
+									<div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Upload</label>
+                                            <input type="file" class="form-control" name="" placeholder="Enter Adhar card No">
+                                        </div>
+                                    </div>
+									<div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Pan Card</label>
+                                            <input type="text" class="form-control" name="" placeholder="Enter Pan Card no">
+                                        </div>
+                                    </div>	
+									<div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Upload</label>
+                                            <input type="file" class="form-control" name="">
+                                        </div>
+                                    </div>
+									<div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Passport</label>
+                                            <input type="text" class="form-control" name="" placeholder="Passport no">
+                                        </div>
+                                    </div>
+									<div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>upload</label>
+                                            <input type="file" class="form-control" name="">
+                                        </div>
+                                    </div>
+									<div class="col-md-4">
+                                        <div class="form-group">
+                                            <label>Address Proof </label>
+                                            <select class="form-control">
+												<option>Select</option>
+												<option>Adhar</option>
+												<option>Votar</option>
+												<option>Electricity Bill</option>
+												
+											</select>
+                                        </div>
+                                    </div>
+									<div class="col-md-4">
+                                        <div class="form-group">
+                                            <label>Id proof Number</label>
+                                            <input type="text" class="form-control" name="" placeholder="Enter Id proof Number ">
+                                        </div>
+                                    </div>
+									<div class="col-md-4">
+                                        <div class="form-group">
+                                            <label>Upload</label>
+                                            <input type="file" class="form-control" name="" >
+                                        </div>
+                                    </div>
+									
+                                </div>
+                            </section>
 							</fieldset>
-							<br>
-							<br>
-							<div>
+							
+						
                             <div>
-                                <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Submit</button>
+                                <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Create Employee</button>
                               
                             </div>
-                        </div>
+                     
 						
                         </form>
                         <!-- nav-tabs-custom -->
