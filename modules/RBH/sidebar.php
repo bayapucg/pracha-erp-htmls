@@ -7,7 +7,7 @@
 		<div class="menu-block customscroll">
 			<div class="sidebar-menu">
 				<ul id="accordion-menu">
-		
+		        <h4 class="container text-blue"><b>RBH Panel</b></h4>
 					<li class="dropdown">
 						<a href="dashboard.php" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Dashboard</span>
@@ -15,33 +15,31 @@
 					</li>
 					<li class="dropdown">
 						<a href="rbh-work-management.php" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Work management</span>
+							<span class="fa fa-home"></span><span class="mtext">Work Management</span>
+						</a>	
+					</li>
+					<li class="dropdown">
+						<a href="leave.php" class="dropdown-toggle">
+							<span class="fa fa-home"></span><span class="mtext">Leaves & Late permissions Requests</span>
+						</a>
+												 
+					</li>
+				
+					
+					<li class="dropdown">
+						<a href="recruitment-management.php" class="dropdown-toggle">
+							<span class="fa fa-home"></span><span class="mtext">Recruiting Management</span>
 						</a>	
 					</li>
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Leaves management</span>
+							<span class="fa fa-home"></span><span class="mtext">Sales Management</span>
 						</a>
 							<ul class="submenu">
-							<li><a href="apply-leaves.php">Leaves Lists</a></li>
-							<li><a href="team-leaves.php">Team Leaves</a></li>
+							<li><a href="sales.php">Sales</a></li>
+							<li><a href="sales-region.php">Sales Region</a></li>
+							
 							</ul>						 
-					</li>
-					<li class="dropdown">
-						<a href="rbh-reports.php" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Request</span>
-						</a>	
-					</li>
-					
-					<li class="dropdown">
-						<a href="" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Recruiting management</span>
-						</a>	
-					</li>
-					<li class="dropdown">
-						<a href="" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Sales Management</span>
-						</a>	
 					</li>
 						<li class="dropdown">
 						<a href="payrolls&payslips.php" class="dropdown-toggle">
@@ -51,7 +49,7 @@
 					</li>
 						<li class="dropdown">
 						<a href="" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Reports</span>
+							<span class="fa fa-home"></span><span class="mtext">reports</span>
 						</a>	
 					</li>
 					</li>
@@ -63,7 +61,7 @@
 					
 					<li class="dropdown">
 						<a href="rbh-chat.php" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Chats</span>
+							<span class="fa fa-home"></span><span class="mtext">Chat</span>
 						</a>	
 					</li>
 					<li class="dropdown">
