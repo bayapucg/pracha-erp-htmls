@@ -39,50 +39,50 @@
 									<ul>
 										<li>
 											<a href="#">
-												<img src="../../vendors/images/img.jpg" alt="">
-												<h3 class="clearfix">John Doe</h3>
+												<img src="../../vendors/images/chat-img1.jpg" alt="">
+												<h3 class="clearfix">sanio</h3>
 												<p><i class="fa fa-circle text-light-green"></i> online</p>
 											</a>
 										</li>
 										<li class="active">
 											<a href="#">
-												<img src="../../vendors/images/img.jpg" alt="">
-												<h3 class="clearfix">John Doe</h3>
+												<img src="../../vendors/images/chat-img1.jpg" alt="">
+												<h3 class="clearfix">raji</h3>
 												<p><i class="fa fa-circle text-light-green"></i> online</p>
 											</a>
 										</li>
 										<li>
 											<a href="#">
 												<img src="../../vendors/images/img.jpg" alt="">
-												<h3 class="clearfix">John Doe</h3>
+												<h3 class="clearfix">rajneesh</h3>
 												<p><i class="fa fa-circle text-light-green"></i> online</p>
 											</a>
 										</li>
 										<li>
 											<a href="#">
 												<img src="../../vendors/images/img.jpg" alt="">
-												<h3 class="clearfix">John Doe</h3>
+												<h3 class="clearfix">John </h3>
 												<p><i class="fa fa-circle text-warning"></i> active 5 min</p>
 											</a>
 										</li>
 										<li>
 											<a href="#">
-												<img src="../../vendors/images/img.jpg" alt="">
-												<h3 class="clearfix">John Doe</h3>
+												<img src="../../vendors/images/chat-img1.jpg" alt="">
+												<h3 class="clearfix">Ashwathi</h3>
 												<p><i class="fa fa-circle text-warning"></i> active 4 min</p>
 											</a>
 										</li>
 										<li>
 											<a href="#">
-												<img src="../../vendors/images/img.jpg" alt="">
-												<h3 class="clearfix">John Doe</h3>
+												<img src="../../vendors/images/chat-img1.jpg" alt="">
+												<h3 class="clearfix">suma</h3>
 												<p><i class="fa fa-circle text-warning"></i> active 3 min</p>
 											</a>
 										</li>
 										<li>
 											<a href="#">
 												<img src="../../vendors/images/img.jpg" alt="">
-												<h3 class="clearfix">John Doe</h3>
+												<h3 class="clearfix">Abhilash</h3>
 												<p><i class="fa fa-circle text-light-orange"></i> offline</p>
 											</a>
 										</li>
@@ -93,13 +93,7 @@
 												<p><i class="fa fa-circle text-light-orange"></i> offline</p>
 											</a>
 										</li>
-										<li>
-											<a href="#">
-												<img src="../../vendors/images/img.jpg" alt="">
-												<h3 class="clearfix">John Doe</h3>
-												<p><i class="fa fa-circle text-light-orange"></i> offline</p>
-											</a>
-										</li>
+										
 										<li>
 											<a href="#">
 												<img src="../../vendors/images/img.jpg" alt="">

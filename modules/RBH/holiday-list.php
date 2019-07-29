@@ -39,9 +39,10 @@
 							<thead>
 								<tr>
 									<th class="table-plus datatable-nosort">S.No</th>
-									<th>Holidays Type </th>
 									<th>Holiday Date</th>
-									<th>Holiday </th>
+									<th>Holiday Day</th>									
+									<th>Holidays Type </th>									
+									<th>Holiday</th>
 									
 									
 								
@@ -50,37 +51,37 @@
 							<tbody>
 								<tr>
 									<td class="table-plus">1</td>
-									<th>Aug 15</th>
 									<th>1-1-2019</th>
+									<th>Monday</th>
+									<th>Indepandence day</th>
 									<th>Holiday</th>
 									
 								
 								</tr>
 								<tr>
 									<td class="table-plus">2</td>
-									
-									<th>Holy  </th>
 									<th>1-1-2019</th>
+									<th>friday</th>
+									<th>Holy  </th>
 									<th>Holiday</th>
 									
 								</tr>
 								<tr>
 									<td class="table-plus">3</td>
-								<th>diwali</th>
-									
 									<th>1-1-2019</th>
+									<th>Tuesday</th>
+									<th>diwali</th>
 									<th>Holiday</th>
 									
-									
-									
-								
 									
 								</tr>
 								<tr>
 									<td class="table-plus">4</td>
+									<th>1-1-2019</th>
+									<th>Monday</th>
 									<th>diwali</th>
 									
-									<th>1-1-2019</th>
+									
 									<th>Holiday</th>
 									
 								
