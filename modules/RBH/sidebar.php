@@ -29,7 +29,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="rbh-reports.php" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Requests</span>
+							<span class="fa fa-home"></span><span class="mtext">Request</span>
 						</a>	
 					</li>
 					
