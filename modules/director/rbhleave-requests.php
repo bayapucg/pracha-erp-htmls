@@ -18,101 +18,91 @@
 							<h4 class="text-blue">RBH Leave Requests</h4>
 						</div>
 					</div>
-					<table class="table data-table-export">
-						<thead>
-							<tr>
-								<th scope="col">#</th>
-								<th scope="col">Region</th>
-								<th scope="col">Name</th>
-								<th scope="col">Leave Start Date</th>
-								<th scope="col">Leave End Date</th>
-								<th scope="col">Reason of Leave</th>
-								<th scope="col">Action</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<th scope="row">1</th>
-								<td>South</td>
-								<td>Naga Prakash</td>
-								<td>28-07-2019</td>
-								<td>29-07-2019</td>
-								<td>Sick</td>
-								<td>
-                                    <div class="dropdown">
-										<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                         <i class="fa fa-ellipsis-h"></i>
-                                        </a>
-										<div class="dropdown-menu dropdown-menu-right">
-											<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> Accept</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i>Reject</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-trash"></i>Comment</a>
-										</div>
+					
+					<section>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                       <table class="table table-bordered ">
+										<thead>
+											<tr>
+												<th>Region</th>
+												<th>Employee ID</th>
+												<th>Name</th>
+												<th>Department</th>
+												<th>Leave Type </th>
+												<th>Date </th>
+												<th>Action </th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>South</td>
+												<td>Pt0001</td>
+												<td>Bayapureddy</td>
+												<td>IT</td>
+												<td>Casual</td>
+												<td>30-07-2019</td>
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+												</td>
+											</tr>
+											<tr>
+												<td>Central</td>
+												<td>Pt0002</td>
+												<td>Bayapureddy</td>
+												<td>IT</td>
+												<td>Casual</td>
+												<td>30-07-2019</td>
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+												</td>
+											</tr>
+											<tr>
+												<td>North</td>
+												<td>Pt0001</td>
+												<td>Bayapureddy</td>
+												<td>IT</td>
+												<td>Casual</td>
+												<td>30-07-2019</td>
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+												</td>
+											</tr>
+											<tr>
+												<td>East</td>
+												<td>Pt0001</td>
+												<td>Bayapureddy</td>
+												<td>IT</td>
+												<td>Casual</td>
+												<td>30-07-2019</td>
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+												</td>
+											</tr>
+											<tr>
+												<td>west</td>
+												<td>Pt0001</td>
+												<td>Bayapureddy</td>
+												<td>IT</td>
+												<td>Casual</td>
+												<td>30-07-2019</td>
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+												</td>
+											</tr>
+										</tbody>
+									</table>
                                     </div>
-                                </td>
-							</tr>
-							<tr>
-								<th scope="row">2</th>
-								<td>South</td>
-								<td>Naga Prakash</td>
-								<td>28-07-2019</td>
-								<td>29-07-2019</td>
-								<td>Sick</td>
-								<td>
-                                    <div class="dropdown">
-										<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                         <i class="fa fa-ellipsis-h"></i>
-                                        </a>
-										<div class="dropdown-menu dropdown-menu-right">
-											<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> Accept</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i>Reject</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-trash"></i>Comment</a>
-										</div>
-                                    </div>
-                                </td>
-							</tr>
-							<tr>
-								<th scope="row">3</th>
-								<td>South</td>
-								<td>Naga Prakash</td>
-								<td>28-07-2019</td>
-								<td>29-07-2019</td>
-								<td>Sick</td>
-								<td>
-                                    <div class="dropdown">
-										<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                         <i class="fa fa-ellipsis-h"></i>
-                                        </a>
-										<div class="dropdown-menu dropdown-menu-right">
-											<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> Accept</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i>Reject</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-trash"></i>Comment</a>
-										</div>
-                                    </div>
-                                </td>
-							</tr>
-							<tr>
-								<th scope="row">4</th>
-								<td>South</td>
-								<td>Naga Prakash</td>
-								<td>28-07-2019</td>
-								<td>29-07-2019</td>
-								<td>Sick</td>
-								<td>
-                                    <div class="dropdown">
-										<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                         <i class="fa fa-ellipsis-h"></i>
-                                        </a>
-										<div class="dropdown-menu dropdown-menu-right">
-											<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> Accept</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i>Reject</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-trash"></i>Comment</a>
-										</div>
-                                    </div>
-                                </td>
-							</tr>
-						</tbody>
-					</table>
+                                    
+                                  
+                                </div>
+                            </section>
+	
 				</div>
 				
 			</div>

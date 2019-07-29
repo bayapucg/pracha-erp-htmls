@@ -117,7 +117,8 @@
                                           <h5 class="text-blue">Work Status</h5>
                                        </div>
                                     </div>
-                                    <table class="table data-table-export">
+									<div class="row table-responsive">
+                                    <table class="table data-table">
                                        <thead>
                                           <tr>
                                              <th scope="col">#</th>
@@ -159,6 +160,7 @@
                                           </tr>
                                        </tbody>
                                     </table>
+									</div>
                                     <!-- data table  End -->
                                  </div>
                               </div>
