@@ -11,27 +11,44 @@
 						<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 						<div class="clearfix">
 						<div class="pull-left">
-							<h4 class="text-blue mb-30">Apply For Time-Off</h4>
+							<h4 class="text-blue mb-30">Apply For Leave</h4>
 						</div>
 						
 					</div>
 					<form>
 						<div class="row">
-							<div class="col-md-4 col-sm-12">
+							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<label>Start Date and time</label>
-									<input class="form-control datetimepicker" placeholder="Choose Date and time" type="text">
+									<label>Start Date</label>
+									<input class="form-control date-picker" placeholder="Select Date" type="text">
 								</div>
 
 							</div>
-							<div class="col-md-4 col-sm-12">
+							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
-									<label>End Date and time</label>
-									<input class="form-control datetimepicker" placeholder="Choose Date and time" type="text">
+									<label>End Date</label>
+									<input class="form-control date-picker" placeholder="Select Date" type="text">
 								</div>
 							</div>
-						
-							<div class="col-md-4 col-sm-12">
+							<div class="col-md-6 col-sm-12">
+								<div class="form-group">
+							<label>Type Of Leave</label>
+									<select class="selectpicker form-control" data-style="btn-outline-primary">
+										<optgroup label="Select Type" data-max-options="2">
+											<option>Select Type</option>
+											<option>Casual Leave - 7</option>
+											<option>Sick Leave - 3</option>
+											<option>Work from home - 2</option>
+											<option>Earned Leave - 4</option>
+											<option>Compensation Off - NA</option>
+											<option>Maternity Leave - 30</option>
+											<option>Other</option>
+										</optgroup>
+										
+									</select>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
 							<label>Work Sharing Partner</label>
 									<select class="selectpicker form-control" data-style="btn-outline-primary">

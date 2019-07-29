@@ -18,15 +18,18 @@
 						</a>
 						
 					</li>
+					<li class="dropdown">
+						<a href="reportlist.php" class="dropdown-toggle">
+							<span class="fa fa-home"></span><span class="mtext">Reports</span>
+						</a>
+						
+					</li>
 					
 					<li class="dropdown">
-						<a href="javascript:" class="dropdown-toggle">
+						<a href="leave.php" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Leaves & Time-Off</span>
 						</a>
-						<ul class="submenu">
-							<li><a href="leave.php">Leave</a></li>
-							<li><a href="timeoff.php">Time-Off</a></li>
-						</ul>
+						
 					</li>
 					<li class="dropdown">
 						<a href="payroll.php" class="dropdown-toggle">
@@ -34,12 +37,7 @@
 						</a>
 						
 					</li>
-					<li class="dropdown">
-						<a href="reportlist.php" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Reports</span>
-						</a>
-						
-					</li>
+					
 					<li class="dropdown">
 						<a href="javascript:" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Chat</span>
