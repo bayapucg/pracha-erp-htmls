@@ -80,9 +80,9 @@
 							<li><a href="general-employment-policies.php">General Employment Policies and Practices</a></li>
 							<li><a href="anti-discrimination.php">Anti-Discrimination & Harassment</a></li>
 							<li><a href="compensation.php">Compensation</a></li>
-							<li><a href="Benefits.php">Benefits</a></li>
+							<li><a href="benefits.php">Benefits</a></li>
 							<li><a href="holidays-vacation-leaves.php">Holidays, Vacation and Other Leave</a></li>
-							<li><a href="Miscellaneous.php">Miscellaneous</a></li>
+							<li><a href="miscellaneous.php">Miscellaneous</a></li>
 						</ul>
 					</li>
 

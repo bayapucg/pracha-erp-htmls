@@ -98,7 +98,7 @@
                                        </div>
                                     </div>
 									<div class="row table-responsive">
-                                    <table class="data-table">
+                                    <table class="table data-table">
                                        <thead>
                                           <tr>
                                              <th scope="col">#</th>

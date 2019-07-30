@@ -12,17 +12,16 @@
 	<div class="main-container">
 		<div class="pd-ltr-20 customscroll customscroll-10-p height-100-p xs-pd-20-10">
 			<div class="min-height-200px">
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30 pl-5">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
 							<h4 class="text-blue">RBH Leave Requests</h4>
 						</div>
 					</div>
 					
-					<section>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                       <table class="table table-bordered ">
+							<section>
+                                <div class="row  table-responsive">
+                                       <table class="table table-bordered">
 										<thead>
 											<tr>
 												<th>Region</th>
@@ -30,7 +29,7 @@
 												<th>Name</th>
 												<th>Department</th>
 												<th>Leave Type </th>
-												<th>Date </th>
+												<th>Start Date & End Date </th>
 												<th>Action </th>
 											</tr>
 										</thead>
@@ -38,10 +37,10 @@
 											<tr>
 												<td>South</td>
 												<td>Pt0001</td>
-												<td>Bayapureddy</td>
-												<td>IT</td>
+												<td>Naga prakash</td>
+												<td>RBH</td>
 												<td>Casual</td>
-												<td>30-07-2019</td>
+												<td>30-07-2019 & 31-07-2019</td>
 												<td>
 													<button class="btn btn-sm btn-success">Accept</button>
 													<button class="btn btn-sm btn-danger">Reject</button>
@@ -50,10 +49,10 @@
 											<tr>
 												<td>Central</td>
 												<td>Pt0002</td>
-												<td>Bayapureddy</td>
-												<td>IT</td>
-												<td>Casual</td>
-												<td>30-07-2019</td>
+												<td>Naga prakash</td>
+												<td>RBH</td>
+												<td>Comp off</td>
+												<td>1-08-2019 & 04-08-2019</td>
 												<td>
 													<button class="btn btn-sm btn-success">Accept</button>
 													<button class="btn btn-sm btn-danger">Reject</button>
@@ -61,11 +60,11 @@
 											</tr>
 											<tr>
 												<td>North</td>
-												<td>Pt0001</td>
-												<td>Bayapureddy</td>
-												<td>IT</td>
-												<td>Casual</td>
-												<td>30-07-2019</td>
+												<td>Pt0006</td>
+												<td>Naga prakash</td>
+												<td>RBH</td>
+												<td>Earned</td>
+												<td>02-08-2019 & 02-08-2019</td>
 												<td>
 													<button class="btn btn-sm btn-success">Accept</button>
 													<button class="btn btn-sm btn-danger">Reject</button>
@@ -73,11 +72,11 @@
 											</tr>
 											<tr>
 												<td>East</td>
-												<td>Pt0001</td>
-												<td>Bayapureddy</td>
-												<td>IT</td>
-												<td>Casual</td>
-												<td>30-07-2019</td>
+												<td>Pt0009</td>
+												<td>Naga prakash</td>
+												<td>RBH</td>
+												<td>Sick</td>
+												<td>30-07-2019 & 30-07-2019</td>
 												<td>
 													<button class="btn btn-sm btn-success">Accept</button>
 													<button class="btn btn-sm btn-danger">Reject</button>
@@ -85,11 +84,11 @@
 											</tr>
 											<tr>
 												<td>west</td>
-												<td>Pt0001</td>
-												<td>Bayapureddy</td>
-												<td>IT</td>
+												<td>Pt0004</td>
+												<td>Naga prakash</td>
+												<td>RBH</td>
 												<td>Casual</td>
-												<td>30-07-2019</td>
+												<td>30-07-2019 & 31-07-2019</td>
 												<td>
 													<button class="btn btn-sm btn-success">Accept</button>
 													<button class="btn btn-sm btn-danger">Reject</button>
@@ -97,12 +96,8 @@
 											</tr>
 										</tbody>
 									</table>
-                                    </div>
-                                    
-                                  
                                 </div>
                             </section>
-	
 				</div>
 				
 			</div>

@@ -22,8 +22,8 @@ color: orange;
                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-30">
                   <div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
 				   <div class="row">
-                     <h4 class="weight-500 mb-20 text-primary">
-                     East Region Team
+                     <h4 class="weight-500 mb-20 ml-3 text-primary">
+                      East Region Team
                      <h4>
 					
 					 <div class="col-md-12 col-sm-12">

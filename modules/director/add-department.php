@@ -41,7 +41,8 @@
                                                 <input type="text" class="form-control" placeholder="Enter Department">
                                              </div>
                                           </div>
-                                          <div class="form-group col-md-12">
+                                          <div class="form-group col-md-6">
+										    <label>&nbsp;</label>
                                              <div class="col-lg-9 col-lg-offset-3">
                                                 <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add</button>
                                              </div>
@@ -58,8 +59,8 @@
                                           <h5 class="text-blue">Department List</h5>
                                        </div>
                                     </div>
-									<div class="row table-responsive">
-                                    <table class="table data-table-export">
+									<div class="row">
+                                    <table class="table data-table">
                                        <thead>
                                           <tr>
                                              <th scope="col">#</th>
