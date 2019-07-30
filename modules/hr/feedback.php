@@ -23,7 +23,8 @@
                     <div class="box-body">
                         <!-- Custom Tabs -->
                         <form id="example-basic" class="employee-add-wizard">
-                            
+                            <fieldset class="scheduler-border">
+						<legend class="scheduler-border">Feedback Information</legend>
                             <section>
                                 <div class="row">
                                     <div class="col-md-12">
@@ -65,7 +66,7 @@
 											 </div>
 									</div>
                             </section>
-                            
+                            </fieldset>
                            
 							<br>
 							
