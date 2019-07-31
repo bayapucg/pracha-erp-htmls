@@ -117,14 +117,17 @@
                                           <h5 class="text-blue">Work Status</h5>
                                        </div>
                                     </div>
-                                    <table class="table data-table-export">
+									<div class="row table-responsive">
+                                    <table class="table data-table">
                                        <thead>
                                           <tr>
                                              <th scope="col">#</th>
                                              <th scope="col">Subject of the Work </th>
                                              <th scope="col">Start Date</th>
                                              <th scope="col">End Date</th>
+											 <th scope="col">Region</th>
                                              <th scope="col">Department Name</th>
+                                             <th scope="col">Employee Id</th>
                                              <th scope="col">Employee Name</th>
                                              <th scope="col">Comments</th>
                                           </tr>
@@ -135,7 +138,9 @@
                                              <td>SVS</td>
                                              <td>20-07-2019</td>
                                              <td>25-07-2019</td>
-                                             <td>Testing</td>
+                                             <td>South</td>
+                                             <td>RBH</td>
+                                             <td>PT0012</td>
                                              <td>Anupama</td>
                                              <td>Assigned</td>
                                           </tr>
@@ -144,7 +149,9 @@
                                              <td>Hospil</td>
                                              <td>21-07-2019</td>
                                              <td>26-07-2019</td>
-                                             <td>Testing</td>
+                                             <td>North</td>
+                                             <td>RBH</td>
+                                             <td>PT0014</td>
                                              <td>Arya</td>
                                              <td>Pending</td>
                                           </tr>
@@ -153,12 +160,15 @@
                                              <td>Clinic</td>
                                              <td>22-07-2019</td>
                                              <td>27-07-2019</td>
-                                             <td>Testing</td>
+                                             <td>East</td>
+                                             <td>HR</td>
+                                             <td>PT0021</td>
                                              <td>Keerthi</td>
                                              <td>Completed</td>
                                           </tr>
                                        </tbody>
                                     </table>
+									</div>
                                     <!-- data table  End -->
                                  </div>
                               </div>

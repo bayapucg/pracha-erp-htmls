@@ -28,178 +28,145 @@
                            <div class="tab-content">
                               <div class="tab-pane fade show active" id="rbhrequests" role="tabpanel">
                                  <div class="pd-20">
-                                    <!-- data table  Start -->
+                                    <!-- basic table  Start -->
                                     <div class="clearfix mb-20">
                                        <div class="pull-left">
                                           <h5 class="text-blue">RBH Requests</h5>
                                        </div>
                                     </div>
-									<div class="row table-responsive">
-                                    <table class="data-table">
-                                       <thead>
-                                          <tr>
-                                             <th scope="col">#</th>
+									
+									
+									<div class="row">
+                                    <div class="col-md-12">
+                                       <table class="table table-bordered ">
+										<thead>
+											<tr>
+											 <th scope="col">#</th>
                                              <th scope="col">Region</th>
                                              <th scope="col">Name</th>
                                              <th scope="col">Age</th>
                                              <th scope="col">Date of Join</th>
                                              <th scope="col">Profile</th>
                                              <th scope="col">Action</th>
-                                          </tr>
-                                       </thead>
-                                       <tbody>
-                                          <tr>
-                                             <th scope="row">1</th>
-                                             <td>East</td>
-                                             <td>Naga Prakash</td>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+											 <th scope="row">1</th>
+                                             <td>South</td>
+                                             <td>Naga Prakash	</td>
                                              <td>30</td>
-                                             <td>29-07-2019</td>
+                                             <td>29-07-2019	</td>
                                              <td><a href="#" class="text-primary"><i class="icon-copy fa fa-user-circle-o font-20" aria-hidden="true"></i></a></td>
-                                             <td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-check-circle" aria-hidden="true"></i> Accept</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-times-circle" aria-hidden="true"></i> Reject</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-comment" aria-hidden="true"></i> Comment</a>
-                                                   </div>
-                                                </div>
-                                             </td>
-                                          </tr>
-                                          <tr>
-                                             <th scope="row">2</th>
-                                             <td>Central</td>
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+													<button class="btn btn-sm btn-primary">Comment</button>
+												</td>
+											</tr>
+											<tr>
+												  <th scope="row">2</th>
+                                             <td>West</td>
                                              <td>Srikar</td>
                                              <td>26</td>
-                                             <td>1-08-2019</td>
+                                             <td>31-07-2019</td>
                                              <td><a href="#" class="text-primary"><i class="icon-copy fa fa-user-circle-o font-20" aria-hidden="true"></i></a></td>
-                                             <td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-check-circle" aria-hidden="true"></i> Accept</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-times-circle" aria-hidden="true"></i> Reject</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-comment" aria-hidden="true"></i> Comment</a>
-                                                   </div>
-                                                </div>
-                                             </td>
-                                          </tr>
-                                          <tr>
-                                             <th scope="row">3</th>
-                                             <td>North</td>
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+													<button class="btn btn-sm btn-primary">Comment</button>
+												</td>
+											</tr>
+											<tr>
+												<th scope="row">3</th>
+                                             <td>Central</td>
                                              <td>Ajay</td>
                                              <td>35</td>
-                                             <td>5-08-2019</td>
+                                             <td>12-08-2019</td>
                                              <td><a href="#" class="text-primary"><i class="icon-copy fa fa-user-circle-o font-20" aria-hidden="true"></i></a></td>
-                                             <td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-check-circle" aria-hidden="true"></i> Accept</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-times-circle" aria-hidden="true"></i> Reject</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-comment" aria-hidden="true"></i> Comment</a>
-                                                   </div>
-                                                </div>
-                                             </td>
-                                          </tr>
-                                       </tbody>
-                                    </table>
-									</div>
-                                    <!-- data table  End -->
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+													<button class="btn btn-sm btn-primary">Comment</button>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+                                    </div>
+                                </div>
+									
+                                    <!-- basic table  End -->
                                  </div>
                               </div>
                               <div class="tab-pane fade" id="hrrequests" role="tabpanel">
                                  <div class="pd-20">
-                                    <!-- data table  Start -->
+                                    <!-- basic table  Start -->
                                     <div class="clearfix mb-20">
                                        <div class="pull-left">
                                           <h5 class="text-blue">HR Requests</h5>
                                        </div>
                                     </div>
-									<div class="row table-responsive">
-                                    <table class="data-table">
-                                       <thead>
-                                          <tr>
-                                             <th scope="col">#</th>
+									
+									<div class="row">
+                                    <div class="col-md-12">
+                                       <table class="table table-bordered ">
+										<thead>
+											<tr>
+											 <th scope="col">#</th>
                                              <th scope="col">Region</th>
                                              <th scope="col">Name</th>
                                              <th scope="col">Age</th>
                                              <th scope="col">Date of Join</th>
                                              <th scope="col">Profile</th>
                                              <th scope="col">Action</th>
-                                          </tr>
-                                       </thead>
-                                       <tbody>
-                                          <tr>
-                                             <th scope="row">1</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+											 <th scope="row">1</th>
                                              <td>South</td>
                                              <td>Rita</td>
                                              <td>35</td>
                                              <td>28-07-2019</td>
                                              <td><a href="#" class="text-primary"><i class="icon-copy fa fa-user-circle-o font-20" aria-hidden="true"></i></a></td>
-                                             <td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-check-circle" aria-hidden="true"></i> Accept</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-times-circle" aria-hidden="true"></i> Reject</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-comment" aria-hidden="true"></i> Comment</a>
-                                                   </div>
-                                                </div>
-                                             </td>
-                                          </tr>
-                                          <tr>
-                                             <th scope="row">2</th>
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+													<button class="btn btn-sm btn-primary">Comment</button>
+												</td>
+											</tr>
+											<tr>
+												  <th scope="row">2</th>
                                              <td>West</td>
                                              <td>Reddamma</td>
                                              <td>26</td>
                                              <td>31-07-2019</td>
                                              <td><a href="#" class="text-primary"><i class="icon-copy fa fa-user-circle-o font-20" aria-hidden="true"></i></a></td>
-                                             <td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-check-circle" aria-hidden="true"></i> Accept</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-times-circle" aria-hidden="true"></i> Reject</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-comment" aria-hidden="true"></i> Comment</a>
-                                                   </div>
-                                                </div>
-                                             </td>
-                                          </tr>
-                                          <tr>
-                                             <th scope="row">3</th>
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+													<button class="btn btn-sm btn-primary">Comment</button>
+												</td>
+											</tr>
+											<tr>
+												<th scope="row">3</th>
                                              <td>Central</td>
                                              <td>Sushma</td>
                                              <td>24</td>
                                              <td>12-08-2019</td>
                                              <td><a href="#" class="text-primary"><i class="icon-copy fa fa-user-circle-o font-20" aria-hidden="true"></i></a></td>
-                                             <td>
-                                                <div class="dropdown">
-                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                                   <i class="fa fa-ellipsis-h"></i>
-                                                   </a>
-                                                   <div class="dropdown-menu dropdown-menu-right">
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-check-circle" aria-hidden="true"></i> Accept</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-times-circle" aria-hidden="true"></i> Reject</a>
-                                                      <a class="dropdown-item" href="#"><i class="icon-copy fa fa-comment" aria-hidden="true"></i> Comment</a>
-                                                   </div>
-                                                </div>
-                                             </td>
-                                          </tr>
-                                       </tbody>
-                                    </table>
-									</div>
-                                    <!-- data table  End -->
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+													<button class="btn btn-sm btn-primary">Comment</button>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+                                    </div>
+                                </div>
+									
+                                    <!-- basic table  End -->
                                  </div>
                               </div>
                            </div>

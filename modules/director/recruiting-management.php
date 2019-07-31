@@ -66,6 +66,12 @@
                                                 <label>Experience</label>
                                                 <input type="number" class="form-control" placeholder="Enter Experience">
                                              </div>
+                                          </div> 
+										  <div class="col-md-6 col-sm-12">
+                                             <div class="form-group">
+                                                <label>Duration of Requirement</label>
+                                                <input type="text" class="form-control" placeholder="Enter Duration of Requirement">
+                                             </div>
                                           </div>
                                           <div class="form-group col-md-12">
                                              <div class="col-lg-9 col-lg-offset-3">
@@ -84,14 +90,15 @@
                                           <h5 class="text-blue">Status of Requirement</h5>
                                        </div>
                                     </div>
-                                    <div class="row">
-                                       <table class="table data-table-export">
+                                    <div class="row table-responsive">
+                                       <table class="table data-table">
                                           <thead>
                                              <tr>
                                                 <th scope="col">#</th>
                                                 <th scope="col">Department</th>
                                                 <th scope="col">Designation</th>
                                                 <th scope="col">Experience</th>
+                                                <th scope="col">Duration of Requirement</th>
                                                 <th scope="col">Staus</th>
                                              </tr>
                                           </thead>
@@ -101,6 +108,7 @@
                                                 <td>IT</td>
                                                 <td>Quality Assurance</td>
                                                 <td>0-1 year</td>
+                                                <td>20 days</td>
                                                 <td>Pending</td>
                                              </tr>
                                              <tr>
@@ -108,6 +116,7 @@
                                                 <td>Sales</td>
                                                 <td>BDE</td>
                                                 <td>4</td>
+                                                <td>10 days</td>
                                                 <td>Accepted</td>
                                              </tr>
                                              <tr>
@@ -115,6 +124,7 @@
                                                 <td>IT</td>
                                                 <td>Developer</td>
                                                 <td>5</td>
+                                                <td>15 days</td>
                                                 <td>Pending</td>
                                              </tr>
                                           </tbody>
