@@ -8,50 +8,50 @@
 			<div class="sidebar-menu">
 				<ul id="accordion-menu">
 					<li class="dropdown">
-						<a href="index.php" class="dropdown-toggle">
+						<a href="index.php" class="dropdown-toggle mark-none">
 							<span class="fa fa-home"></span><span class="mtext">Dashboard</span>
 						</a>
 						</li>
 					<li class="dropdown">
-						<a href="creatework.php" class="dropdown-toggle">
+						<a href="creatework.php" class="dropdown-toggle mark-none">
 							<span class="fa fa-home"></span><span class="mtext">Work Management</span>
 						</a>
 						
 					</li>
 					<li class="dropdown">
-						<a href="reportlist.php" class="dropdown-toggle">
+						<a href="reportlist.php" class="dropdown-toggle mark-none">
 							<span class="fa fa-home"></span><span class="mtext">Reports</span>
 						</a>
 						
 					</li>
 					
 					<li class="dropdown">
-						<a href="leave.php" class="dropdown-toggle">
+						<a href="leave.php" class="dropdown-toggle mark-none">
 							<span class="fa fa-home"></span><span class="mtext">Leaves & Time-Off</span>
 						</a>
 						
 					</li>
 					<li class="dropdown">
-						<a href="payroll.php" class="dropdown-toggle">
+						<a href="payroll.php" class="dropdown-toggle mark-none">
 							<span class="fa fa-home"></span><span class="mtext">My Pay slips</span>
 						</a>
 						
 					</li>
 					
 					<li class="dropdown">
-						<a href="javascript:" class="dropdown-toggle">
+						<a href="javascript:" class="dropdown-toggle mark-none">
 							<span class="fa fa-home"></span><span class="mtext">Chat</span>
 						</a>
 						
 					</li>
 					<li class="dropdown">
-						<a href="announcements.php" class="dropdown-toggle">
+						<a href="announcements.php" class="dropdown-toggle mark-none">
 							<span class="fa fa-home"></span><span class="mtext">Announcements</span>
 						</a>
 						
 					</li>
 					<li class="dropdown">
-						<a href="feedback.php" class="dropdown-toggle">
+						<a href="feedback.php" class="dropdown-toggle mark-none">
 							<span class="fa fa-home"></span><span class="mtext">Feedback</span>
 						</a>
 						

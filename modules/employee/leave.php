@@ -230,7 +230,7 @@
 							</tr>
 						</thead>
 						<tbody>
-							<tr>
+								<tr>							
 								<th scope="row">Sick Leaves</th>
 								<td>24(3 years)</td>
 								<td>24</td>
@@ -275,13 +275,68 @@
 							</code></pre>
 						</div>
 					</div>
+					
+					
+					<div class="clearfix mb-20 mt-5">
+						<div class="pull-left">
+							<h4 class="text-blue">Leaves List</h4>
+							
+						</div>
+					
+					</div>
+					<table class="table">
+						<thead>
+							<tr>
+								<th scope="col">Name</th>
+								<th scope="col">From Date</th>
+								<th scope="col">To Date</th>
+								<th scope="col">Leave Type</th>
+								<th scope="col">Reason</th>
+								<th scope="col">Status</th>								
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">Anupama</th>
+								<td>10-07-2019</td>
+								<td>June</td>
+								<td>June</td>
+								<td>June</td>
+							    <td><span class="badge badge-warning">Pending</span></td>
+
+							</tr>
+							<tr>
+								<th scope="row">Anupama</th>
+								<td>10-07-2019</td>
+								<td>May</td>
+								<td>May</td>
+								<td>May</td>
+								<td><span class="badge badge-warning">pending</span></td>
+							</tr>
+							<tr>
+								<th scope="row">Anupama</th>
+								<td>10-07-2019</td>
+								<td>May</td>
+								<td>May</td>
+								<td>May</td>
+								<td><span class="badge badge-success">Approved</span></td>
+							</tr>
+						</tbody>
+					</table>
+					
+				</div>
 				
                                     <!-- data table  End -->
-                                 </div>
-                              </div>
+                                 </div>							 
+                              </div>							  
                            </div>
                         </div>
                      </div>
+					 
+					 
+					 
+					 
+					 
                   </div>
                </div>
             </div>
