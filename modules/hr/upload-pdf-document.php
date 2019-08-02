@@ -50,8 +50,6 @@
 	</div>
 	</div>
 	<?php include('script.php'); ?>
-	<script src="src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
-	<script src="src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>
 	<script>
     $("#example-basic").steps({
         headerTag: "h3",

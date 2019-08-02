@@ -61,7 +61,9 @@
 												<td>
 													<button class="btn btn-sm btn-success">Accept</button>
 													<button class="btn btn-sm btn-danger">Reject</button>
-													<button class="btn btn-sm btn-primary">Comment</button>
+													<a href="#" data-toggle="modal" data-target="#small-modal">
+														<button class="btn btn-sm btn-primary">Comment</button>
+													</a>
 												</td>
 											</tr>
 											<tr>
@@ -74,7 +76,9 @@
 												<td>
 													<button class="btn btn-sm btn-success">Accept</button>
 													<button class="btn btn-sm btn-danger">Reject</button>
-													<button class="btn btn-sm btn-primary">Comment</button>
+													<a href="#" data-toggle="modal" data-target="#small-modal">
+														<button class="btn btn-sm btn-primary">Comment</button>
+													</a>
 												</td>
 											</tr>
 											<tr>
@@ -87,7 +91,9 @@
 												<td>
 													<button class="btn btn-sm btn-success">Accept</button>
 													<button class="btn btn-sm btn-danger">Reject</button>
-													<button class="btn btn-sm btn-primary">Comment</button>
+													<a href="#" data-toggle="modal" data-target="#small-modal">
+														<button class="btn btn-sm btn-primary">Comment</button>
+													</a>
 												</td>
 											</tr>
 										</tbody>
@@ -132,7 +138,9 @@
 												<td>
 													<button class="btn btn-sm btn-success">Accept</button>
 													<button class="btn btn-sm btn-danger">Reject</button>
-													<button class="btn btn-sm btn-primary">Comment</button>
+													<a href="#" data-toggle="modal" data-target="#small-modal">
+														<button class="btn btn-sm btn-primary">Comment</button>
+													</a>
 												</td>
 											</tr>
 											<tr>
@@ -145,7 +153,9 @@
 												<td>
 													<button class="btn btn-sm btn-success">Accept</button>
 													<button class="btn btn-sm btn-danger">Reject</button>
-													<button class="btn btn-sm btn-primary">Comment</button>
+													<a href="#" data-toggle="modal" data-target="#small-modal">
+														<button class="btn btn-sm btn-primary">Comment</button>
+													</a>
 												</td>
 											</tr>
 											<tr>
@@ -158,7 +168,9 @@
 												<td>
 													<button class="btn btn-sm btn-success">Accept</button>
 													<button class="btn btn-sm btn-danger">Reject</button>
-													<button class="btn btn-sm btn-primary">Comment</button>
+													<a href="#" data-toggle="modal" data-target="#small-modal">
+														<button class="btn btn-sm btn-primary">Comment</button>
+													</a>
 												</td>
 											</tr>
 										</tbody>
@@ -169,6 +181,27 @@
                                     <!-- basic table  End -->
                                  </div>
                               </div>
+					<!--modal code start-->
+						<div>
+							<div class="modal fade" id="small-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-sm modal-dialog-centered">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h4 class="modal-title" id="myLargeModalLabel">Comment</h4>
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+										</div>
+										<div class="modal-body">
+											<textarea class="form-control" rows="4" id="comment" placeholder="Enter Comments"></textarea>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-sm btn-success" data-dismiss="modal">Submit</button>
+											<button type="button" class="btn btn-sm btn-danger" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					<!--modal code end-->
                            </div>
                         </div>
                      </div>

@@ -34,7 +34,7 @@
             </li>
             <li class="dropdown">
                <a href="javascript:;" class="dropdown-toggle">
-               <span class="fa fa-home"></span><span class="mtext">Work Management</span>
+               <span class="fa fa-briefcase"></span><span class="mtext">Work Management</span>
                </a>
 			    <ul class="submenu">
                   <li><a href="workmanagement.php">Work Management</a></li>
@@ -63,7 +63,7 @@
             </li>
             <li class="dropdown">
                <a href="feedback.php" class="dropdown-toggle mark-none">
-               <span class="fa fa-home"></span><span class="mtext">Feedback</span>
+               <span class="fa fa-star-half-o"></span><span class="mtext">Feedback</span>
                </a>
             </li>
 			<li class="dropdown">
