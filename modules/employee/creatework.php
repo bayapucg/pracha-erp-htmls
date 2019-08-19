@@ -5,6 +5,8 @@
       <link rel="stylesheet" type="text/css" href="../../src/plugins/datatables/media/css/jquery.dataTables.css">
       <link rel="stylesheet" type="text/css" href="../../src/plugins/datatables/media/css/dataTables.bootstrap4.css">
       <link rel="stylesheet" type="text/css" href="../src/plugins/datatables/media/css/responsive.dataTables.css">
+	  	<link rel="stylesheet" type="text/css" href="vendors/styles/bootstrapValidator.css">
+
    </head>
    <body>
       <?php include('header.php'); ?>
@@ -36,7 +38,7 @@
                                           <h5 class="text-blue">Create Work</h5>
                                        </div>
                                     </div>
-                                    <form>
+                                     <form id="creatework" method="post" action="creatework.php">
                                        <div class="row">
                                           <div class="col-md-6 col-sm-12">
                                              <div class="form-group">
@@ -128,7 +130,13 @@
                                              <td>25-07-2019</td>
                                              <td>Testing</td>
                                              <td>Anupama</td>
-                                             <td>Assigned</td>
+                                             			<td>
+											<a href="#" data-toggle="modal" data-target="#small-modal" type="button">
+														<button class="btn btn-sm btn-primary">Comment</button>
+											</a>
+													
+												
+											</td>
                                           </tr>
                                           <tr>
                                              <th scope="row">2</th>
@@ -137,7 +145,11 @@
                                              <td>26-07-2019</td>
                                              <td>Testing</td>
                                              <td>Arya</td>
-                                             <td>Pending</td>
+                                             			<td>
+											<a href="#" data-toggle="modal" data-target="#small-modal" type="button">
+														<button class="btn btn-sm btn-primary">Comment</button>
+											</a>											
+											</td>
                                           </tr>
                                           <tr>
                                              <th scope="row">3</th>
@@ -146,7 +158,13 @@
                                              <td>27-07-2019</td>
                                              <td>Testing</td>
                                              <td>Keerthi</td>
-                                             <td>Completed</td>
+                                             			<td>
+											<a href="#" data-toggle="modal" data-target="#small-modal" type="button">
+														<button class="btn btn-sm btn-primary">Comment</button>
+											</a>
+													
+												
+											</td>
                                           </tr>
                                        </tbody>
                                     </table>
@@ -168,7 +186,8 @@
                                              <th scope="col">Subject of the Work </th>
                                              <th scope="col">Start Date</th>
                                              <th scope="col">End Date</th>
-                                             <th scope="col">File</th>
+                                             <th scope="col">File</th> 
+											 <th scope="col">Comments</th>
                                           </tr>
                                        </thead>
                                        <tbody>
@@ -177,7 +196,14 @@
                                              <td>SVS</td>
                                              <td>20-07-2019</td>
                                              <td>25-07-2019</td>
-											 <td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>                                            
+											 <td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>  
+											<td>
+											<a href="#" data-toggle="modal" data-target="#small-modal" type="button">
+														<button class="btn btn-sm btn-primary">Comment</button>
+											</a>
+													
+													
+											</td>
                                          
                                           </tr>
                                           <tr>
@@ -185,21 +211,55 @@
                                              <td>Hospil</td>
                                              <td>21-07-2019</td>
                                              <td>26-07-2019</td>
-											 <td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>                                            
+											 <td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td> 
+															<td>
+											<a href="#" data-toggle="modal" data-target="#small-modal" type="button">
+														<button class="btn btn-sm btn-primary">Comment</button>
+											</a>
+													
+												
+											</td>
                                           </tr>
                                           <tr>
                                              <th scope="row">3</th>
                                              <td>Clinic</td>
                                              <td>22-07-2019</td>
                                              <td>27-07-2019</td>
-											 <td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>                                            
+											 <td><a href="#" class="text-primary">Download File <i class="icon-copy fa fa-file-pdf-o" aria-hidden="true"></i></a></td>
+												<td>
+											<a href="#" data-toggle="modal" data-target="#small-modal" type="button">
+														<button class="btn btn-sm btn-primary">Comment</button>
+											</a>
+													
+												
+											</td>		
                                                
-                                                                      </tr>
+                                                      </tr>
                                        </tbody>
                                     </table>
                                     <!-- data table  End -->
                                  </div>
                               </div>
+							  
+							<div>
+							<div class="modal fade" id="small-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-sm modal-dialog-centered">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h4 class="modal-title" id="myLargeModalLabel">Comment</h4>
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+										</div>
+										<div class="modal-body">
+											<textarea class="form-control" rows="4" id="comment" placeholder="Enter Comments"></textarea>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+											<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
                            </div>
                         </div>
                      </div>
@@ -224,6 +284,9 @@
       <script src="../../src/plugins/datatables/media/js/button/buttons.flash.js"></script>
       <script src="../../src/plugins/datatables/media/js/button/pdfmake.min.js"></script>
       <script src="../../src/plugins/datatables/media/js/button/vfs_fonts.js"></script>
+	  
+	  	<script src="D:\xampp\htdocs\pracha-erp-htmls\vendors\scripts"></script>
+
       <script>
          $('document').ready(function(){
          	$('.data-table').DataTable({
@@ -274,5 +337,157 @@
          	});
          });
       </script>
+	  
+	  <script type="text/javascript">
+$(document).ready(function() {
+    // Generate a simple captcha
+    function randomNumber(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) + min);
+    };
+    $('#captchaOperation').html([randomNumber(1, 100), '+', randomNumber(1, 200), '='].join(' '));
+
+    $('creatework').bootstrapValidator({
+//        live: 'disabled',
+        message: 'This value is not valid',
+        feedbackIcons: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        fields: {
+            firstName: {
+                group: '.col-lg-4',
+                validators: {
+                    notEmpty: {
+                        message: 'The first name is required and cannot be empty'
+                    }
+                }
+            },
+            lastName: {
+                group: '.col-lg-4',
+                validators: {
+                    notEmpty: {
+                        message: 'The last name is required and cannot be empty'
+                    }
+                }
+            },
+            username: {
+                message: 'The username is not valid',
+                validators: {
+                    notEmpty: {
+                        message: 'The username is required and cannot be empty'
+                    },
+                    stringLength: {
+                        min: 6,
+                        max: 30,
+                        message: 'The username must be more than 6 and less than 30 characters long'
+                    },
+                    regexp: {
+                        regexp: /^[a-zA-Z0-9_\.]+$/,
+                        message: 'The username can only consist of alphabetical, number, dot and underscore'
+                    },
+                    remote: {
+                        type: 'POST',
+                        url: 'remote.php',
+                        message: 'The username is not available'
+                    },
+                    different: {
+                        field: 'password,confirmPassword',
+                        message: 'The username and password cannot be the same as each other'
+                    }
+                }
+            },
+            email: {
+                validators: {
+                    emailAddress: {
+                        message: 'The input is not a valid email address'
+                    }
+                }
+            },
+            password: {
+                validators: {
+                    notEmpty: {
+                        message: 'The password is required and cannot be empty'
+                    },
+                    identical: {
+                        field: 'confirmPassword',
+                        message: 'The password and its confirm are not the same'
+                    },
+                    different: {
+                        field: 'username',
+                        message: 'The password cannot be the same as username'
+                    }
+                }
+            },
+            confirmPassword: {
+                validators: {
+                    notEmpty: {
+                        message: 'The confirm password is required and cannot be empty'
+                    },
+                    identical: {
+                        field: 'password',
+                        message: 'The password and its confirm are not the same'
+                    },
+                    different: {
+                        field: 'username',
+                        message: 'The password cannot be the same as username'
+                    }
+                }
+            },
+            birthday: {
+                validators: {
+                    date: {
+                        format: 'YYYY/MM/DD',
+                        message: 'The birthday is not valid'
+                    }
+                }
+            },
+            gender: {
+                validators: {
+                    notEmpty: {
+                        message: 'The gender is required'
+                    }
+                }
+            },
+            'languages[]': {
+                validators: {
+                    notEmpty: {
+                        message: 'Please specify at least one language you can speak'
+                    }
+                }
+            },
+            'programs[]': {
+                validators: {
+                    choice: {
+                        min: 2,
+                        max: 4,
+                        message: 'Please choose 2 - 4 programming languages you are good at'
+                    }
+                }
+            },
+            captcha: {
+                validators: {
+                    callback: {
+                        message: 'Wrong answer',
+                        callback: function(value, validator) {
+                            var items = $('#captchaOperation').html().split(' '), sum = parseInt(items[0]) + parseInt(items[2]);
+                            return value == sum;
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+    // Validate the form manually
+    $('#validateBtn').click(function() {
+        $('creatework').bootstrapValidator('validate');
+    });
+
+    $('#resetBtn').click(function() {
+        $('creatework').data('bootstrapValidator').resetForm(true);
+    });
+});
+</script>
    </body>
 </html>
