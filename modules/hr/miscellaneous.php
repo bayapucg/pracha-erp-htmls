@@ -29,7 +29,7 @@
                                 <div class="row">
 								<div class="col-md-12">
                                     <div class="html-editor pd-20 bg-white border-radius-4 box-shadow mb-30">
-										<textarea class="textarea_editor form-control border-radius-0" placeholder="Enter text ..."></textarea>
+										  <textarea name="editor1"></textarea>
 									</div>
 									</div>
                                 </div>
@@ -52,8 +52,6 @@
 	</div>
 	</div>
 	<?php include('script.php'); ?>
-	<script src="src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
-	<script src="src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>
 	<script>
     $("#example-basic").steps({
         headerTag: "h3",
@@ -62,6 +60,9 @@
         autoFocus: true
     });
 </script>
-	
+<script src="https://cdn.ckeditor.com/4.12.1/standard/ckeditor.js"></script>
+	<script>
+		CKEDITOR.replace( 'editor1' );
+    </script>
 </body>
 </html>

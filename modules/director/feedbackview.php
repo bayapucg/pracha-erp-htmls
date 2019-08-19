@@ -408,7 +408,7 @@ color: orange;
          });
       </script>
 	  
-	    <script src="../../src/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
+	<script src="../../src/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
 	<script src="../../src/plugins/datatables/media/js/dataTables.bootstrap4.js"></script>
 	<script src="../../src/plugins/datatables/media/js/dataTables.responsive.js"></script>
 	<script src="../../src/plugins/datatables/media/js/responsive.bootstrap4.js"></script>
@@ -420,7 +420,7 @@ color: orange;
 	<script src="../../src/plugins/datatables/media/js/button/buttons.flash.js"></script>
 	<script src="../../src/plugins/datatables/media/js/button/pdfmake.min.js"></script>
 	<script src="../../src/plugins/datatables/media/js/button/vfs_fonts.js"></script>
-	<script>
+    <script>
 		$('document').ready(function(){
 			$('.data-table').DataTable({
 				scrollCollapse: true,
@@ -432,7 +432,7 @@ color: orange;
 				}],
 				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
 				"language": {
-					"info": "_START_-_END of TOTAL_ entries",
+					"info": "_START_-_END_ of _TOTAL_ entries",
 					searchPlaceholder: "Search"
 				},
 			});
@@ -446,7 +446,7 @@ color: orange;
 				}],
 				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
 				"language": {
-					"info": "_START_-_END of TOTAL_ entries",
+					"info": "_START_-_END_ of _TOTAL_ entries",
 					searchPlaceholder: "Search"
 				},
 				dom: 'Bfrtip',

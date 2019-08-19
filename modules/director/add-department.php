@@ -33,24 +33,27 @@
                                           <h5 class="text-blue">Add Department</h5>
                                        </div>
                                     </div>
-                                    <form>
-                                       <div class="row">
-                                          <div class="col-md-6 col-sm-12">
-                                             <div class="form-group">
-                                                <label>Department</label>
-                                                <input type="text" class="form-control" placeholder="Enter Department">
-                                             </div>
-                                          </div>
-                                          <div class="form-group col-md-6">
-										    <label>&nbsp;</label>
-                                             <div class="col-lg-9 col-lg-offset-3">
-                                                <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add</button>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </form>
-                                 </div>
-                              </div>
+									<div class="row">
+										<input type="hidden" class="form-control" name="count" value="1" />
+											<div class="control-group" id="fields">
+												<label class="control-label" for="field1">Add Department</label>
+													<div class="controls" id="profs"> 
+														<form class="input-append">
+															<div id="field" class="row">
+																<div class="col-md-10">
+																	<input autocomplete="off" class="input form-control" id="field1" name="prof1" type="text" placeholder="Enter Department" data-items="8"/>
+																</div>
+																<div class="col-md-2">
+																	<button id="b1" class="btn btn-primary add-more" type="button">Add</button>
+																</div>
+															</div>
+														</form>
+														<br>
+													</div>
+											</div>
+									</div>
+								</div>
+							</div>
                               <div class="tab-pane fade" id="departmentlist" role="tabpanel">
                                  <div class="pd-20">
                                     <!-- data table  Start -->
@@ -146,55 +149,87 @@
       <script src="../../src/plugins/datatables/media/js/button/buttons.flash.js"></script>
       <script src="../../src/plugins/datatables/media/js/button/pdfmake.min.js"></script>
       <script src="../../src/plugins/datatables/media/js/button/vfs_fonts.js"></script>
-      <script>
-         $('document').ready(function(){
-         	$('.data-table').DataTable({
-         		scrollCollapse: true,
-         		autoWidth: false,
-         		responsive: true,
-         		columnDefs: [{
-         			targets: "datatable-nosort",
-         			orderable: false,
-         		}],
-         		"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
-         		"language": {
-         			"info": "_START_-_END of TOTAL_ entries",
-         			searchPlaceholder: "Search"
-         		},
-         	});
-         	$('.data-table-export').DataTable({
-         		scrollCollapse: true,
-         		autoWidth: false,
-         		responsive: true,
-         		columnDefs: [{
-         			targets: "datatable-nosort",
-         			orderable: false,
-         		}],
-         		"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
-         		"language": {
-         			"info": "_START_-_END of TOTAL_ entries",
-         			searchPlaceholder: "Search"
-         		},
-         		dom: 'Bfrtip',
-         		buttons: [
-         		'copy', 'csv', 'pdf', 'print'
-         		]
-         	});
-         	var table = $('.select-row').DataTable();
-         	$('.select-row tbody').on('click', 'tr', function () {
-         		if ($(this).hasClass('selected')) {
-         			$(this).removeClass('selected');
-         		}
-         		else {
-         			table.$('tr.selected').removeClass('selected');
-         			$(this).addClass('selected');
-         		}
-         	});
-         	var multipletable = $('.multiple-select-row').DataTable();
-         	$('.multiple-select-row tbody').on('click', 'tr', function () {
-         		$(this).toggleClass('selected');
-         	});
-         });
-      </script>
+    <script>
+		$('document').ready(function(){
+			$('.data-table').DataTable({
+				scrollCollapse: true,
+				autoWidth: false,
+				responsive: true,
+				columnDefs: [{
+					targets: "datatable-nosort",
+					orderable: false,
+				}],
+				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
+				"language": {
+					"info": "_START_-_END_ of _TOTAL_ entries",
+					searchPlaceholder: "Search"
+				},
+			});
+			$('.data-table-export').DataTable({
+				scrollCollapse: true,
+				autoWidth: false,
+				responsive: true,
+				columnDefs: [{
+					targets: "datatable-nosort",
+					orderable: false,
+				}],
+				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
+				"language": {
+					"info": "_START_-_END_ of _TOTAL_ entries",
+					searchPlaceholder: "Search"
+				},
+				dom: 'Bfrtip',
+				buttons: [
+				'copy', 'csv', 'pdf', 'print'
+				]
+			});
+			var table = $('.select-row').DataTable();
+			$('.select-row tbody').on('click', 'tr', function () {
+				if ($(this).hasClass('selected')) {
+					$(this).removeClass('selected');
+				}
+				else {
+					table.$('tr.selected').removeClass('selected');
+					$(this).addClass('selected');
+				}
+			});
+			var multipletable = $('.multiple-select-row').DataTable();
+			$('.multiple-select-row tbody').on('click', 'tr', function () {
+				$(this).toggleClass('selected');
+			});
+		});
+	</script>
+
+		<script>
+	$(document).ready(function(){
+    var next = 1;
+    $(".add-more").click(function(e){
+        e.preventDefault();
+        var addto = "#field" + next;
+        var addRemove = "#field" + (next);
+        next = next + 1;
+        var newIn = '<input autocomplete="off" class="input form-control" id="field' + next + '" name="field' + next + '" type="text" placeholder="Enter Department">';
+        var newInput = $(newIn);
+        var removeBtn = '<button id="remove' + (next - 1) + '" class="btn btn-danger remove-me" >Remove</button></div><div id="field">';
+        var removeButton = $(removeBtn);
+        $(addto).after(newInput);
+        $(addRemove).after(removeButton);
+        $("#field" + next).attr('data-source',$(addto).attr('data-source'));
+        $("#count").val(next);  
+        
+            $('.remove-me').click(function(e){
+                e.preventDefault();
+                var fieldNum = this.id.charAt(this.id.length-1);
+                var fieldID = "#field" + fieldNum;
+                $(this).remove();
+                $(fieldID).remove();
+            });
+    });
+    
+
+    
+});
+	</script>
+	
    </body>
 </html>
