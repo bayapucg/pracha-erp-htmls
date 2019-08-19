@@ -20,7 +20,7 @@
 					</li>
 					<li class="dropdown">
 						<a href="leave.php" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Leaves & Late permissions Requests</span>
+							<span class="fa fa-home"></span><span class="mtext">Leaves & Time-off</span>
 						</a>
 												 
 					</li>
