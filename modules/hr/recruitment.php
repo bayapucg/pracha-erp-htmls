@@ -92,37 +92,79 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label>Adhar Card</label>
-                                            <input type="text" class="form-control" name="" placeholder="">
+                                            <input type="text" class="form-control" name="" placeholder="Enter Adhar card No">
                                         </div>
                                     </div>
 									<div class="col-md-6">
                                         <div class="form-group">
+                                            <label>Upload</label>
+                                            <input type="file" class="form-control" name="" placeholder="Enter Adhar card No">
+                                        </div>
+                                    </div>
+									<div class="col-md-6">
+                                       <div class="form-group">
                                             <label>Pan Card</label>
-                                            <input type="text" class="form-control" name="" placeholder="">
+                                            <input type="text" class="form-control" name="" placeholder="Enter Pan Card no">
                                         </div>
                                     </div>
 									<div class="col-md-6">
                                         <div class="form-group">
+                                            <label>Upload</label>
+                                            <input type="file" class="form-control" name="" placeholder="Enter Adhar card No">
+                                        </div>
+                                    </div>
+									<div class="col-md-6">
+                                         <div class="form-group">
                                             <label>Passport</label>
-                                            <input type="text" class="form-control" name="" placeholder="">
+                                            <input type="text" class="form-control" name="" placeholder="Enter Passport no">
                                         </div>
                                     </div>
 									<div class="col-md-6">
                                         <div class="form-group">
-                                            <label>Address Proof</label>
-                                            <input type="text" class="form-control" name="" placeholder="">
+                                            <label>Upload</label>
+                                            <input type="file" class="form-control" name="" placeholder="Enter Adhar card No">
+                                        </div>
+                                    </div>
+									<div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Address Proof </label>
+                                            <select class="form-control">
+												<option>Select</option>
+												<option>Adhar</option>
+												<option>Voter</option>
+												<option>Electricity Bill</option>
+												
+											</select>
+                                        </div>
+                                    </div>
+									<div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Upload</label>
+                                            <input type="file" class="form-control" name="" placeholder="Enter Adhar card No">
                                         </div>
                                     </div>
 									<div class="col-md-6">
                                         <div class="form-group">
                                             <label>Rental Agreement</label>
-                                            <input type="text" class="form-control" name="" placeholder="">
+                                            <input type="text" class="form-control" name="" placeholder="Enter Rental Agreement details">
+                                        </div>
+                                    </div>
+									<div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Upload</label>
+                                            <input type="file" class="form-control" name="" placeholder="Enter Adhar card No">
                                         </div>
                                     </div>
 									<div class="col-md-6">
                                         <div class="form-group">
                                             <label>Electric Bill</label>
-                                            <input type="text" class="form-control" name="" placeholder="">
+                                            <input type="text" class="form-control" name="" placeholder="Enter Electric Bill Details">
+                                        </div>
+                                    </div>
+									<div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Upload</label>
+                                            <input type="file" class="form-control" name="" placeholder="Enter Adhar card No">
                                         </div>
                                     </div>
 									<div class="col-md-6">

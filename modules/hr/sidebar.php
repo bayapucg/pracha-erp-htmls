@@ -76,9 +76,13 @@
 						</a>
 						<ul class="submenu">
 							<li><a href="upload-pdf-document.php">Upload pdf Document</a></li>
-							<li><a href="Preface.php">Preface</a></li>
-							<li><a href="download-employee-payslip.php">Download Employee Pay slips</a></li>
-							<li><a href="payroll.php">Payroll</a></li>
+							<li><a href="preface.php">Preface</a></li>
+							<li><a href="general-employment-policies.php">General Employment Policies and Practices</a></li>
+							<li><a href="anti-discrimination.php">Anti-Discrimination & Harassment</a></li>
+							<li><a href="compensation.php">Compensation</a></li>
+							<li><a href="benefits.php">Benefits</a></li>
+							<li><a href="holidays-vacation-leaves.php">Holidays, Vacation and Other Leave</a></li>
+							<li><a href="miscellaneous.php">Miscellaneous</a></li>
 						</ul>
 					</li>
 

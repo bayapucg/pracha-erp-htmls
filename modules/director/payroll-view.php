@@ -41,8 +41,7 @@
                      </div>
                   </div>
                </form>
-            </div>
-            <div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+            
                <div class="pd-20">
                   <!-- basic table  Start -->
                   <div class="clearfix mb-20">
@@ -50,7 +49,8 @@
                         <h5 class="text-blue">Payroll Details</h5>
                      </div>
                   </div>
-                  <table class="table data-table-export">
+				  <div class="row table-responsive">
+                  <table class="table">
                      <thead>
                         <tr>
                            <th scope="col">#</th>
@@ -59,7 +59,11 @@
                            <th scope="col">Ifsc code</th>
                            <th scope="col">Bank Name</th>
                            <th scope="col">Phone Number</th>
-                           <th scope="col">Salary</th>
+                           <th scope="col">Basic Pay</th>
+                           <th scope="col">Allowances</th>
+                           <th scope="col">Deductions</th>
+                           <th scope="col">Gross Salary</th>
+                           <th scope="col">Net Salary</th>
                         </tr>
                      </thead>
                      <tbody>
@@ -70,7 +74,11 @@
                            <td>KKBK0007889</td>
                            <td>Kotak Mahindra bank</td>
                            <td>9874522212</td>
-                           <td>10000</td>
+                           <td>15000</td>
+                           <td>6000</td>
+                           <td>1000</td>
+                           <td>21000</td>
+                           <td>20000</td>
                         </tr>
                         <tr>
                            <th scope="row">2</th>
@@ -79,7 +87,11 @@
                            <td>KKBK0007889</td>
                            <td>Kotak Mahindra bank</td>
                            <td>9874522212</td>
-                           <td>10000</td>
+                           <td>15000</td>
+                           <td>6000</td>
+                           <td>1000</td>
+                           <td>21000</td>
+                           <td>20000</td>
                         </tr>
                         <tr>
                            <th scope="row">3</th>
@@ -88,12 +100,17 @@
                            <td>KKBK0007889</td>
                            <td>Kotak Mahindra bank</td>
                            <td>9874522212</td>
-                           <td>10000</td>
+                           <td>15000</td>
+                           <td>6000</td>
+                           <td>1000</td>
+                           <td>21000</td>
+                           <td>20000</td>
                         </tr>
                      </tbody>
                   </table>
+				  </div>
+				  </div>
                   <!-- basic table  End -->
-               </div>
             </div>
             <?php include('footer.php'); ?>
          </div>

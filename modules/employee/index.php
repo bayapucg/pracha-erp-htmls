@@ -245,10 +245,10 @@
 				</div>
 				</div>
 				<div class="row">
-				<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
+				<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
 						<div class="pd-20 bg-white border-radius-4 box-shadow">
 							<h6 class="mb-20">Upcoming Birthdays</h6>
-							<ul class="list-group font-12">
+							<ul class="list-group font-14">
 								<li class="list-group-item d-flex justify-content-between align-items-center">
 									Cras justo odio
 									<span class="badge badge-primary badge-pill">Today</span>
@@ -275,10 +275,10 @@
 					</div>
 					
 					
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-30 ">
+						<div class="col-lg-4 col-md-6 col-sm-12 mb-30 ">
 						<div class="pd-20 bg-white border-radius-4 box-shadow">
 							<h6 class="mb-20">Upcoming Events</h6>
-							<ul class="list-group font-12">
+							<ul class="list-group font-14">
 								<li class="list-group-item d-flex justify-content-between align-items-center">
 									Cras justo odio
 									<span class="badge badge-primary badge-pill">14</span>
@@ -303,13 +303,43 @@
 							</ul>
 						</div>
 					</div>
-						<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
+						<div class="col-lg-4 col-md-6 col-sm-12 mb-30">
+						<div class="pd-20 bg-white border-radius-4 box-shadow">
+							<h6 class="mb-20">Upcoming Holidays</h6>
+							<ul class="list-group font-14">
+								<li class="list-group-item d-flex justify-content-between align-items-center">
+									Cras justo odio
+									<span class="badge badge-primary badge-pill">14</span>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center">
+									Dapibus ac facilisis in
+									<span class="badge badge-primary badge-pill">2</span>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center">
+									Morbi leo risus
+									<span class="badge badge-primary badge-pill">1</span>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center">
+									Dapibus ac facilisis in
+									<span class="badge badge-primary badge-pill">5</span>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center">
+									Morbi leo risus
+									<span class="badge badge-primary badge-pill">7</span>
+								</li>
+								<a href="#" class="card-link text-primary mt-2">View more</a>
+							</ul>
+						</div>
+					</div>
+					</div>
+					<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 mb-30">
 						<div class="pd-20 bg-white border-radius-4 box-shadow">
 							<h6 class="mb-20">Todays Absentees</h6>
-							<ul class="list-group font-12">
-								<li class="list-group-item d-flex justify-content-between align-items-center">
-									Cras justo odio
-									<span class="badge badge-primary badge-pill">14</span>
+							<ul class="list-group font-14">
+								<li class="list-group-item d-flex justify-content-between align-items-center font-14">
+									Anupama
+									<span class="badge badge-primary badge-pill">Tester</span>
 								</li>
 								<li class="list-group-item d-flex justify-content-between align-items-center">
 									Dapibus ac facilisis in
@@ -331,11 +361,11 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12 mb-30">
+					<div class="col-lg-6 col-md-6 col-sm-12 mb-30">
 						<div class="pd-20 bg-white border-radius-4 box-shadow">
 							<h6 class="mb-20">New Hires</h6>
-							<ul class="list-group font-12">
-								<li class="list-group-item d-flex justify-content-between align-items-center font-12">
+							<ul class="list-group font-14">
+								<li class="list-group-item d-flex justify-content-between align-items-center font-14">
 									Cras justo odio
 									<span class="badge badge-primary badge-pill">14</span>
 								</li>
@@ -360,6 +390,7 @@
 						</div>
 					</div>
 					</div>
+					
 			
 			<?php include('footer.php'); ?>
 		</div>

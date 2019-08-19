@@ -167,7 +167,7 @@
                                             <select class="form-control">
 												<option>Select</option>
 												<option>Adhar</option>
-												<option>Votar</option>
+												<option>Voter</option>
 												<option>Electricity Bill</option>
 												
 											</select>

@@ -215,46 +215,134 @@
                                     <!-- data table  Start -->
                                     <div class="clearfix mb-20">
                                        <div class="pull-left">
-                                          <h5 class="text-blue">My Leaves</h5>
+                                          <h5 class="text-blue">My Remaining Leaves</h5>
                                        </div>
                                     </div>
-                                    <table class="table table-striped ">
-							<thead>
-								<tr>
-									
-									<th>Sick </th>
-									<th>Casual </th>
-									<th>Paid </th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									
-									<td>8(12)</td>
-									<td>6(6)</td>
-									<td>10(11)</td>
-								
-									
-								</tr>
-								<tr>
-									
-									<td>8(12)</td>
-									<td>6(6)</td>
-									<td>10(11)</td>
-								
-									
-								</tr>
-								</tbody>
-								</table>
+					
+					<table class="table">
+						<thead>
+							<tr>
+								<th scope="col">Leave Types</th>
+								<th scope="col">Carry Forward</th>
+								<th scope="col">Total</th>
+								<th scope="col">leave Taken</th>
+								<th scope="col">Leave Balance</th>
+							</tr>
+						</thead>
+						<tbody>
+								<tr>							
+								<th scope="row">Sick Leaves</th>
+								<td>24(3 years)</td>
+								<td>24</td>
+								<td>1</td>
+								<td>7(per one year)</td>
+							</tr>
+							<tr>
+								<th scope="row">Casual Leaves</th>
+								<td>No carry forward</td>
+								<td>7</td>
+								<td>5</td>
+								<td>2(per one year)</td>
+							</tr>
+							<tr>
+								<th scope="row">Paid Leaves</th>
+								<td>42( 2 years)</td>
+								<td>2</td>
+								<td>2</td>
+								<td>21(per one year)</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="collapse collapse-box" id="basic-table" >
+						<div class="code-box">
+							<div class="clearfix">
+								<a href="javascript:;" class="btn btn-primary btn-sm code-copy pull-left"  data-clipboard-target="#basic-table-code"><i class="fa fa-clipboard"></i> Copy Code</a>
+								<a href="#basic-table" class="btn btn-primary btn-sm pull-right" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-eye-slash"></i> Hide Code</a>
+							</div>
+							<pre><code class="xml copy-pre" id="basic-table-code">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+    </tr>
+  </tbody>
+</table>
+							</code></pre>
+						</div>
+					</div>
+					
+					
+					<div class="clearfix mb-20 mt-5">
+						<div class="pull-left">
+							<h4 class="text-blue">Leaves List</h4>
+							
+						</div>
+					
+					</div>
+					<table class="table">
+						<thead>
+							<tr>
+								<th scope="col">Name</th>
+								<th scope="col">From Date</th>
+								<th scope="col">To Date</th>
+								<th scope="col">Leave Type</th>
+								<th scope="col">Reason</th>
+								<th scope="col">Status</th>								
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">Anupama</th>
+								<td>10-07-2019</td>
+								<td>June</td>
+								<td>June</td>
+								<td>June</td>
+							    <td><span class="badge badge-warning">Pending</span></td>
+
+							</tr>
+							<tr>
+								<th scope="row">Anupama</th>
+								<td>10-07-2019</td>
+								<td>May</td>
+								<td>May</td>
+								<td>May</td>
+								<td><span class="badge badge-warning">pending</span></td>
+							</tr>
+							<tr>
+								<th scope="row">Anupama</th>
+								<td>10-07-2019</td>
+								<td>May</td>
+								<td>May</td>
+								<td>May</td>
+								<td><span class="badge badge-success">Approved</span></td>
+							</tr>
+						</tbody>
+					</table>
+					
+				</div>
+				
                                     <!-- data table  End -->
-                                 </div>
-                              </div>
+                                 </div>							 
+                              </div>							  
                            </div>
                         </div>
                      </div>
+					 
+					 
+					 
+					 
+					 
                   </div>
                </div>
             </div>
+			
+			
+			
             <?php include('footer.php'); ?>
          </div>
       </div>

@@ -22,8 +22,8 @@ color: orange;
                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-30">
                   <div class="bg-white pd-20 box-shadow border-radius-5 height-100-p">
 				   <div class="row">
-                     <h4 class="weight-500 mb-20 text-primary">
-                     East Region Team
+                     <h4 class="weight-500 mb-20 ml-3 text-primary">
+                      East Region Team
                      <h4>
 					
 					 <div class="col-md-12 col-sm-12">
@@ -76,7 +76,8 @@ color: orange;
 					</form>
 					</div>
 					</div>
-               <table class="table data-table-export">
+			<div class="row table-responsive">
+               <table class="table data-table">
                   <thead>
                      <tr>
                         <th scope="col">#</th>
@@ -88,42 +89,26 @@ color: orange;
                   <tbody>
                      <tr>
                         <th scope="row">1</th>
-                        <td>Attended client meetings</td>
-                        <td>4</td>
-                        <td><span class="badge badge-primary">View Details</span></td>
+                        <td>Supportive</td>
+                        <td>xxx</td>
+                        <td><span class="badge badge-primary">8</span></td>
                      </tr>
                      <tr>
                         <th scope="row">2</th>
-                        <td>Scheduled client meetings </td>
-                        <td>5</td>
-                        <td><span class="badge badge-primary">View Details</span></td>
+                        <td>Supportive </td>
+                        <td>xxx</td>
+                        <td><span class="badge badge-primary">8</span></td>
                      </tr>
+                    
                      <tr>
                         <th scope="row">3</th>
-                        <td>On boarded projects</td>
-                        <td>2</td>
-                        <td><span class="badge badge-primary">View Details</span></td>
-                     </tr>
-                     <tr>
-                        <th scope="row">4</th>
-                        <td>Pipe line of the projects </td>
-                        <td>7</td>
-                        <td><span class="badge badge-primary">View Details</span></td>
-                     </tr>
-                     <tr>
-                        <th scope="row">5</th>
-                        <td>Revenue generated till date </td>
-                        <td>1.2 Lakhs</td>
-                        <td><span class="badge badge-primary">View Details</span></td>
-                     </tr>
-                     <tr>
-                        <th scope="row">5</th>
-                        <td>Expected revenue in the next 30 days </td>
-                        <td>3 Lakhs</td>
-                        <td><span class="badge badge-primary">View Details</span></td>
+                        <td>Supportive </td>
+                        <td>xxx</td>
+                        <td><span class="badge badge-primary">8</span></td>
                      </tr>
                   </tbody>
                </table>
+			   </div>
             </div>
             <!-- basic table  End -->
             <?php include('footer.php'); ?>
@@ -423,7 +408,7 @@ color: orange;
          });
       </script>
 	  
-	    <script src="../../src/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
+	<script src="../../src/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
 	<script src="../../src/plugins/datatables/media/js/dataTables.bootstrap4.js"></script>
 	<script src="../../src/plugins/datatables/media/js/dataTables.responsive.js"></script>
 	<script src="../../src/plugins/datatables/media/js/responsive.bootstrap4.js"></script>
@@ -435,7 +420,7 @@ color: orange;
 	<script src="../../src/plugins/datatables/media/js/button/buttons.flash.js"></script>
 	<script src="../../src/plugins/datatables/media/js/button/pdfmake.min.js"></script>
 	<script src="../../src/plugins/datatables/media/js/button/vfs_fonts.js"></script>
-	<script>
+    <script>
 		$('document').ready(function(){
 			$('.data-table').DataTable({
 				scrollCollapse: true,
@@ -447,7 +432,7 @@ color: orange;
 				}],
 				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
 				"language": {
-					"info": "_START_-_END of TOTAL_ entries",
+					"info": "_START_-_END_ of _TOTAL_ entries",
 					searchPlaceholder: "Search"
 				},
 			});
@@ -461,7 +446,7 @@ color: orange;
 				}],
 				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
 				"language": {
-					"info": "_START_-_END of TOTAL_ entries",
+					"info": "_START_-_END_ of _TOTAL_ entries",
 					searchPlaceholder: "Search"
 				},
 				dom: 'Bfrtip',

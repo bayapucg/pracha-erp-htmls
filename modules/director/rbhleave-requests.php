@@ -12,107 +12,92 @@
 	<div class="main-container">
 		<div class="pd-ltr-20 customscroll customscroll-10-p height-100-p xs-pd-20-10">
 			<div class="min-height-200px">
-				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
+				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30 pl-5">
 					<div class="clearfix mb-20">
 						<div class="pull-left">
 							<h4 class="text-blue">RBH Leave Requests</h4>
 						</div>
 					</div>
-					<table class="table data-table-export">
-						<thead>
-							<tr>
-								<th scope="col">#</th>
-								<th scope="col">Region</th>
-								<th scope="col">Name</th>
-								<th scope="col">Leave Start Date</th>
-								<th scope="col">Leave End Date</th>
-								<th scope="col">Reason of Leave</th>
-								<th scope="col">Action</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<th scope="row">1</th>
-								<td>South</td>
-								<td>Naga Prakash</td>
-								<td>28-07-2019</td>
-								<td>29-07-2019</td>
-								<td>Sick</td>
-								<td>
-                                    <div class="dropdown">
-										<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                         <i class="fa fa-ellipsis-h"></i>
-                                        </a>
-										<div class="dropdown-menu dropdown-menu-right">
-											<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> Accept</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i>Reject</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-trash"></i>Comment</a>
-										</div>
-                                    </div>
-                                </td>
-							</tr>
-							<tr>
-								<th scope="row">2</th>
-								<td>South</td>
-								<td>Naga Prakash</td>
-								<td>28-07-2019</td>
-								<td>29-07-2019</td>
-								<td>Sick</td>
-								<td>
-                                    <div class="dropdown">
-										<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                         <i class="fa fa-ellipsis-h"></i>
-                                        </a>
-										<div class="dropdown-menu dropdown-menu-right">
-											<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> Accept</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i>Reject</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-trash"></i>Comment</a>
-										</div>
-                                    </div>
-                                </td>
-							</tr>
-							<tr>
-								<th scope="row">3</th>
-								<td>South</td>
-								<td>Naga Prakash</td>
-								<td>28-07-2019</td>
-								<td>29-07-2019</td>
-								<td>Sick</td>
-								<td>
-                                    <div class="dropdown">
-										<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                         <i class="fa fa-ellipsis-h"></i>
-                                        </a>
-										<div class="dropdown-menu dropdown-menu-right">
-											<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> Accept</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i>Reject</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-trash"></i>Comment</a>
-										</div>
-                                    </div>
-                                </td>
-							</tr>
-							<tr>
-								<th scope="row">4</th>
-								<td>South</td>
-								<td>Naga Prakash</td>
-								<td>28-07-2019</td>
-								<td>29-07-2019</td>
-								<td>Sick</td>
-								<td>
-                                    <div class="dropdown">
-										<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-                                         <i class="fa fa-ellipsis-h"></i>
-                                        </a>
-										<div class="dropdown-menu dropdown-menu-right">
-											<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> Accept</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i>Reject</a>
-											<a class="dropdown-item" href="#"><i class="fa fa-trash"></i>Comment</a>
-										</div>
-                                    </div>
-                                </td>
-							</tr>
-						</tbody>
-					</table>
+					
+							<section>
+                                <div class="row  table-responsive">
+                                       <table class="table table-bordered">
+										<thead>
+											<tr>
+												<th>Region</th>
+												<th>Employee ID</th>
+												<th>Name</th>
+												<th>Department</th>
+												<th>Leave Type </th>
+												<th>Start Date & End Date </th>
+												<th>Action </th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>South</td>
+												<td>Pt0001</td>
+												<td>Naga prakash</td>
+												<td>RBH</td>
+												<td>Casual</td>
+												<td>30-07-2019 & 31-07-2019</td>
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+												</td>
+											</tr>
+											<tr>
+												<td>Central</td>
+												<td>Pt0002</td>
+												<td>Naga prakash</td>
+												<td>RBH</td>
+												<td>Comp off</td>
+												<td>1-08-2019 & 04-08-2019</td>
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+												</td>
+											</tr>
+											<tr>
+												<td>North</td>
+												<td>Pt0006</td>
+												<td>Naga prakash</td>
+												<td>RBH</td>
+												<td>Earned</td>
+												<td>02-08-2019 & 02-08-2019</td>
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+												</td>
+											</tr>
+											<tr>
+												<td>East</td>
+												<td>Pt0009</td>
+												<td>Naga prakash</td>
+												<td>RBH</td>
+												<td>Sick</td>
+												<td>30-07-2019 & 30-07-2019</td>
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+												</td>
+											</tr>
+											<tr>
+												<td>west</td>
+												<td>Pt0004</td>
+												<td>Naga prakash</td>
+												<td>RBH</td>
+												<td>Casual</td>
+												<td>30-07-2019 & 31-07-2019</td>
+												<td>
+													<button class="btn btn-sm btn-success">Accept</button>
+													<button class="btn btn-sm btn-danger">Reject</button>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+                                </div>
+                            </section>
 				</div>
 				
 			</div>

@@ -66,6 +66,12 @@
                                                 <label>Experience</label>
                                                 <input type="number" class="form-control" placeholder="Enter Experience">
                                              </div>
+                                          </div> 
+										  <div class="col-md-6 col-sm-12">
+                                             <div class="form-group">
+                                                <label>Duration of Requirement</label>
+                                                <input type="text" class="form-control" placeholder="Enter Duration of Requirement">
+                                             </div>
                                           </div>
                                           <div class="form-group col-md-12">
                                              <div class="col-lg-9 col-lg-offset-3">
@@ -84,14 +90,15 @@
                                           <h5 class="text-blue">Status of Requirement</h5>
                                        </div>
                                     </div>
-                                    <div class="row">
-                                       <table class="table data-table-export">
+                                    <div class="row table-responsive">
+                                       <table class="table data-table">
                                           <thead>
                                              <tr>
                                                 <th scope="col">#</th>
                                                 <th scope="col">Department</th>
                                                 <th scope="col">Designation</th>
                                                 <th scope="col">Experience</th>
+                                                <th scope="col">Duration of Requirement</th>
                                                 <th scope="col">Staus</th>
                                              </tr>
                                           </thead>
@@ -101,6 +108,7 @@
                                                 <td>IT</td>
                                                 <td>Quality Assurance</td>
                                                 <td>0-1 year</td>
+                                                <td>20 days</td>
                                                 <td>Pending</td>
                                              </tr>
                                              <tr>
@@ -108,6 +116,7 @@
                                                 <td>Sales</td>
                                                 <td>BDE</td>
                                                 <td>4</td>
+                                                <td>10 days</td>
                                                 <td>Accepted</td>
                                              </tr>
                                              <tr>
@@ -115,6 +124,7 @@
                                                 <td>IT</td>
                                                 <td>Developer</td>
                                                 <td>5</td>
+                                                <td>15 days</td>
                                                 <td>Pending</td>
                                              </tr>
                                           </tbody>
@@ -149,55 +159,55 @@
       <script src="../../src/plugins/datatables/media/js/button/buttons.flash.js"></script>
       <script src="../../src/plugins/datatables/media/js/button/pdfmake.min.js"></script>
       <script src="../../src/plugins/datatables/media/js/button/vfs_fonts.js"></script>
-      <script>
-         $('document').ready(function(){
-         	$('.data-table').DataTable({
-         		scrollCollapse: true,
-         		autoWidth: false,
-         		responsive: true,
-         		columnDefs: [{
-         			targets: "datatable-nosort",
-         			orderable: false,
-         		}],
-         		"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
-         		"language": {
-         			"info": "_START_-_END of TOTAL_ entries",
-         			searchPlaceholder: "Search"
-         		},
-         	});
-         	$('.data-table-export').DataTable({
-         		scrollCollapse: true,
-         		autoWidth: false,
-         		responsive: true,
-         		columnDefs: [{
-         			targets: "datatable-nosort",
-         			orderable: false,
-         		}],
-         		"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
-         		"language": {
-         			"info": "_START_-_END of TOTAL_ entries",
-         			searchPlaceholder: "Search"
-         		},
-         		dom: 'Bfrtip',
-         		buttons: [
-         		'copy', 'csv', 'pdf', 'print'
-         		]
-         	});
-         	var table = $('.select-row').DataTable();
-         	$('.select-row tbody').on('click', 'tr', function () {
-         		if ($(this).hasClass('selected')) {
-         			$(this).removeClass('selected');
-         		}
-         		else {
-         			table.$('tr.selected').removeClass('selected');
-         			$(this).addClass('selected');
-         		}
-         	});
-         	var multipletable = $('.multiple-select-row').DataTable();
-         	$('.multiple-select-row tbody').on('click', 'tr', function () {
-         		$(this).toggleClass('selected');
-         	});
-         });
-      </script>
+          <script>
+		$('document').ready(function(){
+			$('.data-table').DataTable({
+				scrollCollapse: true,
+				autoWidth: false,
+				responsive: true,
+				columnDefs: [{
+					targets: "datatable-nosort",
+					orderable: false,
+				}],
+				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
+				"language": {
+					"info": "_START_-_END_ of _TOTAL_ entries",
+					searchPlaceholder: "Search"
+				},
+			});
+			$('.data-table-export').DataTable({
+				scrollCollapse: true,
+				autoWidth: false,
+				responsive: true,
+				columnDefs: [{
+					targets: "datatable-nosort",
+					orderable: false,
+				}],
+				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
+				"language": {
+					"info": "_START_-_END_ of _TOTAL_ entries",
+					searchPlaceholder: "Search"
+				},
+				dom: 'Bfrtip',
+				buttons: [
+				'copy', 'csv', 'pdf', 'print'
+				]
+			});
+			var table = $('.select-row').DataTable();
+			$('.select-row tbody').on('click', 'tr', function () {
+				if ($(this).hasClass('selected')) {
+					$(this).removeClass('selected');
+				}
+				else {
+					table.$('tr.selected').removeClass('selected');
+					$(this).addClass('selected');
+				}
+			});
+			var multipletable = $('.multiple-select-row').DataTable();
+			$('.multiple-select-row tbody').on('click', 'tr', function () {
+				$(this).toggleClass('selected');
+			});
+		});
+	</script>
    </body>
 </html>

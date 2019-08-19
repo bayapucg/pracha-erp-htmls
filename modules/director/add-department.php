@@ -4,7 +4,7 @@
       <?php include('head.php'); ?>
       <link rel="stylesheet" type="text/css" href="../../src/plugins/datatables/media/css/jquery.dataTables.css">
       <link rel="stylesheet" type="text/css" href="../../src/plugins/datatables/media/css/dataTables.bootstrap4.css">
-      <link rel="stylesheet" type="text/css" href="../src/plugins/datatables/media/css/responsive.dataTables.css">
+      <link rel="stylesheet" type="text/css" href="../../src/plugins/datatables/media/css/responsive.dataTables.css">
    </head>
    <body>
       <?php include('header.php'); ?>
@@ -33,23 +33,27 @@
                                           <h5 class="text-blue">Add Department</h5>
                                        </div>
                                     </div>
-                                    <form>
-                                       <div class="row">
-                                          <div class="col-md-6 col-sm-12">
-                                             <div class="form-group">
-                                                <label>Department</label>
-                                                <input type="text" class="form-control" placeholder="Enter Department">
-                                             </div>
-                                          </div>
-                                          <div class="form-group col-md-12">
-                                             <div class="col-lg-9 col-lg-offset-3">
-                                                <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add</button>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </form>
-                                 </div>
-                              </div>
+									<div class="row">
+										<input type="hidden" class="form-control" name="count" value="1" />
+											<div class="control-group" id="fields">
+												<label class="control-label" for="field1">Add Department</label>
+													<div class="controls" id="profs"> 
+														<form class="input-append">
+															<div id="field" class="row">
+																<div class="col-md-10">
+																	<input autocomplete="off" class="input form-control" id="field1" name="prof1" type="text" placeholder="Enter Department" data-items="8"/>
+																</div>
+																<div class="col-md-2">
+																	<button id="b1" class="btn btn-primary add-more" type="button">Add</button>
+																</div>
+															</div>
+														</form>
+														<br>
+													</div>
+											</div>
+									</div>
+								</div>
+							</div>
                               <div class="tab-pane fade" id="departmentlist" role="tabpanel">
                                  <div class="pd-20">
                                     <!-- data table  Start -->
@@ -58,72 +62,67 @@
                                           <h5 class="text-blue">Department List</h5>
                                        </div>
                                     </div>
-									
-									
-					<div class="row table-responsive">
-						<table class="table data-table">
-							<thead>
-								<tr>
-									<th class="table-plus datatable-nosort">#</th>
-									<th>Department</th>
-									<th class="datatable-nosort">Action</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td class="table-plus">1</td>
-									<td>IT</td>
-									<td>
-										<div class="dropdown">
-											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-												<i class="fa fa-ellipsis-h"></i>
-											</a>
-											<div class="dropdown-menu dropdown-menu-right">
-												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
-												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
-												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
-											</div>
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<td class="table-plus">2</td>
-									<td>Sales</td>
-									<td>
-										<div class="dropdown">
-											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-												<i class="fa fa-ellipsis-h"></i>
-											</a>
-											<div class="dropdown-menu dropdown-menu-right">
-												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
-												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
-												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
-											</div>
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<td class="table-plus">3</td>
-									<td>HR</td>
-									<td>
-										<div class="dropdown">
-											<a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-												<i class="fa fa-ellipsis-h"></i>
-											</a>
-											<div class="dropdown-menu dropdown-menu-right">
-												<a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
-												<a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
-												<a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
-											</div>
-										</div>
-									</td>
-								</tr>
-							
-								
-							</tbody>
-						</table>
-					</div>
-									
+									<div class="row">
+                                    <table class="table data-table">
+                                       <thead>
+                                          <tr>
+                                             <th scope="col">#</th>
+                                             <th scope="col">Department</th>
+                                             <th scope="col">Action</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <th scope="row">1</th>
+                                             <td>IT</td>
+                                             <td>
+                                                <div class="dropdown">
+                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                                                   <i class="fa fa-ellipsis-h"></i>
+                                                   </a>
+                                                   <div class="dropdown-menu dropdown-menu-right">
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+                                                   </div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <th scope="row">2</th>
+                                             <td>Sales</td>
+                                             <td>
+                                                <div class="dropdown">
+                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                                                   <i class="fa fa-ellipsis-h"></i>
+                                                   </a>
+                                                   <div class="dropdown-menu dropdown-menu-right">
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+                                                   </div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <th scope="row">3</th>
+                                             <td>HR</td>
+                                             <td>
+                                                <div class="dropdown">
+                                                   <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                                                   <i class="fa fa-ellipsis-h"></i>
+                                                   </a>
+                                                   <div class="dropdown-menu dropdown-menu-right">
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-eye"></i> View</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-pencil"></i> Edit</a>
+                                                      <a class="dropdown-item" href="#"><i class="fa fa-trash"></i> Delete</a>
+                                                   </div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+									</div>
                                     <!-- data table  End -->
                                  </div>
                               </div>
@@ -137,8 +136,7 @@
          </div>
       </div>
       <?php include('script.php'); ?>
-      <script src="src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
-      <script src="src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>
+     
       <script src="../../src/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
       <script src="../../src/plugins/datatables/media/js/dataTables.bootstrap4.js"></script>
       <script src="../../src/plugins/datatables/media/js/dataTables.responsive.js"></script>
@@ -151,8 +149,8 @@
       <script src="../../src/plugins/datatables/media/js/button/buttons.flash.js"></script>
       <script src="../../src/plugins/datatables/media/js/button/pdfmake.min.js"></script>
       <script src="../../src/plugins/datatables/media/js/button/vfs_fonts.js"></script>
-      <script>
-        $('document').ready(function(){
+    <script>
+		$('document').ready(function(){
 			$('.data-table').DataTable({
 				scrollCollapse: true,
 				autoWidth: false,
@@ -201,5 +199,37 @@
 			});
 		});
 	</script>
+
+		<script>
+	$(document).ready(function(){
+    var next = 1;
+    $(".add-more").click(function(e){
+        e.preventDefault();
+        var addto = "#field" + next;
+        var addRemove = "#field" + (next);
+        next = next + 1;
+        var newIn = '<input autocomplete="off" class="input form-control" id="field' + next + '" name="field' + next + '" type="text" placeholder="Enter Department">';
+        var newInput = $(newIn);
+        var removeBtn = '<button id="remove' + (next - 1) + '" class="btn btn-danger remove-me" >Remove</button></div><div id="field">';
+        var removeButton = $(removeBtn);
+        $(addto).after(newInput);
+        $(addRemove).after(removeButton);
+        $("#field" + next).attr('data-source',$(addto).attr('data-source'));
+        $("#count").val(next);  
+        
+            $('.remove-me').click(function(e){
+                e.preventDefault();
+                var fieldNum = this.id.charAt(this.id.length-1);
+                var fieldID = "#field" + fieldNum;
+                $(this).remove();
+                $(fieldID).remove();
+            });
+    });
+    
+
+    
+});
+	</script>
+	
    </body>
 </html>

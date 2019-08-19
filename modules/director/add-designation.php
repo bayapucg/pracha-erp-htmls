@@ -33,7 +33,7 @@
                                           <h5 class="text-blue">Add Designation</h5>
                                        </div>
                                     </div>
-                                   <form>
+                        <form>
 						<div class="row">
 							<div class="col-md-6 col-sm-12">
 								<div class="form-group">
@@ -61,12 +61,12 @@
 									<select class="selectpicker form-control" data-style="btn-outline-primary">
 										<optgroup label="Select Level" data-max-options="2">
 											<option>Select Level</option>
-											<option>Level 1</option>
-											<option>Level 2</option>
-											<option>Level 3</option>
-											<option>Level 3.1</option>
-											<option>Level 4</option>
-											<option>Level 5</option>
+											<option>Level 1 - Junior Employees</option>
+											<option>Level 2 - Team Leads</option>
+											<option>Level 3 - Managers</option>
+											<option>Level 3.1 - HR</option>
+											<option>Level 4 - RBH</option>
+											<option>Level 5 - Director</option>
 										</optgroup>
 									</select>
 								</div>
@@ -84,8 +84,6 @@
                             </div>
                         </div>
 						</div>
-
-						
 					</form>
                                  </div>
                               </div>
@@ -98,7 +96,7 @@
                                        </div>
                                     </div>
 									<div class="row table-responsive">
-                                    <table class="data-table">
+                                    <table class="table data-table">
                                        <thead>
                                           <tr>
                                              <th scope="col">#</th>
@@ -186,8 +184,6 @@
 		</div>
 	</div>
 	<?php include('script.php'); ?>
-	<script src="src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
-	<script src="src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>
 	<script src="../../src/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
 	<script src="../../src/plugins/datatables/media/js/dataTables.bootstrap4.js"></script>
 	<script src="../../src/plugins/datatables/media/js/dataTables.responsive.js"></script>
@@ -200,7 +196,7 @@
 	<script src="../../src/plugins/datatables/media/js/button/buttons.flash.js"></script>
 	<script src="../../src/plugins/datatables/media/js/button/pdfmake.min.js"></script>
 	<script src="../../src/plugins/datatables/media/js/button/vfs_fonts.js"></script>
-	<script>
+	    <script>
 		$('document').ready(function(){
 			$('.data-table').DataTable({
 				scrollCollapse: true,
@@ -212,7 +208,7 @@
 				}],
 				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
 				"language": {
-					"info": "_START_-_END of TOTAL_ entries",
+					"info": "_START_-_END_ of _TOTAL_ entries",
 					searchPlaceholder: "Search"
 				},
 			});
@@ -226,7 +222,7 @@
 				}],
 				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
 				"language": {
-					"info": "_START_-_END of TOTAL_ entries",
+					"info": "_START_-_END_ of _TOTAL_ entries",
 					searchPlaceholder: "Search"
 				},
 				dom: 'Bfrtip',
@@ -250,7 +246,5 @@
 			});
 		});
 	</script>
-	
-	
 </body>
 </html>

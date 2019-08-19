@@ -117,14 +117,17 @@
                                           <h5 class="text-blue">Work Status</h5>
                                        </div>
                                     </div>
-                                    <table class="table data-table-export">
+									<div class="row table-responsive">
+                                    <table class="table data-table">
                                        <thead>
                                           <tr>
                                              <th scope="col">#</th>
                                              <th scope="col">Subject of the Work </th>
                                              <th scope="col">Start Date</th>
                                              <th scope="col">End Date</th>
+											 <th scope="col">Region</th>
                                              <th scope="col">Department Name</th>
+                                             <th scope="col">Employee Id</th>
                                              <th scope="col">Employee Name</th>
                                              <th scope="col">Comments</th>
                                           </tr>
@@ -135,7 +138,9 @@
                                              <td>SVS</td>
                                              <td>20-07-2019</td>
                                              <td>25-07-2019</td>
-                                             <td>Testing</td>
+                                             <td>South</td>
+                                             <td>RBH</td>
+                                             <td>PT0012</td>
                                              <td>Anupama</td>
                                              <td>Assigned</td>
                                           </tr>
@@ -144,7 +149,9 @@
                                              <td>Hospil</td>
                                              <td>21-07-2019</td>
                                              <td>26-07-2019</td>
-                                             <td>Testing</td>
+                                             <td>North</td>
+                                             <td>RBH</td>
+                                             <td>PT0014</td>
                                              <td>Arya</td>
                                              <td>Pending</td>
                                           </tr>
@@ -153,12 +160,15 @@
                                              <td>Clinic</td>
                                              <td>22-07-2019</td>
                                              <td>27-07-2019</td>
-                                             <td>Testing</td>
+                                             <td>East</td>
+                                             <td>HR</td>
+                                             <td>PT0021</td>
                                              <td>Keerthi</td>
                                              <td>Completed</td>
                                           </tr>
                                        </tbody>
                                     </table>
+									</div>
                                     <!-- data table  End -->
                                  </div>
                               </div>
@@ -172,8 +182,6 @@
          </div>
       </div>
       <?php include('script.php'); ?>
-      <script src="src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
-      <script src="src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>
       <script src="../../src/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
       <script src="../../src/plugins/datatables/media/js/dataTables.bootstrap4.js"></script>
       <script src="../../src/plugins/datatables/media/js/dataTables.responsive.js"></script>
@@ -186,55 +194,55 @@
       <script src="../../src/plugins/datatables/media/js/button/buttons.flash.js"></script>
       <script src="../../src/plugins/datatables/media/js/button/pdfmake.min.js"></script>
       <script src="../../src/plugins/datatables/media/js/button/vfs_fonts.js"></script>
-      <script>
-         $('document').ready(function(){
-         	$('.data-table').DataTable({
-         		scrollCollapse: true,
-         		autoWidth: false,
-         		responsive: true,
-         		columnDefs: [{
-         			targets: "datatable-nosort",
-         			orderable: false,
-         		}],
-         		"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
-         		"language": {
-         			"info": "_START_-_END of TOTAL_ entries",
-         			searchPlaceholder: "Search"
-         		},
-         	});
-         	$('.data-table-export').DataTable({
-         		scrollCollapse: true,
-         		autoWidth: false,
-         		responsive: true,
-         		columnDefs: [{
-         			targets: "datatable-nosort",
-         			orderable: false,
-         		}],
-         		"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
-         		"language": {
-         			"info": "_START_-_END of TOTAL_ entries",
-         			searchPlaceholder: "Search"
-         		},
-         		dom: 'Bfrtip',
-         		buttons: [
-         		'copy', 'csv', 'pdf', 'print'
-         		]
-         	});
-         	var table = $('.select-row').DataTable();
-         	$('.select-row tbody').on('click', 'tr', function () {
-         		if ($(this).hasClass('selected')) {
-         			$(this).removeClass('selected');
-         		}
-         		else {
-         			table.$('tr.selected').removeClass('selected');
-         			$(this).addClass('selected');
-         		}
-         	});
-         	var multipletable = $('.multiple-select-row').DataTable();
-         	$('.multiple-select-row tbody').on('click', 'tr', function () {
-         		$(this).toggleClass('selected');
-         	});
-         });
-      </script>
+         <script>
+		$('document').ready(function(){
+			$('.data-table').DataTable({
+				scrollCollapse: true,
+				autoWidth: false,
+				responsive: true,
+				columnDefs: [{
+					targets: "datatable-nosort",
+					orderable: false,
+				}],
+				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
+				"language": {
+					"info": "_START_-_END_ of _TOTAL_ entries",
+					searchPlaceholder: "Search"
+				},
+			});
+			$('.data-table-export').DataTable({
+				scrollCollapse: true,
+				autoWidth: false,
+				responsive: true,
+				columnDefs: [{
+					targets: "datatable-nosort",
+					orderable: false,
+				}],
+				"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
+				"language": {
+					"info": "_START_-_END_ of _TOTAL_ entries",
+					searchPlaceholder: "Search"
+				},
+				dom: 'Bfrtip',
+				buttons: [
+				'copy', 'csv', 'pdf', 'print'
+				]
+			});
+			var table = $('.select-row').DataTable();
+			$('.select-row tbody').on('click', 'tr', function () {
+				if ($(this).hasClass('selected')) {
+					$(this).removeClass('selected');
+				}
+				else {
+					table.$('tr.selected').removeClass('selected');
+					$(this).addClass('selected');
+				}
+			});
+			var multipletable = $('.multiple-select-row').DataTable();
+			$('.multiple-select-row tbody').on('click', 'tr', function () {
+				$(this).toggleClass('selected');
+			});
+		});
+	</script>
    </body>
 </html>
