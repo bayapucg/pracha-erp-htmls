@@ -7,7 +7,8 @@
 		<div class="menu-block customscroll">
 			<div class="sidebar-menu">
 				<ul id="accordion-menu">
-		        <h4 class="container text-blue"><b>RBH Panel</b></h4>
+			
+		      <h5><li class="text-center text-warning font-weight-bold">RBH - Portal</li></h5>
 					<li class="dropdown">
 						<a href="dashboard.php" class="dropdown-toggle">
 							<span class="fa fa-home"></span><span class="mtext">Dashboard</span>
@@ -37,19 +38,19 @@
 						</a>
 							<ul class="submenu">
 							<li><a href="sales.php">Sales</a></li>
-							<li><a href="sales-region.php">Sales Region</a></li>
+							
 							
 							</ul>						 
 					</li>
 						<li class="dropdown">
 						<a href="payrolls&payslips.php" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">Payroll & Pay slips</span>
+							<span class="fa fa-home"></span><span class="mtext">Pay slips</span>
 						</a>	
 					</li>
 					</li>
 						<li class="dropdown">
-						<a href="" class="dropdown-toggle">
-							<span class="fa fa-home"></span><span class="mtext">reports</span>
+						<a href="rbh-reports.php" class="dropdown-toggle">
+							<span class="fa fa-home"></span><span class="mtext">Reports</span>
 						</a>	
 					</li>
 					</li>

@@ -4,9 +4,11 @@
       <img src="../../vendors/images/deskapp-logo.png" alt="">
       </a>
    </div>
+ 
    <div class="menu-block customscroll">
       <div class="sidebar-menu">
          <ul id="accordion-menu">
+		 <h5><li class="text-center text-warning font-weight-bold">DIRECTOR - Portal</li></h5>
             <li class="dropdown">
                <a href="index.php" class="dropdown-toggle mark-none">
                <span class="fa fa-home"></span><span class="mtext">Dashboard</span>
@@ -57,10 +59,15 @@
                </a>
             </li>
             <li class="dropdown">
-               <a href="javascript:;" class="dropdown-toggle mark-none">
+               <a href="chat.php" class="dropdown-toggle mark-none">
                <span class="fa fa-home"></span><span class="mtext">Chat</span>
                </a>
             </li>
+			<li class="dropdown">
+			    <a href="announcements.php" class="dropdown-toggle">
+				<span class="fa fa-home"></span><span class="mtext">Announcements / Events</span>
+				</a>	
+			</li>
             <li class="dropdown">
                <a href="feedback.php" class="dropdown-toggle mark-none">
                <span class="fa fa-star-half-o"></span><span class="mtext">Feedback</span>
@@ -71,6 +78,18 @@
                <span class="fa fa-home"></span><span class="mtext">Employee Handbook</span>
                </a>
             </li>
+			<li class="dropdown">
+						<a href="holiday-list.php" class="dropdown-toggle">
+							<span class="fa fa-home"></span><span class="mtext">Holiday List</span>
+						</a>
+					</li>
+					<li class="dropdown">
+						<a href="reports.php" class="dropdown-toggle mark-none">
+							<span class="fa fa-home"></span><span class="mtext">Reports</span>
+						</a>
+						
+					</li>
+
          </ul>
       </div>
    </div>

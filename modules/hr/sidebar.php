@@ -85,6 +85,27 @@
 							<li><a href="miscellaneous.php">Miscellaneous</a></li>
 						</ul>
 					</li>
+					<li class="dropdown">
+						<a href="chat.php" class="dropdown-toggle">
+							<span class="fa fa-home"></span><span class="mtext">Chat</span>
+						</a>	
+					</li>
+					<li class="dropdown">
+						<a href="announcements.php" class="dropdown-toggle">
+							<span class="fa fa-home"></span><span class="mtext">Announcement</span>
+						</a>	
+					</li>
+					<li class="dropdown">
+						<a href="holiday-list.php" class="dropdown-toggle">
+							<span class="fa fa-home"></span><span class="mtext">Holiday List</span>
+						</a>
+					</li>
+					<li class="dropdown">
+						<a href="reports.php" class="dropdown-toggle mark-none">
+							<span class="fa fa-home"></span><span class="mtext">Reports</span>
+						</a>
+						
+					</li>
 
 				</ul>
 			</div>

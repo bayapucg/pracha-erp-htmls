@@ -7,6 +7,8 @@
 		<div class="menu-block customscroll">
 			<div class="sidebar-menu">
 				<ul id="accordion-menu">
+				<h5><li class="text-center text-warning font-weight-bold">EMPLOYEE - Portal</li></h5>
+			
 					<li class="dropdown">
 						<a href="index.php" class="dropdown-toggle mark-none">
 							<span class="fa fa-home"></span><span class="mtext">Dashboard</span>
@@ -39,7 +41,7 @@
 					</li>
 					
 					<li class="dropdown">
-						<a href="javascript:" class="dropdown-toggle mark-none">
+						<a href="chat.php" class="dropdown-toggle mark-none">
 							<span class="fa fa-home"></span><span class="mtext">Chat</span>
 						</a>
 						
@@ -55,6 +57,11 @@
 							<span class="fa fa-home"></span><span class="mtext">Feedback</span>
 						</a>
 						
+					</li>
+					<li class="dropdown">
+						<a href="holiday-list.php" class="dropdown-toggle">
+							<span class="fa fa-home"></span><span class="mtext">Holiday List</span>
+						</a>
 					</li>
 					
 					

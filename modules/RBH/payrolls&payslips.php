@@ -64,17 +64,18 @@
 							<tr>
 								<th scope="row">Today</th>
 								<td>June</td>
-								<td>Pending</td>
+							    <td><span class="badge badge-warning">Pending</span></td>
+
 							</tr>
 							<tr>
 								<th scope="row">10-07-2019</th>
 								<td>May</td>
-								<td>In Review</td>
+								<td><span class="badge badge-primary">In Review</span></td>
 							</tr>
 							<tr>
 								<th scope="row">20-06-2019</th>
 								<td>April</td>
-								<td>Accepted</td>
+								<td><span class="badge badge-success">Accepted</span></td>
 							</tr>
 						</tbody>
 					</table>
